@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "last_updated": "2026-07-30",
+    "notes": "每个信源标注 categories / method / frequency / reliability。scrape类信源结构易变，请定期核对 last_verified。。2026-07-30 实测修正：明势资本域名改为 future-cap.com；极客公园 WAF 实锤禁用；晚点官网不可直连禁用待镜像方案；机器之心 /feed 返回的是 SPA 壳（3375B 与主页完全相同）并非真 feed，禁用待 scrape adapter。"
+  },
+  "categories": {
+    "startup_project": "AI Agent创业项目",
+    "investment_direction": "投资机构看好的AI Agent方向",
+    "new_product": "涌现的新AI应用/Agent产品",
+    "hackathon_online": "线上AI应用/Agent黑客松",
+    "hackathon_offline_cn": "线下（中国大陆）AI应用/Agent黑客松"
+  },
+  "sources": [
+    {
+      "id": "hn_algolia",
+      "name": "Hacker News (Algolia Search API)",
+      "categories": [
+        "startup_project",
+        "new_product"
+      ],
+      "method": "api",
+      "endpoint": "http://hn.algolia.com/api/v1/search_by_date?query=AI%20agent&tags=story",
+      "auth": "none",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "high",
+      "last_verified": "2026-07-30",
+      "render": "api",
+      "enabled": true
+    },
+    {
+      "id": "product_hunt",
+      "name": "Product Hunt GraphQL API",
+      "categories": [
+        "new_product"
+      ],
+      "method": "api",
+      "endpoint": "https://api.producthunt.com/v2/api/graphql",
+      "auth": "oauth_client_credentials（public scope即可）",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "high",
+      "notes": "查当日 posts(topic: 'artificial-intelligence') 及关键词agent",
+      "last_verified": "2026-07-30",
+      "render": "api",
+      "enabled": true
+    },
+    {
+      "id": "github_search",
+      "name": "GitHub Search API",
+      "categories": [
+        "startup_project",
+        "new_product"
+      ],
+      "method": "api",
+      "endpoint": "https://api.github.com/search/repositories?q=agent+AI+created:>{yesterday}&sort=stars",
+      "auth": "personal_access_token（提额度，未认证也可小量用）",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "high",
+      "notes": "抓近1天新建且star增长快的AI agent相关repo",
+      "last_verified": "2026-07-30",
+      "render": "api",
+      "enabled": true
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Papers / Spaces",
+      "categories": [
+        "new_product"
+      ],
+      "method": "scrape_or_rss",
+      "endpoint": "https://huggingface.co/papers 及 https://huggingface.co/spaces",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "无稳定官方API，但页面结构相对规整，适合每日抓当日新增条目",
+      "last_verified": "2026-07-30",
+      "render": "js_required",
+      "enabled": true
+    },
+    {
+      "id": "36kr",
+      "name": "36氪",
+      "categories": [
+        "startup_project",
+        "investment_direction"
+      ],
+      "method": "scrape_or_rss",
+      "endpoint": "https://36kr.com/information/AI/",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "无官方API，需抓取列表页或找第三方RSS转换服务",
+      "last_verified": "2026-07-30",
+      "render": "js_required",
+      "enabled": true
+    },
+    {
+      "id": "jiqizhixin",
+      "name": "机器之心",
+      "categories": [
+        "new_product",
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape_or_rss",
+      "endpoint": "https://www.jiqizhixin.com/",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "常年发布/转发线下黑客松活动（活动行链接），重点关注。2026-07-30 实测 /feed 与 /rss 均返回SPA壳或跳转data-service页，并非真feed。待写列表页scrape adapter后启用",
+      "last_verified": "2026-07-30",
+      "render": "unknown",
+      "enabled": false
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "categories": [
+        "new_product",
+        "startup_project"
+      ],
+      "method": "scrape",
+      "endpoint": "https://www.qbitai.com/",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "low",
+      "last_verified": "2026-07-30",
+      "render": "anti_bot_waf",
+      "enabled": true,
+      "notes": "实测curl -I /feed 返回403（Server: SLT，WAF拦截非浏览器UA请求）。裸requests大概率同样被拦，抓取时至少要带真实浏览器UA+Referer，若仍403则需上Playwright走真实浏览器指纹，或退而求其次靠36氪/机器之心转载覆盖"
+    },
+    {
+      "id": "yingke",
+      "name": "36氪 · 硬氪 / Readhub",
+      "categories": [
+        "startup_project",
+        "investment_direction"
+      ],
+      "method": "scrape_or_rss",
+      "endpoint": "https://readhub.cn/ 或 36氪硬氪频道",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "last_verified": "2026-07-30",
+      "render": "unknown",
+      "enabled": true
+    },
+    {
+      "id": "latepost",
+      "name": "晚点LatePost",
+      "categories": [
+        "investment_direction",
+        "startup_project"
+      ],
+      "method": "scrape_or_rss",
+      "endpoint": "https://www.latepost.com/",
+      "cost": "free",
+      "frequency": "weekly",
+      "reliability": "medium",
+      "notes": "深度报道更新频率低于36氪/量子位，降低抓取频次。2026-07-30 实测多网络环境均无法直连，禁用。备选：网易号镜像 m.163.com/news/sub/T1596162548889 或自建RSSHub /latepost 路由",
+      "last_verified": "2026-07-30",
+      "render": "static",
+      "enabled": false
+    },
+    {
+      "id": "geekpark",
+      "name": "极客公园",
+      "categories": [
+        "new_product",
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape_or_rss",
+      "endpoint": "https://www.geekpark.net/",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "last_verified": "2026-07-30",
+      "render": "unknown",
+      "enabled": false,
+      "notes": "2026-07-30 实测：带真实浏览器UA仍403，WAF实锤。v1禁用，靠36氪/机器之心转载覆盖；后续如需可上Playwright"
+    },
+    {
+      "id": "vc_watchlist_cn",
+      "name": "国内VC信源清单",
+      "categories": [
+        "investment_direction"
+      ],
+      "method": "scrape_or_rss",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "low",
+      "status": "filled",
+      "notes": "官网大多没有稳定RSS，需抓官网新闻/洞察页或对应公众号；括号内为抓取重点栏目。P0阶段暂不启用，P1补充各VC洞察页adapter",
+      "last_verified": "2026-07-30",
+      "orgs": [
+        {
+          "name": "红杉中国 / HongShan",
+          "endpoint": "https://www.hsgcap.com/",
+          "note": "2024年起中美业务拆分，中国主体已更名HongShan，注意旧域名sequoiacap.cn内容可能不再更新"
+        },
+        {
+          "name": "经纬创投",
+          "endpoint": "https://www.matrixpartners.com.cn/"
+        },
+        {
+          "name": "五源资本",
+          "endpoint": "https://www.5ycap.com/"
+        },
+        {
+          "name": "金沙江创投",
+          "endpoint": "https://gsrventureschina.com/",
+          "note": "2024年前后中美业务拆分，此为中国主体官网，海外主体为gsrventuresglobal.com"
+        },
+        {
+          "name": "明势资本",
+          "endpoint": "http://www.future-cap.com/",
+          "note": "2026-07-30 实测确认真实域名为 future-cap.com（原 futurecap.cn 为错误推断）"
+        },
+        {
+          "name": "真格基金",
+          "endpoint": "https://zhenfund.com/",
+          "note": "同时运营黑客松栏目（见hackathon_offline_cn的zhenfund_hackathon条目），投资观点和赛事信息可一起抓"
+        }
+      ],
+      "render": "unknown",
+      "enabled": false
+    },
+    {
+      "id": "vc_watchlist_global",
+      "name": "海外VC信源清单",
+      "categories": [
+        "investment_direction"
+      ],
+      "method": "scrape_or_rss",
+      "cost": "free",
+      "frequency": "weekly",
+      "reliability": "low",
+      "status": "filled",
+      "notes": "常发年度/季度Agent赛道观察长文，价值高但频率低，可周更抓取。P0阶段暂不启用，weekly低频，P1补充",
+      "last_verified": "2026-07-30",
+      "orgs": [
+        {
+          "name": "a16z",
+          "endpoint": "https://a16z.com/news-content/"
+        },
+        {
+          "name": "Sequoia Capital",
+          "endpoint": "https://www.sequoiacap.com/",
+          "note": "全球主站，与中国主体HongShan已分家，内容以美国/全球视角为主"
+        },
+        {
+          "name": "Bessemer Venture Partners",
+          "endpoint": "https://www.bvp.com/atlas",
+          "note": "Atlas栏目常发行业赛道地图类长文，适合做AI Agent方向分析素材"
+        }
+      ],
+      "render": "unknown",
+      "enabled": false
+    },
+    {
+      "id": "vc_search_fallback",
+      "name": "投资方向补充：关键词搜索",
+      "categories": [
+        "investment_direction"
+      ],
+      "method": "search_api",
+      "endpoint": "通用搜索API，关键词如「AI Agent 投资 方向」「AI Agent 赛道 融资」",
+      "cost": "视所用搜索API而定",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "作为VC官网清单的补充，覆盖清单外但被媒体报道的投资观点",
+      "last_verified": "2026-07-30",
+      "render": "api",
+      "enabled": false
+    },
+    {
+      "id": "devpost",
+      "name": "Devpost（AI分类）",
+      "categories": [
+        "hackathon_online"
+      ],
+      "method": "scrape",
+      "endpoint": "https://devpost.com/hackathons?themes[]=Artificial+Intelligence",
+      "cost": "free（自建抓取）或第三方scraper服务（如Apify Actor，按次计费）",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "无官方开放API，直接抓列表页字段较结构化",
+      "last_verified": "2026-07-30",
+      "render": "js_required",
+      "enabled": true
+    },
+    {
+      "id": "mlh",
+      "name": "MLH (Major League Hacking)",
+      "categories": [
+        "hackathon_online"
+      ],
+      "method": "scrape",
+      "endpoint": "https://mlh.io/seasons/2026/events",
+      "cost": "free",
+      "frequency": "weekly",
+      "reliability": "medium",
+      "last_verified": "2026-07-30",
+      "render": "static",
+      "enabled": false,
+      "notes": "。【P0暂未实现adapter，P1补】"
+    },
+    {
+      "id": "dorahacks",
+      "name": "DoraHacks",
+      "categories": [
+        "hackathon_online",
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape",
+      "endpoint": "https://dorahacks.io/hackathon",
+      "cost": "free",
+      "frequency": "weekly",
+      "reliability": "medium",
+      "notes": "AI/Web3黑客松聚合，华人团队/华语活动覆盖较多，可补充中国区线下信息。P1 已接入",
+      "last_verified": "2026-07-30",
+      "render": "js_required",
+      "enabled": true
+    },
+    {
+      "id": "luma_public_calendars",
+      "name": "Luma 公开日历（AI社群/机构主页）",
+      "categories": [
+        "hackathon_online",
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape",
+      "endpoint": "如 https://luma.com/ProductHunt 等，需维护一份关注的日历清单",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "官方API需拥有日历管理权限无法抓取他人日历，只能走浏览/抓取公开日历页。【P0暂未实现adapter，P1补】",
+      "last_verified": "2026-07-30",
+      "render": "js_required",
+      "enabled": false
+    },
+    {
+      "id": "competehub",
+      "name": "AI赛事通 CompeteHub",
+      "categories": [
+        "hackathon_online",
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape_or_api",
+      "endpoint": "https://www.competehub.dev",
+      "cost": "free（官网提及有API入口，需进一步确认权限）",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "国内聚合AI竞赛/黑客松平台，可按地区筛中国区，优先级最高的单一信源。P1 已接入",
+      "last_verified": "2026-07-30",
+      "render": "unknown",
+      "enabled": true
+    },
+    {
+      "id": "waytoagi_events",
+      "name": "WayToAGI「通往AGI之路」活动页",
+      "categories": [
+        "hackathon_offline_cn",
+        "hackathon_online"
+      ],
+      "method": "scrape",
+      "endpoint": "https://www.waytoagi.com/zh/events",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "民间AI社群维护，更新较及时，重点信源。P1 已接入",
+      "last_verified": "2026-07-30",
+      "render": "js_required",
+      "enabled": true
+    },
+    {
+      "id": "huodongxing",
+      "name": "活动行（关键词：AI Agent / 黑客松）",
+      "categories": [
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape",
+      "endpoint": "https://www.huodongxing.com/search?keyword=AI%20Agent",
+      "cost": "free",
+      "frequency": "daily",
+      "reliability": "medium",
+      "notes": "大厂/媒体常在此发布活动，如机器之心发布的世界人工智能大会黑客松。【P0暂未实现adapter，P1补】",
+      "last_verified": "2026-07-30",
+      "render": "unknown",
+      "enabled": false
+    },
+    {
+      "id": "cloud_vendor_hackathons_cn",
+      "name": "大厂黑客松官网清单",
+      "categories": [
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape",
+      "cost": "free",
+      "frequency": "weekly",
+      "reliability": "medium",
+      "status": "filled",
+      "notes": "大厂自办赛事规模大、周期长，抓取频率可降低，且多数活动会同步在活动行/机器之心等媒体上转发，可交叉验证。【P0暂未实现adapter，P1补】",
+      "last_verified": "2026-07-30",
+      "orgs": [
+        {
+          "name": "腾讯云黑客松",
+          "endpoint": "https://tch.cloud.tencent.com/"
+        },
+        {
+          "name": "阿里云天池",
+          "endpoint": "https://tianchi.aliyun.com/competition/",
+          "note": "综合竞赛平台不止黑客松，需按关键词筛选Agent相关赛道（如通义千问Agent Builder系列）"
+        },
+        {
+          "name": "字节跳动 / CloudWeGo 黑客松",
+          "endpoint": "https://www.cloudwego.io/",
+          "note": "字节的黑客松多为联合InfoQ等媒体主办，无固定官方黑客松门户，建议同时关注InfoQ写作社区的相关标签"
+        }
+      ],
+      "render": "unknown",
+      "enabled": false
+    },
+    {
+      "id": "agent_dev_communities",
+      "name": "垂直Agent开发者社区/机构自办黑客松专栏",
+      "categories": [
+        "hackathon_online",
+        "hackathon_offline_cn"
+      ],
+      "method": "scrape",
+      "cost": "free",
+      "frequency": "weekly",
+      "reliability": "low",
+      "status": "filled",
+      "notes": "此类活动常同时用Luma报名+官方页面提交，需两处对照抓取；清单仍不完整，后续遇到新社区持续追加。【P0暂未实现adapter，P1补】",
+      "last_verified": "2026-07-30",
+      "orgs": [
+        {
+          "name": "BotLearn",
+          "endpoint": "https://www.botlearn.ai/zh/events",
+          "note": "如OPC黑客松，报名走Luma+官方页面双通道"
+        },
+        {
+          "name": "真格基金黑客松专栏",
+          "endpoint": "https://zhenfund.com/Hackathon",
+          "note": "VC直接主办的AI黑客松合集页，同时服务hackathon_offline_cn和investment_direction两个类目，可复用"
+        },
+        {
+          "name": "DoraHacks",
+          "endpoint": "https://dorahacks.io/hackathon",
+          "note": "与前面hackathon_online条目重复，此处强调其作为社区平台也会孵化线下活动"
+        }
+      ],
+      "render": "unknown",
+      "enabled": false
+    },
+    {
+      "id": "user_submission",
+      "name": "用户投稿入口（人工补充）",
+      "categories": [
+        "hackathon_offline_cn"
+      ],
+      "method": "manual",
+      "endpoint": "站内表单，人工审核录入",
+      "cost": "free",
+      "frequency": "as_needed",
+      "reliability": "high",
+      "notes": "中国大陆线下黑客松很多信息只在微信生态流转，自动化难以覆盖，保留人工/社区投稿通道兜底。【P0暂未实现adapter，P1补】",
+      "last_verified": "2026-07-30",
+      "render": "n/a",
+      "enabled": false
+    },
+    {
+      "id": "x_twitter",
+      "name": "X (Twitter)",
+      "categories": [
+        "startup_project",
+        "new_product"
+      ],
+      "method": "api",
+      "endpoint": "https://docs.x.com/x-api/introduction",
+      "cost": "按量付费，官方API无免费额度（约$5/千条读取）",
+      "frequency": "n/a",
+      "reliability": "n/a",
+      "enabled": false,
+      "notes": "已评估暂不接入：成本不可控，且第三方转售商处于合规灰色地带、稳定性存疑。信息很大程度上会被中文媒体/HN搬运覆盖，后续如需要可重新评估接入",
+      "last_verified": "2026-07-30",
+      "render": "api"
+    }
+  ]
+}
