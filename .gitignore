@@ -18,7 +18,3 @@ env/
 .vscode/
 *.swp
 *.swo
-
-# Local outputs / runtime data
-digest/*.json
-!digest/index.json
