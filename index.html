@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent Daily · AI Agent 情报站</title>
+<style>
+  :root {
+    --bg: #f7f7f8; --panel: #ffffff; --ink: #1a1a1a; --sub: #8a8a8a;
+    --line: #ececec; --accent: #2563eb; --tag-bg: #f1f5f9;
+    --header-h: 64px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    overflow: hidden; /* 页面级不滚动，栏内滚动 */
+  }
+
+  header {
+    height: var(--header-h); max-width: 1280px; margin: 0 auto; padding: 0 24px;
+    display: flex; align-items: center; gap: 28px;
+  }
+  header h1 { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; white-space: nowrap; }
+  header h1 span { color: var(--sub); font-weight: 400; font-size: 12px; margin-left: 10px; }
+  nav { display: flex; gap: 4px; background: #efeff0; border-radius: 9px; padding: 3px; }
+  nav button { border: none; background: none; padding: 5px 16px; font-size: 13px; color: var(--sub); cursor: pointer; border-radius: 7px; }
+  nav button.active { color: var(--ink); background: var(--panel); font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .hdr-meta { margin-left: auto; font-size: 12px; color: var(--sub); }
+
+  main { height: calc(100vh - var(--header-h)); max-width: 1280px; margin: 0 auto; padding: 0 24px 20px; }
+
+  /* 双栏：整板撑满视口高度，栏内各自滚动 */
+  .board { display: grid; grid-template-columns: 1.15fr 1fr; gap: 16px; height: 100%; }
+  .col-right { display: flex; flex-direction: column; gap: 16px; min-height: 0; }
+
+  .panel {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    display: flex; flex-direction: column; min-height: 0; overflow: hidden;
+  }
+  .panel-scroll { overflow-y: auto; padding: 0 22px 18px; flex: 1; min-height: 0; }
+  .panel-scroll::-webkit-scrollbar { width: 8px; }
+  .panel-scroll::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+  .panel-scroll::-webkit-scrollbar-thumb:hover { background: #c5c5c5; }
+
+  /* 面板头：吸顶 */
+  .panel-head {
+    position: sticky; top: 0; z-index: 5; background: var(--panel);
+    padding: 16px 22px 10px; border-bottom: 1px solid var(--line);
+  }
+  .panel-head h2 { font-size: 15px; font-weight: 700; }
+  .panel-head .meta { font-size: 12px; color: var(--sub); margin-top: 3px; }
+
+  /* 左栏工具行：搜索 */
+  .tools { padding: 12px 22px 0; }
+  .tools input {
+    width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 8px 12px;
+    font-size: 13px; outline: none; background: var(--bg);
+  }
+  .tools input:focus { border-color: var(--accent); background: #fff; }
+
+  /* 分类区块 */
+  .cat { margin-top: 14px; }
+  .cat-title {
+    position: sticky; top: 0; z-index: 4; background: var(--panel);
+    font-size: 13px; font-weight: 650; color: var(--accent);
+    padding: 8px 0 6px; display: flex; align-items: center; gap: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .cat-title .count { color: var(--sub); font-weight: 400; font-size: 12px; }
+
+  .item { padding: 9px 0; border-bottom: 1px dashed var(--line); }
+  .item:last-child { border-bottom: none; }
+  .item a.t { color: var(--ink); text-decoration: none; font-size: 13.5px; line-height: 1.55; }
+  .item a.t:hover { color: var(--accent); }
+  .item .sub { font-size: 11.5px; color: var(--sub); margin-top: 3px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .item .sub .src { background: var(--tag-bg); border-radius: 4px; padding: 0 6px; color: var(--sub); text-decoration: none; }
+  .item .sub .src:hover { color: var(--accent); }
+
+  .more-btn {
+    border: none; background: none; color: var(--accent); font-size: 12.5px;
+    cursor: pointer; padding: 9px 0 4px;
+  }
+  .more-btn:hover { text-decoration: underline; }
+
+  /* 今日导读 */
+  .brief {
+    margin: 12px 22px 0; background: linear-gradient(135deg, #eff4ff, #f7f9ff);
+    border: 1px solid #dbe6ff; border-radius: 12px; padding: 12px 16px;
+  }
+  .brief .b-title { font-size: 12px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+  .brief .md-body { font-size: 12.5px; line-height: 1.7; }
+  .brief .md-l { margin: 2px 0 2px 18px; }
+  .brief .md-l li { margin: 3px 0; }
+
+  /* 精选/全部切换 */
+  .seg { display: inline-flex; background: #efeff0; border-radius: 8px; padding: 2px; }
+  .seg button { border: none; background: none; padding: 4px 12px; font-size: 12px; color: var(--sub); cursor: pointer; border-radius: 6px; }
+  .seg button.active { background: var(--panel); color: var(--ink); font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+
+  .tools { display: flex; gap: 10px; align-items: center; }
+
+  /* 热度指标 */
+  .hot { color: #d97706; font-weight: 600; }
+  .badge-feat { background: #fff7ed; color: #ea580c; border-radius: 4px; padding: 0 5px; font-weight: 600; }
+
+  /* 右栏分析面板：上 60% 下 40% */
+  .panel-analysis { flex: 3; }
+  .panel-hack { flex: 2; }
+  .placeholder { color: var(--sub); font-size: 13px; line-height: 1.8; padding: 14px 22px; }
+  .placeholder code { background: var(--tag-bg); border-radius: 4px; padding: 1px 6px; font-size: 12px; }
+
+  /* markdown */
+  .md-body { font-size: 13px; line-height: 1.75; padding-top: 10px; }
+  .md-h { font-size: 13.5px; font-weight: 700; margin: 14px 0 6px; position: sticky; top: 0; background: var(--panel); padding: 6px 0; }
+  .md-h:first-child { margin-top: 0; }
+  .md-p { margin: 8px 0; }
+  .md-l { margin: 6px 0 10px 20px; }
+  .md-l li { margin: 5px 0; }
+  .md-body strong { font-weight: 650; }
+  .md-body code { background: var(--tag-bg); border-radius: 4px; padding: 1px 5px; font-size: 12px; }
+
+  /* History */
+  .history-wrap { height: 100%; overflow-y: auto; padding-right: 4px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px; cursor: pointer; transition: box-shadow .15s, transform .15s; }
+  .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.08); transform: translateY(-2px); }
+  .card .date { font-size: 16px; font-weight: 700; }
+  .card .n { font-size: 12px; color: var(--sub); margin-top: 6px; }
+  .back { border: none; background: none; color: var(--accent); font-size: 13px; cursor: pointer; margin-bottom: 12px; padding: 0; }
+
+  .degraded { font-size: 12px; color: #b45309; padding: 10px 0 0; }
+
+  @media (max-width: 900px) {
+    body { overflow: auto; }
+    main { height: auto; }
+    .board { grid-template-columns: 1fr; height: auto; }
+    .panel-scroll { max-height: 70vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Agent Daily<span>AI Agent 情报站</span></h1>
+  <nav>
+    <button id="tab-today" class="active" onclick="showToday()">Today</button>
+    <button id="tab-history" onclick="showHistory()">History</button>
+  </nav>
+  <div class="hdr-meta" id="hdr-meta"></div>
+</header>
+<main id="main"></main>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const COLLAPSE_N = 6;                 // 每个分类默认展示条数
+let indexData = null;
+let expanded = new Set();             // 展开的分类
+let filterText = '';
+let viewMode = 'featured';            // featured | all
+let currentDigest = null;
+
+async function loadJSON(p) { const r = await fetch(p); if (!r.ok) throw new Error(p); return r.json(); }
+async function getIndex() { if (!indexData) indexData = await loadJSON('digest/index.json'); return indexData; }
+function esc(s) { const d = document.createElement('div'); d.textContent = s ?? ''; return d.innerHTML; }
+function fmtTime(iso) { return iso ? iso.slice(5, 16).replace('T', ' ') : ''; }
+
+/* 极简 markdown 渲染 */
+function md(src) {
+  const inline = (t) => esc(t)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`([^`]+)`/g, '<code>$1</code>');
+  const out = []; let listType = null;
+  for (const line of src.split('\n')) {
+    const t = line.trim(); let m;
+    if ((m = t.match(/^#{2,3}\s+(.*)/))) {
+      if (listType) { out.push(`</${listType}>`); listType = null; }
+      out.push(`<h3 class="md-h">${inline(m[1])}</h3>`);
+    } else if ((m = t.match(/^[-*]\s+(.*)/))) {
+      if (listType !== 'ul') { if (listType) out.push(`</${listType}>`); out.push('<ul class="md-l">'); listType = 'ul'; }
+      out.push(`<li>${inline(m[1])}</li>`);
+    } else if ((m = t.match(/^\d+[.、]\s*(.*)/))) {
+      if (listType !== 'ol') { if (listType) out.push(`</${listType}>`); out.push('<ol class="md-l">'); listType = 'ol'; }
+      out.push(`<li>${inline(m[1])}</li>`);
+    } else if (t) {
+      if (listType) { out.push(`</${listType}>`); listType = null; }
+      out.push(`<p class="md-p">${inline(t)}</p>`);
+    }
+  }
+  if (listType) out.push(`</${listType}>`);
+  return out.join('');
+}
+
+function hotLine(it) {
+  const ex = it.extra || {};
+  const out = [];
+  if (ex.points != null) out.push(`<span class="hot">▲ ${ex.points}</span>`);
+  if (ex.votes != null) out.push(`<span class="hot">△ ${ex.votes}</span>`);
+  if (ex.stars != null) out.push(`<span class="hot">★ ${ex.stars >= 1000 ? (ex.stars/1000).toFixed(1)+'k' : ex.stars}</span>`);
+  if (ex.hackathon?.end) out.push(`<span>截止 ${esc(ex.hackathon.end)}</span>`);
+  else if (ex.end) out.push(`<span>${esc(ex.start)} ~ ${esc(ex.end)}</span>`);
+  if (ex.funding?.amount) out.push(`<span class="hot">${esc([ex.funding.round, ex.funding.amount].filter(Boolean).join(' '))}</span>`);
+  return out.join('');
+}
+
+function renderLeft(d) {
+  const kw = filterText.trim().toLowerCase();
+  const cats = d.categories
+    .map(c => ({ ...c, items: c.items
+      .filter(it => viewMode === 'all' || it.featured)
+      .filter(it => !kw || (it.title + ' ' + it.summary).toLowerCase().includes(kw)) }))
+    .filter(c => c.items.length > 0);
+
+  const brief = d.analysis?.daily_brief;
+  const briefHtml = (brief && viewMode === 'featured' && !kw) ? `
+    <div class="brief">
+      <div class="b-title">今日要点</div>
+      <div class="md-body">${md(brief)}</div>
+    </div>` : '';
+
+  if (!cats.length) return briefHtml + '<div class="placeholder">没有匹配的条目</div>';
+
+  return briefHtml + cats.map(c => {
+    const isOpen = expanded.has(c.key);
+    const shown = isOpen ? c.items : c.items.slice(0, COLLAPSE_N);
+    const hidden = c.items.length - shown.length;
+    return `
+    <div class="cat">
+      <div class="cat-title">${esc(c.label)}<span class="count">${c.items.length}</span></div>
+      ${shown.map(it => `
+        <div class="item">
+          <a class="t" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>
+          <div class="sub">
+            ${it.featured ? '<span class="badge-feat">精选</span>' : ''}
+            ${it.sources.map(s => `<a class="src" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('')}
+            ${it.sources.length > 1 ? `<span>${it.sources.length} 家媒体报道</span>` : ''}
+            ${hotLine(it)}
+            <span>${fmtTime(it.published_at)}</span>
+          </div>
+        </div>`).join('')}
+      ${hidden > 0 ? `<button class="more-btn" onclick="toggleCat('${c.key}')">展开其余 ${hidden} 条 ↓</button>` : ''}
+      ${isOpen && c.items.length > COLLAPSE_N ? `<button class="more-btn" onclick="toggleCat('${c.key}')">收起 ↑</button>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function toggleCat(key) {
+  expanded.has(key) ? expanded.delete(key) : expanded.add(key);
+  refreshLeft();
+}
+
+function refreshLeft() {
+  const el = $('#left-scroll');
+  const pos = el.scrollTop;
+  el.innerHTML = renderLeft(currentDigest);
+  el.scrollTop = pos;
+}
+
+function onFilter(v) {
+  filterText = v;
+  refreshLeft();
+}
+
+function setView(m) {
+  viewMode = m;
+  document.querySelectorAll('.seg button').forEach(b =>
+    b.classList.toggle('active', b.dataset.m === m));
+  refreshLeft();
+}
+
+function renderBoard(d) {
+  const insight = d.analysis?.product_insights;
+  const hack = d.analysis?.hackathon_trends;
+  const degraded = (d.degraded_sources || []).map(s => s.id).join(', ');
+  $('#hdr-meta').textContent = `${d.date} · ${d.stats.after_dedupe} 条情报`;
+
+  return `
+  <div class="board">
+    <div class="panel">
+      <div class="panel-head">
+        <h2>今日收录</h2>
+        <div class="meta">采集 ${d.stats.raw_items} 条 → 去重 ${d.stats.after_dedupe} 条${degraded ? ` · <span style="color:#b45309">降级信源：${esc(degraded)}</span>` : ''}</div>
+      </div>
+      <div class="tools">
+        <div class="seg">
+          <button data-m="featured" class="${viewMode === 'featured' ? 'active' : ''}" onclick="setView('featured')">精选</button>
+          <button data-m="all" class="${viewMode === 'all' ? 'active' : ''}" onclick="setView('all')">全部</button>
+        </div>
+        <input placeholder="过滤标题 / 简介…" oninput="onFilter(this.value)" value="${esc(filterText)}" style="flex:1">
+      </div>
+      <div class="panel-scroll" id="left-scroll">${renderLeft(d)}</div>
+    </div>
+    <div class="col-right">
+      <div class="panel panel-analysis">
+        <div class="panel-head"><h2>产品分析</h2><div class="meta">产品哲学 / 产品重点 / 通用建议</div></div>
+        <div class="panel-scroll">${insight ? `<div class="md-body">${md(insight)}</div>` : '<div class="placeholder">P1 接入 DeepSeek 分析后展示</div>'}</div>
+      </div>
+      <div class="panel panel-hack">
+        <div class="panel-head"><h2>黑客松风向标</h2><div class="meta">主办方关注的 AI 应用 / Agent 方向</div></div>
+        <div class="panel-scroll">${hack ? `<div class="md-body">${md(hack)}</div>` : '<div class="placeholder">P1 接入黑客松信源与分析后展示</div>'}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+async function showToday() {
+  setTab('today'); $('#hdr-meta').textContent = '';
+  try {
+    const idx = await getIndex();
+    const d = await loadJSON(`digest/${idx.dates[idx.dates.length - 1]}.json`);
+    currentDigest = d; expanded = new Set(); filterText = ''; viewMode = 'featured';
+    $('#main').innerHTML = renderBoard(d);
+  } catch (e) { $('#main').innerHTML = '<div class="placeholder">还没有任何 digest 数据，先跑一次管道。</div>'; }
+}
+
+async function showHistory() {
+  setTab('history'); $('#hdr-meta').textContent = '';
+  const idx = await getIndex();
+  const dates = [...idx.dates].reverse();
+  $('#main').innerHTML = `<div class="history-wrap"><div class="cards">${dates.map(dt => `
+    <div class="card" onclick="showDate('${dt}')">
+      <div class="date">${dt}</div>
+      <div class="n">点击查看当日面板</div>
+    </div>`).join('')}</div></div>`;
+}
+
+async function showDate(dt) {
+  const d = await loadJSON(`digest/${dt}.json`);
+  currentDigest = d; expanded = new Set(); filterText = ''; viewMode = 'featured';
+  $('#main').innerHTML = `<button class="back" onclick="showHistory()">← 返回 History</button>` + renderBoard(d);
+}
+
+function setTab(t) {
+  $('#tab-today').classList.toggle('active', t === 'today');
+  $('#tab-history').classList.toggle('active', t === 'history');
+}
+
+showToday();
+</script>
+</body>
+</html>
