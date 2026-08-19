@@ -1,0 +1,2497 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T08:44:46+08:00",
+  "stats": {
+    "raw_items": 173,
+    "after_dedupe": 93
+  },
+  "degraded_sources": [
+    {
+      "id": "dorahacks",
+      "reason": "HTTPStatusError: Client error '404 Page not found: /api/hackathon/?format=json&page_size=50' for url 'https://dorahacks.io/api/hackathon/?format=json&page_size=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    }
+  ],
+  "categories": [
+    {
+      "key": "startup_project",
+      "label": "AI Agent创业项目",
+      "items": [
+        {
+          "title": "My AI Agents Ship Code While I Sleep. Nobody Reviews It",
+          "url": "https://goatsquadstudios.com/blog/how-i-work-with-ai-agents-autonomously",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T07:06:19+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://goatsquadstudios.com/blog/how-i-work-with-ai-agents-autonomously"
+            }
+          ],
+          "extra": {
+            "hn_id": "49354107",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "a4478beb7e0e2e66",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "OpenAI Overhauls Safety Protocols, Pauses Training Runs After Rogue Agents",
+          "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-08-19T04:32:22+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352275",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "9d7c59a2ab6a656b",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "Has any one ever used Strands – the AI Agent SDK by AWS",
+          "url": "https://strandsagents.com/",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T04:20:40+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://strandsagents.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352099",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "585da7550a1aba45",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Traces Know What Broke. Your Agent Doesn't",
+          "url": "https://memanto.ai/blog/langfuse-traces-into-agent-memory",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T04:17:16+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://memanto.ai/blog/langfuse-traces-into-agent-memory"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352043",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "0fb2132ffc0f3d02",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+          "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
+          "summary": "HN 7 points / 3 comments",
+          "published_at": "2026-08-19T03:28:09+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49351299",
+            "points": 7,
+            "comments": 3
+          },
+          "uid": "3916d8e3657a0186",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Recent grads say AI is making it harder to get a job. Economists aren't sure",
+          "url": "https://text.npr.org/nx-s1-5910677",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T00:34:13+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://text.npr.org/nx-s1-5910677"
+            }
+          ],
+          "extra": {
+            "hn_id": "49348255",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "3ab757faf5617578",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "超声脑机接口公司思昇科技获数千万元融资",
+          "url": "https://readhub.cn/topic/8vgYHKDc7J0",
+          "summary": "超声脑机接口公司思昇科技完成数千万元种子 + 轮融资，本轮融资由国汽投资领投，元禾璞华、全球健康产业创新中心（GHIC）跟投，老股东英诺科创基金、水木清华校友种子基金继续加注，光源资本担任独家财务顾问。",
+          "published_at": "2026-08-18T22:25:23+08:00",
+          "categories": [
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vgYHKDc7J0"
+            }
+          ],
+          "extra": {
+            "funding": {
+              "round": "种子+轮",
+              "amount": "数千万元",
+              "investor": "国汽投资领投，元禾璞华、全球健康产业创新中心（GHIC）跟投"
+            }
+          },
+          "uid": "ad2007780fc2b776",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "What We Learned Moving Our Agent Loops from Anthropic to GLM",
+          "url": "https://getunblocked.com/blog/moving-agent-loops-from-anthropic-to-glm/",
+          "summary": "HN 18 points / 6 comments",
+          "published_at": "2026-08-18T22:02:55+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://getunblocked.com/blog/moving-agent-loops-from-anthropic-to-glm/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49345796",
+            "points": 18,
+            "comments": 6
+          },
+          "uid": "4c02181d4bd5a0b1",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Groq 完成 3.5 亿美元融资，加速转型 AI 推理云服务",
+          "url": "https://readhub.cn/topic/8vgWATcSGD8",
+          "summary": "AI 初创公司 Groq 完成 3.5 亿美元新一轮融资，由 Disruptive 领投、Nvidia 计划参与，投后估值 35 亿美元，公司称该估值是与 Nvidia 达成授权协议后新业务形态下的重新定价。此前 Nvidia 通过授权交易吸纳 Groq 多名核心成员，Groq 从自研 LPU 芯片的 AI 芯片商转型为运营 Nvidia 系统的云与数据中心服务商，今年 6 月已完成 6.5 亿美元融资，计划 2027 年将数据中心容量从 54 兆瓦扩至 200 兆瓦以上。目前 Groq 在多地运营 13 个数据中心，服务超 600 万开发者及企业，新资金将用于支持中大型 Nvidia 加速计算集群的训练和推理需求。",
+          "published_at": "2026-08-18T20:10:48+08:00",
+          "categories": [
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vgWATcSGD8"
+            }
+          ],
+          "extra": {
+            "funding": {
+              "round": "新一轮",
+              "amount": "3.5亿美元",
+              "investor": "Disruptive领投，Nvidia计划参与"
+            }
+          },
+          "uid": "ad1dc7305c72e100",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "Mind Viruses: Self-Propagating Ideas in Multi-Agent LLM Systems (Anthropic)",
+          "url": "https://arxiv.org/abs/2608.10218",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-18T20:01:00+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://arxiv.org/abs/2608.10218"
+            }
+          ],
+          "extra": {
+            "hn_id": "49344407",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "3ea26a0ca443fa18",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "LLMs Aren't Writing",
+          "url": "https://sixcolors.com/post/2026/08/llms-arent-writing/",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-18T15:44:10+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://sixcolors.com/post/2026/08/llms-arent-writing/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49342665",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "a220ddd0f389fa05",
+          "score": 2,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "key": "investment_direction",
+      "label": "投资机构看好的AI Agent方向",
+      "items": [
+        {
+          "title": "报道：Anthropic IPO 前信贷安排规模有望突破 100 亿美元目标",
+          "url": "https://readhub.cn/topic/8vhaaMVs5Wt",
+          "summary": "Anthropic IPO 前信贷额度规模有望突破 100 亿美元目标，正要求牵头银行各提供约 12.5 亿美元贷款，次活跃银行各提供约 10 亿美元贷款。",
+          "published_at": "2026-08-18T22:40:57+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vhaaMVs5Wt"
+            }
+          ],
+          "extra": {},
+          "uid": "b3cd6ec3a05ee8a9",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "美银调查：全球股票配置比例升至 2021 年以来高位",
+          "url": "https://readhub.cn/topic/8vgwCFRCO9u",
+          "summary": "美银于 8 月 7 日-13 日访问 180 名管理资产总规模 5250 亿美元的受访者，调查显示投资者全球股票配置敞口达近五年最高，净 56% 受访者超配全球股票，为 2021 年 11 月以来最高。多数受访者预判经济持续增长，创纪录的 56% 认为经济将「不着陆」，72% 认为美国中期选举前美联储不会加息。最拥挤交易为做多全球半导体、做空日元、做多美股七大科技巨头。主要尾部风险有人工智能泡沫、债券收益率无序上行等。约 38% 认为人工智能超大规模企业资本开支最易触发系统性信贷事件，但 71% 认为 2026 年人工智能资本开支不会缩减，58% 认为其最早 2028 年才会冲击劳动力市场。",
+          "published_at": "2026-08-18T15:45:34+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vgwCFRCO9u"
+            }
+          ],
+          "extra": {},
+          "uid": "d11ab29cb61e7e43",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "650亿美元！IPO前夕，Anthropic营收底牌曝光",
+          "url": "https://www.qbitai.com/2026/08/474673.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474673.html"
+            }
+          ],
+          "extra": {},
+          "uid": "ea3f6009b6e5eb0c",
+          "score": 5,
+          "featured": true
+        },
+        {
+          "title": "菲尔兹奖得主：AI现在主要靠「抬杠」突破重大数学猜想",
+          "url": "https://www.qbitai.com/2026/08/474381.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474381.html"
+            }
+          ],
+          "extra": {},
+          "uid": "07d525db0eec721c",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "李飞飞最新访谈：AI咋能代替人呢？",
+          "url": "https://www.qbitai.com/2026/08/474140.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474140.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c93f9e9287ea3a7b",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "牛来！A社营收暴涨1400%，最新季度入账115亿美元",
+          "url": "https://www.qbitai.com/2026/08/473947.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/473947.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c6534c4f8cc2e46d",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
+          "url": "https://www.qbitai.com/2026/08/472059.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/472059.html"
+            }
+          ],
+          "extra": {
+            "funding": {
+              "round": "",
+              "amount": "4.8亿美元",
+              "investor": ""
+            }
+          },
+          "uid": "20b627328db2982d",
+          "score": 4,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "new_product",
+      "label": "涌现的新AI应用/Agent产品",
+      "items": [
+        {
+          "title": "全球云原生与AI基础设施顶级盛会",
+          "url": "https://www.waytoagi.com/events/569",
+          "summary": "2026-09-07 ~ 2026-09-09全球云原生与AI基础设施顶级盛会助力塑造开源软件与技术的未来查看活动详情",
+          "published_at": "2026-09-07T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/569"
+            }
+          ],
+          "extra": {
+            "start": "2026-09-07",
+            "end": "2026-09-09",
+            "format_hint": "unknown"
+          },
+          "uid": "494624c66ca5bb24",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "ResumeSkip – automatically tailor your resume to jobs",
+          "url": "https://resumeskip.com/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-08-19T07:08:56+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://resumeskip.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49354131",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "efcb4030cd17d520",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "My AI Agents Ship Code While I Sleep. Nobody Reviews It",
+          "url": "https://goatsquadstudios.com/blog/how-i-work-with-ai-agents-autonomously",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T07:06:19+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://goatsquadstudios.com/blog/how-i-work-with-ai-agents-autonomously"
+            }
+          ],
+          "extra": {
+            "hn_id": "49354107",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "a4478beb7e0e2e66",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Maritime, a platform for running AI agents for $1 a month",
+          "url": "https://maritime.sh",
+          "summary": "HN 6 points / 0 comments",
+          "published_at": "2026-08-19T07:02:32+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://maritime.sh"
+            }
+          ],
+          "extra": {
+            "hn_id": "49354052",
+            "points": 6,
+            "comments": 0
+          },
+          "uid": "33f94eb7780cb06a",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Google Moves A2A Under Agentic AI Foundation",
+          "url": "https://techstrong.ai/articles/google-moves-a2a-under-agentic-ai-foundation/",
+          "summary": "HN 6 points / 0 comments",
+          "published_at": "2026-08-19T05:45:41+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://techstrong.ai/articles/google-moves-a2a-under-agentic-ai-foundation/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49353146",
+            "points": 6,
+            "comments": 0
+          },
+          "uid": "147e231056ebfd5c",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "ChatOSS – A Codex alternative for Open Source AI built on Ollama",
+          "url": "https://chatoss.ai",
+          "summary": "HN 5 points / 5 comments",
+          "published_at": "2026-08-19T04:42:19+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://chatoss.ai"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352394",
+            "points": 5,
+            "comments": 5
+          },
+          "uid": "57531a3bb3d20386",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "OpenAI Overhauls Safety Protocols, Pauses Training Runs After Rogue Agents",
+          "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-08-19T04:32:22+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352275",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "9d7c59a2ab6a656b",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "Has any one ever used Strands – the AI Agent SDK by AWS",
+          "url": "https://strandsagents.com/",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T04:20:40+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://strandsagents.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352099",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "585da7550a1aba45",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Traces Know What Broke. Your Agent Doesn't",
+          "url": "https://memanto.ai/blog/langfuse-traces-into-agent-memory",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T04:17:16+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://memanto.ai/blog/langfuse-traces-into-agent-memory"
+            }
+          ],
+          "extra": {
+            "hn_id": "49352043",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "0fb2132ffc0f3d02",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+          "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
+          "summary": "HN 7 points / 3 comments",
+          "published_at": "2026-08-19T03:28:09+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49351299",
+            "points": 7,
+            "comments": 3
+          },
+          "uid": "3916d8e3657a0186",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Sealed evidence record of an AI agent run – broken twice, credited",
+          "url": "https://github.com/cjchanh/aaap-challenge",
+          "summary": "HN 5 points / 0 comments",
+          "published_at": "2026-08-19T03:07:02+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/cjchanh/aaap-challenge"
+            }
+          ],
+          "extra": {
+            "hn_id": "49350964",
+            "points": 5,
+            "comments": 0
+          },
+          "uid": "5e9444f957ef9f53",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Recent grads say AI is making it harder to get a job. Economists aren't sure",
+          "url": "https://text.npr.org/nx-s1-5910677",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-19T00:34:13+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://text.npr.org/nx-s1-5910677"
+            }
+          ],
+          "extra": {
+            "hn_id": "49348255",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "3ab757faf5617578",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Magnitude – Open-source AI coding agent that runs local models offline",
+          "url": "https://digitalescapetools.com/tools/tool.html?id=magnitude",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-08-19T00:25:35+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://digitalescapetools.com/tools/tool.html?id=magnitude"
+            }
+          ],
+          "extra": {
+            "hn_id": "49348114",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "ca89612fdf6d41e5",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Tracelint – a linter for AI agent traces, no LLM judge",
+          "url": "https://github.com/AshwinUgale/tracelint",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-18T22:49:47+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/AshwinUgale/tracelint"
+            }
+          ],
+          "extra": {
+            "hn_id": "49346452",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "da23c17c3b681fc9",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "K7d – Fork live Kubernetes clusters in <1s –> GRPO-train AI on infra",
+          "url": "https://github.com/katakate/k7d",
+          "summary": "HN 3 points / 1 comments",
+          "published_at": "2026-08-18T22:38:58+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/katakate/k7d"
+            }
+          ],
+          "extra": {
+            "hn_id": "49346284",
+            "points": 3,
+            "comments": 1
+          },
+          "uid": "34f68b00313d318e",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "What We Learned Moving Our Agent Loops from Anthropic to GLM",
+          "url": "https://getunblocked.com/blog/moving-agent-loops-from-anthropic-to-glm/",
+          "summary": "HN 18 points / 6 comments",
+          "published_at": "2026-08-18T22:02:55+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://getunblocked.com/blog/moving-agent-loops-from-anthropic-to-glm/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49345796",
+            "points": 18,
+            "comments": 6
+          },
+          "uid": "4c02181d4bd5a0b1",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Leviath – Structured context regions for LLM agents, in one Rust binary",
+          "url": "https://leviath.dev",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-18T21:12:01+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://leviath.dev"
+            }
+          ],
+          "extra": {
+            "hn_id": "49345132",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "e506c76107cbbe81",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Mind Viruses: Self-Propagating Ideas in Multi-Agent LLM Systems (Anthropic)",
+          "url": "https://arxiv.org/abs/2608.10218",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-18T20:01:00+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://arxiv.org/abs/2608.10218"
+            }
+          ],
+          "extra": {
+            "hn_id": "49344407",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "3ea26a0ca443fa18",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "OpenRouter 砍半 OpenAI 最强模型 GPT-5.6 Sol 调用费",
+          "url": "https://readhub.cn/topic/8vgtj8XGZNi",
+          "summary": "8 月 17 日，OpenRouter 宣布将 OpenAI 最强模型 GPT-5.6 Sol 的调用费用砍半，调整后每百万 Tokens 输入、输出费用均降至原价格的一半。Vercel 也推出该模型限时 1 个月的半价优惠，至 2026 年 9 月 18 日，覆盖标准与 Fast 模式。",
+          "published_at": "2026-08-18T17:42:38+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vgtj8XGZNi"
+            }
+          ],
+          "extra": {},
+          "uid": "890688ec10b0e850",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "OpenAI 为青少年推出专属版本 ChatGPT，承诺强化安全防护",
+          "url": "https://readhub.cn/topic/8vhBuZasRAE",
+          "summary": "面对外界反对及相关诉讼压力，估值 8520 亿美元的 OpenAI 将于周二起在全球推出 13-17 岁青少年专属 ChatGPT 版本。该版本针对图像生成及自残、暴力等内容加强管控，新增进食障碍与暴力话题提醒，升级学习模式引导推导解题而非直接给答案，还设有休息提醒、安静时段等功能。此次调整源于多起青少年因使用 ChatGPT 受伤害的事件，OpenAI 需在青少年隐私与伤害程度间权衡，其青少年与家庭业务负责人称安全工作永无止境，目标是将其打造成学习工具。目前 OpenAI 未发现滥用或过度使用情况，但因相关研究不足采取保守处理方式。",
+          "published_at": "2026-08-18T17:40:29+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vhBuZasRAE"
+            }
+          ],
+          "extra": {},
+          "uid": "7b74bc5f69f81597",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "微信更新：朋友圈可 AI 点评、AI 帮写",
+          "url": "https://readhub.cn/topic/8vfn5qHn56c",
+          "summary": "微信在原生 AI 助手「小微」的灰度测试中新增 3 个高频场景 AI 入口，使微信内 AI 入口总数达 16 个，新增入口包括页 AI 总结常看更新、朋友圈 AI 点评、聊天图片 AI 处理。此外，微信还小范围内测朋友圈 AI 帮写、扫一扫「拍照给 AI」视觉问答、聊天输入框语音指令直达 AI 生成消息等功能，所有新增功能均处于灰度测试阶段，仅部分用户可见。",
+          "published_at": "2026-08-18T17:40:06+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8vfn5qHn56c"
+            }
+          ],
+          "extra": {},
+          "uid": "d104d2d38614c6b6",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "LLMs Aren't Writing",
+          "url": "https://sixcolors.com/post/2026/08/llms-arent-writing/",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-08-18T15:44:10+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://sixcolors.com/post/2026/08/llms-arent-writing/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49342665",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "a220ddd0f389fa05",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "ip-as-logo-skill — A compact Agent Skill for IP mascot logos",
+          "url": "https://github.com/s1dashu/ip-as-logo-skill",
+          "summary": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+          "published_at": "2026-08-18T13:59:23Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/s1dashu/ip-as-logo-skill"
+            }
+          ],
+          "extra": {
+            "stars": 559,
+            "language": null
+          },
+          "uid": "5fadc46e801dcc91",
+          "score": 2,
+          "featured": true
+        },
+        {
+          "title": "Clara AI SDR",
+          "url": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Turn website visitors into qualified pipeline",
+          "published_at": "2026-08-18T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/clara-ai-sdr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 338,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "92a8a4410768dfdf",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "Taku AI",
+          "url": "https://www.producthunt.com/products/taku-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Borrow the best AI setups and make them yours.",
+          "published_at": "2026-08-18T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/taku-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 289,
+            "topics": [
+              "Productivity",
+              "Artificial Intelligence",
+              "No-Code"
+            ]
+          },
+          "uid": "067d17633ab3e1c0",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "Superflow AI",
+          "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "AI agents that QA your website before launch",
+          "published_at": "2026-08-18T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 223,
+            "topics": [
+              "Design Tools",
+              "Artificial Intelligence",
+              "Marketing automation"
+            ]
+          },
+          "uid": "26ccad015e3447f9",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "ElevenLabs MCP in Claude",
+          "url": "https://www.producthunt.com/products/elevenlabs-mcp-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Create and manage ElevenLabs voice agents in your chat",
+          "published_at": "2026-08-18T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/elevenlabs-mcp-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 151,
+            "topics": [
+              "Artificial Intelligence",
+              "Audio"
+            ]
+          },
+          "uid": "2103aafe81c26256",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "Shepherd Terminal",
+          "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "A persistent terminal for Codex and Claude side by side",
+          "published_at": "2026-08-18T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 115,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence",
+              "Change Management"
+            ]
+          },
+          "uid": "b57cfb189fc6889c",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "Clipwing Autopilot",
+          "url": "https://www.producthunt.com/products/clipwing?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Get your clips without AI slop or hiring hassle",
+          "published_at": "2026-08-18T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/clipwing?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 107,
+            "topics": [
+              "Social Media",
+              "Social media marketing",
+              "Video"
+            ]
+          },
+          "uid": "a952c1bb26bb600a",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "qoder-workflow",
+          "url": "https://github.com/d4ncboz/qoder-workflow",
+          "summary": "Complete, end-to-end framework and high-performance OpenAI-compatible gateway for the Qoder ecosystem.",
+          "published_at": "2026-08-18T04:23:57Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/d4ncboz/qoder-workflow"
+            }
+          ],
+          "extra": {
+            "stars": 69,
+            "language": "Python"
+          },
+          "uid": "1df3bc70866c69c4",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "sprix-sage-router",
+          "url": "https://github.com/wang2122/sprix-sage-router",
+          "summary": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+          "published_at": "2026-08-18T04:08:11Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wang2122/sprix-sage-router"
+            }
+          ],
+          "extra": {
+            "stars": 153,
+            "language": "Python"
+          },
+          "uid": "f5cccd875a858ef3",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "seedance-2-5-video-director",
+          "url": "https://github.com/liyue-aigc/seedance-2-5-video-director",
+          "summary": "Seedance 2.5 视频导演 Skill：提示词、脚本、诊断、人物锁定、续写、编辑、转场与首次使用指导",
+          "published_at": "2026-08-18T03:31:26Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/liyue-aigc/seedance-2-5-video-director"
+            }
+          ],
+          "extra": {
+            "stars": 61,
+            "language": "Python"
+          },
+          "uid": "a30d9ad274919fdf",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "stamp-edge-skill",
+          "url": "https://github.com/xianxie6/stamp-edge-skill",
+          "summary": "Agent skill: turn any image into a postage-stamp style card with perforated edges and true transparent background",
+          "published_at": "2026-08-18T01:31:52Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/xianxie6/stamp-edge-skill"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": "Python"
+          },
+          "uid": "0ae0c207eff30a96",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "omp-best-of",
+          "url": "https://github.com/wolfiesch/omp-best-of",
+          "summary": "Best-of-N coding agents with LLM-as-a-Verifier selection for Oh My Pi: isolated git worktrees, verifier-ranked trajectories, winner-only patch application",
+          "published_at": "2026-08-18T00:41:05Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wolfiesch/omp-best-of"
+            }
+          ],
+          "extra": {
+            "stars": 46,
+            "language": "TypeScript"
+          },
+          "uid": "619f5cfb2b8581e0",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "nbj-write-clearly",
+          "url": "https://github.com/daniel-p-green/nbj-write-clearly",
+          "summary": "A clear-writing agent skill grounded in the Google Developer Documentation Style Guide.",
+          "published_at": "2026-08-17T23:32:24Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/daniel-p-green/nbj-write-clearly"
+            }
+          ],
+          "extra": {
+            "stars": 73,
+            "language": "Shell"
+          },
+          "uid": "7957e8411491963e",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "autoprompt-skill",
+          "url": "https://github.com/Spielewoy/autoprompt-skill",
+          "summary": "Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks.",
+          "published_at": "2026-08-17T22:40:47Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Spielewoy/autoprompt-skill"
+            }
+          ],
+          "extra": {
+            "stars": 50,
+            "language": "JavaScript"
+          },
+          "uid": "7ca1b61eb83af1ae",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "mixamo-llm-mocap",
+          "url": "https://github.com/squall01337/mixamo-llm-mocap",
+          "summary": "Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent.",
+          "published_at": "2026-08-17T21:05:02Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/squall01337/mixamo-llm-mocap"
+            }
+          ],
+          "extra": {
+            "stars": 53,
+            "language": "Python"
+          },
+          "uid": "f7cc15009ac94022",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "marketing-os",
+          "url": "https://github.com/Yuzzyuk/marketing-os",
+          "summary": "An entire marketing department as one Claude skill. 14 modules: audits scored 0-100, an 18-tactic hook engine, copy graded before you see it, ad diagnosis, GEO, email, launches, pricing. Works in Claude, Codex and Cursor.",
+          "published_at": "2026-08-17T15:05:59Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Yuzzyuk/marketing-os"
+            }
+          ],
+          "extra": {
+            "stars": 42,
+            "language": null
+          },
+          "uid": "f4f1b1c12d0e58e9",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "northcinder",
+          "url": "https://github.com/jdshfhds/northcinder",
+          "summary": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
+          "published_at": "2026-08-17T11:42:31Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jdshfhds/northcinder"
+            }
+          ],
+          "extra": {
+            "stars": 1158,
+            "language": "JavaScript"
+          },
+          "uid": "4368c95de5373c17",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "dsh-image-gen",
+          "url": "https://github.com/shanliuling/dsh-image-gen",
+          "summary": "Generate images directly in DeepSeek Harness chats",
+          "published_at": "2026-08-17T10:16:37Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/shanliuling/dsh-image-gen"
+            }
+          ],
+          "extra": {
+            "stars": 51,
+            "language": "TypeScript"
+          },
+          "uid": "83d7731b7519451e",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "HarnessEval-W",
+          "url": "https://github.com/MirroS-Lab/HarnessEval-W",
+          "summary": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+          "published_at": "2026-08-17T09:50:26Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/MirroS-Lab/HarnessEval-W"
+            }
+          ],
+          "extra": {
+            "stars": 151,
+            "language": "Python"
+          },
+          "uid": "ed8303697ee84e8c",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "cumora",
+          "url": "https://github.com/yetone/cumora",
+          "summary": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+          "published_at": "2026-08-17T09:13:52Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/yetone/cumora"
+            }
+          ],
+          "extra": {
+            "stars": 2368,
+            "language": "TypeScript"
+          },
+          "uid": "46c357333aaca68b",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "material-design-3-ui-skill",
+          "url": "https://github.com/skydashnet/material-design-3-ui-skill",
+          "summary": "A reusable Agent Skill for designing, reviewing, and implementing UI/UX with Google Material Design 3, Material You, M3 Expressive, accessibility, adaptive layouts, and semantic design tokens.",
+          "published_at": "2026-08-17T08:27:12Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/skydashnet/material-design-3-ui-skill"
+            }
+          ],
+          "extra": {
+            "stars": 94,
+            "language": "PowerShell"
+          },
+          "uid": "fe8caff1b81040c9",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "reclaim-code-entropy",
+          "url": "https://github.com/Yevanchen/reclaim-code-entropy",
+          "summary": "An evidence-first Agent Skill for safely simplifying any codebase.",
+          "published_at": "2026-08-17T08:19:11Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Yevanchen/reclaim-code-entropy"
+            }
+          ],
+          "extra": {
+            "stars": 156,
+            "language": null
+          },
+          "uid": "57cb49df5c8a99e8",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Omni by xpander",
+          "url": "https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Stop babysitting your AI agents",
+          "published_at": "2026-08-17T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/omni-by-xpander?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 380,
+            "topics": [
+              "Slack",
+              "Artificial Intelligence",
+              "Virtual Assistants"
+            ]
+          },
+          "uid": "e3fb10e279f1608d",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "Clears",
+          "url": "https://www.producthunt.com/products/clears?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Move beyond AI coding to Agentic Software Delivery",
+          "published_at": "2026-08-17T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/clears?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 367,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "f3beb8f97753463e",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "OpenTrade",
+          "url": "https://www.producthunt.com/products/opentrade?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Open-source trading harness for Claude Code / Codex.",
+          "published_at": "2026-08-17T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/opentrade?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 159,
+            "topics": [
+              "Open Source",
+              "Investing",
+              "Artificial Intelligence",
+              "GitHub"
+            ]
+          },
+          "uid": "12560d9bd6dc6d6e",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "Skriptr",
+          "url": "https://www.producthunt.com/products/skriptr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "AI workspace for students",
+          "published_at": "2026-08-17T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/skriptr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 121,
+            "topics": [
+              "Writing",
+              "Education",
+              "Online Learning"
+            ]
+          },
+          "uid": "05e042f11e9192dc",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "pilot-harness",
+          "url": "https://github.com/op7418/pilot-harness",
+          "summary": "Pilot Harness — a CodePilot-inspired desktop client and plugin suite for DeepSeek Harness on macOS, Windows, and Linux.",
+          "published_at": "2026-08-17T06:56:42Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/op7418/pilot-harness"
+            }
+          ],
+          "extra": {
+            "stars": 169,
+            "language": "TypeScript"
+          },
+          "uid": "1598a050ff820391",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "dance-video-to-prompt",
+          "url": "https://github.com/CattleZ/dance-video-to-prompt",
+          "summary": "本地短视频反推 AI 视频生成提示词：抽帧、清晰度、节奏卡点、Agent Skill",
+          "published_at": "2026-08-17T06:32:34Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/CattleZ/dance-video-to-prompt"
+            }
+          ],
+          "extra": {
+            "stars": 52,
+            "language": "Python"
+          },
+          "uid": "349cfda460bf33cf",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Comfyui_Minimax_h3_latent_Upscaler",
+          "url": "https://github.com/LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler",
+          "summary": "Neural latent upscaler for Minimax H3 (24ch). Bypasses costly 5B-param VAE decode/encode. Upscale low-res latents directly, then refine. Accelerates high-res video gen, outperforms naive interp.",
+          "published_at": "2026-08-17T05:21:29Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler"
+            }
+          ],
+          "extra": {
+            "stars": 115,
+            "language": "Python"
+          },
+          "uid": "82793e23bab01ae0",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "chinese-font-selector",
+          "url": "https://github.com/Songzhi-lab/chinese-font-selector",
+          "summary": "全网首个中文字体专业知识包：可商用中文字体库（授权三级分类）、场景×气质选字矩阵、中英混排与排版规则。让 AI 选中文设计字体不再甩给你一堆 Inter / Chinese font selection agent skill: license-safe free commercial CJK fonts, scene-based selection matrix, CJK-Latin pairing rules. Works with Claude Code / Cursor / Kimi / Codex.",
+          "published_at": "2026-08-17T04:56:34Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Songzhi-lab/chinese-font-selector"
+            }
+          ],
+          "extra": {
+            "stars": 53,
+            "language": null
+          },
+          "uid": "eb051fc5f89d8e1e",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "bigpeng-hot-gzh",
+          "url": "https://github.com/BigPengSays/bigpeng-hot-gzh",
+          "summary": "从100 多篇爆款 AI 公众号文章中蒸馏出的 7 个爆款选题公式和 Skill。",
+          "published_at": "2026-08-17T03:26:10Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/BigPengSays/bigpeng-hot-gzh"
+            }
+          ],
+          "extra": {
+            "stars": 201,
+            "language": null
+          },
+          "uid": "7f8f58126ea354a8",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "macos-harness",
+          "url": "https://github.com/browser-use/macos-harness",
+          "summary": "The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.",
+          "published_at": "2026-08-17T00:22:20Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/browser-use/macos-harness"
+            }
+          ],
+          "extra": {
+            "stars": 404,
+            "language": "Python"
+          },
+          "uid": "0ca5177cbf23bd25",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "DFarm6/Prism-Browser-Community — Local-first open-source multi-profile fingerprint browser",
+          "url": "https://github.com/DFarm6/Prism-Browser-Community",
+          "summary": "Local-first open-source multi-profile fingerprint browser based on Chromium and Electron",
+          "published_at": "2026-08-17T00:13:19Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/DFarm6/Prism-Browser-Community"
+            }
+          ],
+          "extra": {
+            "stars": 197,
+            "language": "TypeScript"
+          },
+          "uid": "cbecb37729302a3d",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "AI Infra进入自进化时代！清华团队AI优化AI造就国产万亿Token工厂",
+          "url": "https://www.qbitai.com/2026/08/474611.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474611.html"
+            }
+          ],
+          "extra": {},
+          "uid": "fdb5722442ad9c52",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "网易传媒发布”蜜蜂AI” ：从工具到伙伴，让AI更懂人",
+          "url": "https://www.qbitai.com/2026/08/474857.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474857.html"
+            }
+          ],
+          "extra": {},
+          "uid": "aebcf1144c169124",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "π0引用的中国团队，又出手了：世界仿真器新作发布",
+          "url": "https://www.qbitai.com/2026/08/474838.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474838.html"
+            }
+          ],
+          "extra": {},
+          "uid": "5fa143199845c477",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "人人都能写好听的歌，阿里发布AI音乐模型HappyShrimp",
+          "url": "https://www.qbitai.com/2026/08/474840.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474840.html"
+            }
+          ],
+          "extra": {},
+          "uid": "f12ae260984d0821",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "6个Agent组团Vibe Gaming：自己生成、试玩、修Bug",
+          "url": "https://www.qbitai.com/2026/08/474806.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474806.html"
+            }
+          ],
+          "extra": {},
+          "uid": "645cc3823f4765fc",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "今日起，阿里“千问办公”接入企业微信",
+          "url": "https://www.qbitai.com/2026/08/474803.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474803.html"
+            }
+          ],
+          "extra": {},
+          "uid": "1ab8804778b60a92",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "阿里杀进Agent上下文战场：钉钉聊天、企业文档、工作数据终于要被Agent吃进去了",
+          "url": "https://www.qbitai.com/2026/08/474647.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474647.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c8b6db119fae7b4b",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "快讯｜范式PhanRouter上线智谱GLM-5.3，即日开放调用",
+          "url": "https://www.qbitai.com/2026/08/474361.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474361.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c18ead7dbd089bfa",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "终于！世界模型进入“有声时代”：24FPS画面+48kHz立体声实时生成",
+          "url": "https://www.qbitai.com/2026/08/474334.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/474334.html"
+            }
+          ],
+          "extra": {},
+          "uid": "d563ef518cadbc04",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "WorkSwarm：引领办公智能体新范式，让AI从一个助手，进化为一支与你并肩作战的团队",
+          "url": "https://www.qbitai.com/2026/08/473972.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/473972.html"
+            }
+          ],
+          "extra": {},
+          "uid": "f5e085d063c69944",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
+          "url": "https://www.qbitai.com/2026/08/473876.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/473876.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c1c1890bebb95c02",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+          "url": "https://www.qbitai.com/2026/08/473866.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/473866.html"
+            }
+          ],
+          "extra": {},
+          "uid": "1c914394a208ad5c",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "深度体验DeepSeek Harness，我原谅它涨价了",
+          "url": "https://www.qbitai.com/2026/08/472208.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/472208.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c5e04e3a56791c3d",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "马斯克Grok 4.6重回一梯队！更低价格反超Fable 5，这Cursor是真没白收购",
+          "url": "https://www.qbitai.com/2026/08/472067.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/472067.html"
+            }
+          ],
+          "extra": {},
+          "uid": "1b17596297db42c0",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
+          "url": "https://www.qbitai.com/2026/08/473379.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/473379.html"
+            }
+          ],
+          "extra": {},
+          "uid": "243a357f3c6a4c38",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "Claude一举扫清2000阶以下哈达玛矩阵！AI开始清空数学待解列表",
+          "url": "https://www.qbitai.com/2026/08/472016.html",
+          "summary": "",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/472016.html"
+            }
+          ],
+          "extra": {},
+          "uid": "e1ec6a29ce40fcec",
+          "score": 4,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_online",
+      "label": "线上AI应用/Agent黑客松",
+      "items": [
+        {
+          "title": "2026华为云具身智能大赛",
+          "url": "https://www.competehub.dev/zh/competitions/huawei1300000267",
+          "summary": "数据算法赛2026华为云具身智能大赛机器学习/AI机器人计算机视觉11 团队线上¥88,00011 天后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/huawei1300000267"
+            }
+          ],
+          "extra": {
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "2b5c3ee35cd46f73",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "算子创新大赛",
+          "url": "https://www.competehub.dev/zh/competitions/urlscc6a2494e07d8a7433d83987406c82ca",
+          "summary": "工程开发赛算子创新大赛机器学习/AI计算机视觉DevOps线上¥400,00012 天后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/urlscc6a2494e07d8a7433d83987406c82ca"
+            }
+          ],
+          "extra": {
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "2f74705d59e3046e",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "RevenueCat 船运 2026",
+          "url": "https://www.competehub.dev/zh/competitions/devpost29969",
+          "summary": "黑客松RevenueCat 船运 2026移动开发机器学习/AI游戏11,712 团队线上¥4,932,0002 个月后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/devpost29969"
+            }
+          ],
+          "extra": {
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "1c4c50165e5b7546",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "2026 GFF SBI黑客马拉松",
+          "url": "https://www.competehub.dev/zh/competitions/hackculture_hackathons_sbi_hackathon_gff_2026",
+          "summary": "黑客松2026 GFF SBI黑客马拉松机器学习/AI金融科技计算机视觉5,397 团队线上¥41,60023 天后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/hackculture_hackathons_sbi_hackathon_gff_2026"
+            }
+          ],
+          "extra": {
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "7743525ce5694ebf",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "米罗×n8n黑客松：从图表到自动化",
+          "url": "https://www.competehub.dev/zh/competitions/lumaevt-cDgm3zQXWvkoZ3o",
+          "summary": "黑客松米罗×n8n黑客松：从图表到自动化机器学习/AIDevOps低代码/无代码132 团队纽约LUMA2 个月后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/lumaevt-cDgm3zQXWvkoZ3o"
+            }
+          ],
+          "extra": {
+            "format_hint": "线下/待确认",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "89092ecbf1ea140f",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "2026年ARC白盒估算挑战",
+          "url": "https://www.competehub.dev/zh/competitions/aicrowdarc-white-box-estimation-challenge-2026",
+          "summary": "AI大模型赛2026年ARC白盒估算挑战机器学习/AI计算机视觉网络安全4,040 团队线上¥720,0002 个月后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/aicrowdarc-white-box-estimation-challenge-2026"
+            }
+          ],
+          "extra": {
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "d2800df398e11bbb",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "代理电影：大片黑客马拉松",
+          "url": "https://www.competehub.dev/zh/competitions/devpost30721",
+          "summary": "黑客松代理电影：大片黑客马拉松机器学习/AI计算机视觉DevOps1,454 团队线上¥72,00019 天后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/devpost30721"
+            }
+          ],
+          "extra": {
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线上",
+              "location": "线上",
+              "register_url": ""
+            }
+          },
+          "uid": "4330759129289c80",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "PixLight · 2026 全球 AI类型片大赛",
+          "url": "https://www.waytoagi.com/events/571",
+          "summary": "2026-08-07 ~ 2026-10-09PixLight · 2026 ｜全球 AI类型片大赛 寻找你的频率查看活动详情",
+          "published_at": "2026-08-07T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/571"
+            }
+          ],
+          "extra": {
+            "start": "2026-08-07",
+            "end": "2026-10-09",
+            "format_hint": "unknown",
+            "hackathon": {
+              "start": "2026-08-07",
+              "end": "2026-10-09",
+              "format": "线上",
+              "location": "全球",
+              "register_url": ""
+            }
+          },
+          "uid": "fedf305614ec5ca9",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "WaytoAGI× Sunra2026伦敦设计节AI线上影像创意大赛",
+          "url": "https://www.waytoagi.com/events/575",
+          "summary": "2026-08-01 ~ 2026-09-05WaytoAGI× Sunra2026伦敦设计节AI线上影像创意大赛查看活动详情",
+          "published_at": "2026-08-01T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/575"
+            }
+          ],
+          "extra": {
+            "start": "2026-08-01",
+            "end": "2026-09-05",
+            "format_hint": "线上",
+            "hackathon": {
+              "start": "2026-08-01",
+              "end": "2026-09-05",
+              "format": "线上",
+              "location": "全球",
+              "register_url": ""
+            }
+          },
+          "uid": "4a517cc40db43a6a",
+          "score": 3,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_offline_cn",
+      "label": "线下（中国大陆）AI应用/Agent黑客松",
+      "items": [
+        {
+          "title": "第十一届“创客中国”智能体与具身智能中小企业创新创业大赛",
+          "url": "https://www.competehub.dev/zh/competitions/urlsd701cf6e5a7e0b3e39487c40a73d35c2",
+          "summary": "AI Agent 挑战赛第十一届“创客中国”智能体与具身智能中小企业创新创业大赛机器人机器学习/AIDongguanURLS12 天后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_offline_cn"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/urlsd701cf6e5a7e0b3e39487c40a73d35c2"
+            }
+          ],
+          "extra": {
+            "format_hint": "线下/待确认",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线下",
+              "location": "Dongguan",
+              "register_url": ""
+            }
+          },
+          "uid": "fabd40e4bad7842e",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "上海硅巷创新创业大赛",
+          "url": "https://www.competehub.dev/zh/competitions/urlseae242f6a06bd236d385a38e831ff494",
+          "summary": "工程开发赛上海硅巷创新创业大赛机器学习/AI网络安全物联网上海URLS12 天后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_offline_cn"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/urlseae242f6a06bd236d385a38e831ff494"
+            }
+          ],
+          "extra": {
+            "format_hint": "线下/待确认",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线下",
+              "location": "上海",
+              "register_url": ""
+            }
+          },
+          "uid": "499e20b4081caf98",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "2026中国创交会、中国海交会第四届创新创业大赛",
+          "url": "https://www.competehub.dev/zh/competitions/urlsb3e7a43711ce4f31bb07a1edbed63347",
+          "summary": "工程开发赛聚全球 创未来｜2026中国创交会、中国海交会第四届创新创业大赛机器学习/AI机器人健康广州¥20,940,0002 个月后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_offline_cn"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/urlsb3e7a43711ce4f31bb07a1edbed63347"
+            }
+          ],
+          "extra": {
+            "format_hint": "线下/待确认",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线下",
+              "location": "广州",
+              "register_url": ""
+            }
+          },
+          "uid": "210a88c381353f65",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "环戴云山AI+OPC大赛",
+          "url": "https://www.competehub.dev/zh/competitions/urls5d10cdf5c15bb4f54512f4c7536c9aaa",
+          "summary": "AI大模型赛环戴云山AI+OPC大赛机器学习/AI北京¥600,0002 个月后截止",
+          "published_at": "2026-08-19T08:43:27+08:00",
+          "categories": [
+            "hackathon_offline_cn"
+          ],
+          "sources": [
+            {
+              "id": "competehub",
+              "name": "AI赛事通",
+              "url": "https://www.competehub.dev/zh/competitions/urls5d10cdf5c15bb4f54512f4c7536c9aaa"
+            }
+          ],
+          "extra": {
+            "format_hint": "线下/待确认",
+            "hackathon": {
+              "start": "",
+              "end": "",
+              "format": "线下",
+              "location": "北京",
+              "register_url": ""
+            }
+          },
+          "uid": "2b23f2fd0f296b46",
+          "score": 3,
+          "featured": true
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "daily_brief": "- Anthropic 在 IPO 前夕披露营收底牌，最新季度入账 115 亿美元，同比暴涨 1400%，同时其 IPO 前信贷安排规模有望突破 100 亿美元目标，要求牵头银行各提供约 12.5 亿美元贷款。\n- Groq 完成 3.5 亿美元新一轮融资，由 Disruptive 领投、Nvidia 计划参与，投后估值 35 亿美元，公司从自研 LPU 芯片转型为运营 Nvidia 系统的云服务商，此前 Nvidia 已通过授权交易吸纳其多名核心成员。\n- OpenAI 宣布暂停训练运行并 overhaul 安全协议，起因是出现 rogue agents 事件；同时将于周二起全球推出 13-17 岁青少年专属 ChatGPT 版本，强化图像生成及自残、暴力等内容管控。\n- 微信在原生 AI 助手「小微」灰度测试中新增 3 个高频场景 AI 入口，包括朋友圈 AI 点评、聊天图片 AI 处理，使微信内 AI 入口总数达 16 个，另小范围测试朋友圈 AI 帮写功能。\n- OpenRouter 将 OpenAI 最强模型 GPT-5.6 Sol 的调用费用砍半，每百万 Tokens 输入、输出费用均降至原价一半，Vercel 同步推出该模型限时 1 个月半价优惠至 2026 年 9 月 18 日。\n- 超声脑机接口公司思昇科技完成数千万元种子+轮融资，由国汽投资领投，元禾璞华、全球健康产业创新中心跟投，老股东英诺科创基金、水木清华校友种子基金继续加注。",
+    "product_insights": "## 今日值得注意的产品\n\n**Cumora**（GitHub 2368 stars）——把 AI Agent 当作一等公民的跨平台团队聊天工具。支持云端或自带 Claude Code / Codex 作为 Agent 大脑，让 Agent 和人类在同一个聊天界面里协作。它解决的问题是 Agent 目前大多孤立运行在各自终端，缺乏一个人类能实时介入、纠偏的共同工作台。和 Slack 加 bot 的做法不同，它把 Agent 的上下文、行动和结果直接嵌入对话流，更接近\"同事\"而非\"工具\"。\n\n**Northcinder**（GitHub 1158 stars）——买家主导、无广告的购物 Agent MCP 软件。核心是确定性排序、签名购买授权和本地审计追踪。它针对的是推荐算法和广告驱动的购物体验，用可验证的规则替代黑箱推荐，让购买决策可追溯。和现有购物助手比，它把\"谁在替我做决定\"这个问题摆到台面上，用审计日志回应信任缺失。\n\n**Omni by xpander**（Product Hunt 380 votes）——主打\"停止 babysit 你的 AI Agent\"的 Slack 集成工具。它把 Agent 运行状态、失败告警和人工介入点直接放进 Slack，让团队无需切换工具就能监控和干预 Agent 执行。真实需求是 Agent 在无人值守时出错没人知道，或者需要人工审批的环节卡住。它把\"监督 Agent\"变成 Slack 里的日常操作，而不是打开另一个控制台。\n\n**ChatOSS**（HN 5 points / 5 comments）——基于 Ollama 的开源 AI Codex 替代品。完全本地运行开源模型，不依赖云端 API。它解决的是代码助手的数据隐私和成本问题，同时让开发者能自由切换底层模型。和 Codex 这类闭源服务相比，它把模型选择权和数据控制权交还给用户，代价是本地算力要求。\n\n**Maritime**（HN 6 points）——每月 1 美元运行 AI Agent 的平台。低价策略瞄准的是个人开发者和学生，他们想跑 Agent 但被主流平台的按量计费吓退。它解决的问题是 Agent 运行成本的不确定性，固定月费让实验和长期运行变得可预算。和按 token 计费的服务相比，它把成本模型从\"用多少付多少\"变成\"订阅制\"，降低了尝试门槛。\n\n**ResumeSkip**（HN 2 points）——自动针对职位定制简历的工具。它处理的是求职者面对 ATS（申请者追踪系统）和不同 JD 时反复修改简历的重复劳动。和通用改写工具不同，它聚焦\"匹配\"而非\"润色\"，把 JD 关键词和简历内容做对齐。从 HN 讨论热度看还很小众，但切入的是求职流程里最耗时的环节。\n\n## 可以借鉴的做法\n\n**Tracelint 用静态规则检查 Agent 运行痕迹，不依赖 LLM 判断**——规则明确、可复现，比用另一个模型评判当前模型更便宜也更可靠。\n\n**ChatOSS 把模型选择权交给用户，支持 Ollama 生态任意模型**——绑定一个模型不如绑定一个开放生态，用户迁移成本低，忠诚度反而高。\n\n**Cumora 让 Agent 和人类共享同一个聊天界面**——把监督从\"看日志\"变成\"看对话\"，降低了人类理解 Agent 行为的认知负担。\n\n**Northcinder 用签名授权和本地审计追踪建立信任**——在购物这类涉及金钱的场景，可验证性比算法效果更能说服用户。\n\n**Maritime 用固定月费替代按量计费**——对实验型用户，可预测的成本比更低的单价更有吸引力。",
+    "hackathon_trends": "## 主办方在关注什么\n\n**具身智能与机器人成了最拥挤的赛道。** 华为云直接砸下重金办起了2026华为云具身智能大赛，把数据算法和机器人绑在一起；第十一届“创客中国”智能体与具身智能中小企业创新创业大赛则把目光投向东莞，明显是想把技术往产业落地上推。这个方向不缺钱，缺的是能把感知、决策和执行串起来的人。\n\n**AI生成内容正在从“玩票”变成“正经比赛”。** 代理电影：大片黑客马拉松让大家用AI做电影，PixLight和WaytoAGI×Sunra两个影像赛事都挂靠了伦敦设计节这类正式场合，说明AI影像不再是自娱自乐，而是被当成一种严肃的创作媒介在检验。想做视觉创作的，现在是最好的上车时机。\n\n**底层工程和算子优化是另一条暗线。** 算子创新大赛直接面向DevOps和计算机视觉，奖金高达40万；2026年ARC白盒估算挑战则更像一场智力竞技，奖金72万，考验的是对AI系统内部机制的理解。这类比赛门槛高，但参赛者少，反而更容易出成绩。\n\n## 选题建议\n\n**做一个“AI+具身操作”的端到端方案，而不是单点算法。** 华为云和创客中国的两个比赛都在找能跑通“感知-决策-执行”闭环的团队，现在硬件成本降下来了，用仿真环境先把方案跑通，再迁移到真机上，是性价比最高的路径。\n\n**用AI做一部有完整叙事的短片，而不是炫技的片段。** 代理电影和PixLight都在找“会讲故事”的人，而不是“会调模型”的人。现在视频生成工具已经够用，拼的是剧本结构和视觉语言，这个差距靠短期突击是能补上的。\n\n**如果工程能力强，去啃算子优化这个硬骨头。** 这个方向参赛者少、奖金高，而且大模型推理成本居高不下的背景下，能写出高效算子的团队会越来越值钱。别被“底层”两个字吓到，很多优化思路其实只需要对CUDA和内存布局有基本理解就能上手。"
+  }
+}
