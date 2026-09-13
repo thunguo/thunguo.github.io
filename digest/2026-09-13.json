@@ -1,0 +1,1275 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T10:16:47+08:00",
+  "stats": {
+    "raw_items": 138,
+    "after_dedupe": 45
+  },
+  "degraded_sources": [
+    {
+      "id": "dorahacks",
+      "reason": "HTTPStatusError: Client error '404 Page not found: /api/hackathon/?format=json&page_size=50' for url 'https://dorahacks.io/api/hackathon/?format=json&page_size=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "id": "competehub",
+      "reason": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.competehub.dev/zh'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
+  "categories": [
+    {
+      "key": "startup_project",
+      "label": "AI Agent创业项目",
+      "items": [
+        {
+          "title": "Why are AI agents lying, cheating and coordinating?",
+          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+          "summary": "HN 4 points / 1 comments",
+          "published_at": "2026-09-13T09:22:31+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+            }
+          ],
+          "extra": {
+            "hn_id": "49678969",
+            "points": 4,
+            "comments": 1
+          },
+          "uid": "ae1c0b143270a4ac",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Teaching Novice Computing and Programming in the Agentic AI Era",
+          "url": "https://cs.brown.edu/people/sk/Publications/Papers/Published/fkl-teach-nov-agentic-ai-era/paper.pdf",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-13T04:56:04+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://cs.brown.edu/people/sk/Publications/Papers/Published/fkl-teach-nov-agentic-ai-era/paper.pdf"
+            }
+          ],
+          "extra": {
+            "hn_id": "49677108",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "5068f9028fdda50b",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "AgentRuleBench, does AI agents violate inferred architecture rules?",
+          "url": "https://github.com/Tommkruix/agentrulebench",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-13T03:57:08+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/Tommkruix/agentrulebench"
+            }
+          ],
+          "extra": {
+            "hn_id": "49676575",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "55b00a8880103f44",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Come prove the Berge Fulkerson conjecture with a swarm of agents",
+          "url": "https://provetogether.ai/problems/15",
+          "summary": "HN 5 points / 0 comments",
+          "published_at": "2026-09-13T03:38:38+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://provetogether.ai/problems/15"
+            }
+          ],
+          "extra": {
+            "hn_id": "49676363",
+            "points": 5,
+            "comments": 0
+          },
+          "uid": "978f90c5526edbc3",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "AI 安全担忧升温，三大 AI 巨头相继呼吁放缓前沿模型发展",
+          "url": "https://readhub.cn/topic/8wN9ouHg1Yu",
+          "summary": "Anthropic CEO 达里奥・阿莫代伊发文称公司将引入第三方评估机构等新安全措施，呼吁全行业支持放缓 AI 模型发展，OpenAI CEO 奥尔特曼表示将采纳赋予独立评估机构类员工访问权限的建议，埃隆・马斯克认同达里奥的观点。不过当前竞争激烈的 AI 行业此前几乎无协调放慢开发速度的先例，各公司一直推新抢占市场，目前尚不清楚这些头部 AI 公司会在多大程度上落实新限制或安全检查。",
+          "published_at": "2026-09-13T00:40:54+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wN9ouHg1Yu"
+            }
+          ],
+          "extra": {},
+          "uid": "e63fb2f38c844fdf",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "You Didn't Deploy the AI Agent You Evaluated",
+          "url": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated",
+          "summary": "HN 4 points / 0 comments",
+          "published_at": "2026-09-13T00:39:13+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated"
+            }
+          ],
+          "extra": {
+            "hn_id": "49674222",
+            "points": 4,
+            "comments": 0
+          },
+          "uid": "018083ce249fd9bf",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "王云鹤创业后交出首个模型",
+          "url": "https://www.qbitai.com/2026/09/485555.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/485555.html"
+            }
+          ],
+          "extra": {},
+          "uid": "3c7bc55437765981",
+          "score": 4,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "investment_direction",
+      "label": "投资机构看好的AI Agent方向",
+      "items": [
+        {
+          "title": "AI 安全担忧升温，三大 AI 巨头相继呼吁放缓前沿模型发展",
+          "url": "https://readhub.cn/topic/8wN9ouHg1Yu",
+          "summary": "Anthropic CEO 达里奥・阿莫代伊发文称公司将引入第三方评估机构等新安全措施，呼吁全行业支持放缓 AI 模型发展，OpenAI CEO 奥尔特曼表示将采纳赋予独立评估机构类员工访问权限的建议，埃隆・马斯克认同达里奥的观点。不过当前竞争激烈的 AI 行业此前几乎无协调放慢开发速度的先例，各公司一直推新抢占市场，目前尚不清楚这些头部 AI 公司会在多大程度上落实新限制或安全检查。",
+          "published_at": "2026-09-13T00:40:54+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wN9ouHg1Yu"
+            }
+          ],
+          "extra": {},
+          "uid": "e63fb2f38c844fdf",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "奥尔特曼：OpenAI 今年不会上市 仍有大量安全工作需要完成",
+          "url": "https://readhub.cn/topic/8wNGFTZZzoT",
+          "summary": "OpenAI 创始人奥尔特曼称公司今年不会上市，也不会在 2026 年上市，目前仍有大量安全工作需完成。此前外界因 Anthropic 员工辞职发出的 AI 能力警告，对 AI 可能引发「末日式情景」担忧升温，奥尔特曼是在此背景下表态。市场原本预计 OpenAI 和 Anthropic 今年都可能进行大规模 IPO，奥尔特曼的表态将上市压力更多留给了 Anthropic CEO 达里奥・阿莫代伊，尤其是后者此前警告 AI 发展需放缓之后。",
+          "published_at": "2026-09-12T20:10:42+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wNGFTZZzoT"
+            }
+          ],
+          "extra": {},
+          "uid": "bd2a11193207223f",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
+          "url": "https://www.qbitai.com/2026/09/486934.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/486934.html"
+            }
+          ],
+          "extra": {},
+          "uid": "dd6498b708cc88fb",
+          "score": 3,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "key": "new_product",
+      "label": "涌现的新AI应用/Agent产品",
+      "items": [
+        {
+          "title": "Why are AI agents lying, cheating and coordinating?",
+          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+          "summary": "HN 4 points / 1 comments",
+          "published_at": "2026-09-13T09:22:31+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+            }
+          ],
+          "extra": {
+            "hn_id": "49678969",
+            "points": 4,
+            "comments": 1
+          },
+          "uid": "ae1c0b143270a4ac",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "AgentsDock: An IDE designed for agentic AI research",
+          "url": "https://agentsdock.net/",
+          "summary": "HN 8 points / 2 comments",
+          "published_at": "2026-09-13T07:45:58+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://agentsdock.net/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49678435",
+            "points": 8,
+            "comments": 2
+          },
+          "uid": "ffba553be4623c6f",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "A full-duplex AI phone agent that listens while speaking",
+          "url": "https://www.famulor.io",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-13T06:42:43+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.famulor.io"
+            }
+          ],
+          "extra": {
+            "hn_id": "49677986",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "c8b18470944f17e4",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Open-sourced solution to AI manage Playwright automations",
+          "url": "https://github.com/rakutentech/sorify",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-13T06:00:47+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/rakutentech/sorify"
+            }
+          ],
+          "extra": {
+            "hn_id": "49677653",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "7c8020a58fe04ad9",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Teaching Novice Computing and Programming in the Agentic AI Era",
+          "url": "https://cs.brown.edu/people/sk/Publications/Papers/Published/fkl-teach-nov-agentic-ai-era/paper.pdf",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-13T04:56:04+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://cs.brown.edu/people/sk/Publications/Papers/Published/fkl-teach-nov-agentic-ai-era/paper.pdf"
+            }
+          ],
+          "extra": {
+            "hn_id": "49677108",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "5068f9028fdda50b",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "AgentRuleBench, does AI agents violate inferred architecture rules?",
+          "url": "https://github.com/Tommkruix/agentrulebench",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-13T03:57:08+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/Tommkruix/agentrulebench"
+            }
+          ],
+          "extra": {
+            "hn_id": "49676575",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "55b00a8880103f44",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Come prove the Berge Fulkerson conjecture with a swarm of agents",
+          "url": "https://provetogether.ai/problems/15",
+          "summary": "HN 5 points / 0 comments",
+          "published_at": "2026-09-13T03:38:38+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://provetogether.ai/problems/15"
+            }
+          ],
+          "extra": {
+            "hn_id": "49676363",
+            "points": 5,
+            "comments": 0
+          },
+          "uid": "978f90c5526edbc3",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "You Didn't Deploy the AI Agent You Evaluated",
+          "url": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated",
+          "summary": "HN 4 points / 0 comments",
+          "published_at": "2026-09-13T00:39:13+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.anuclei.com/blog/you-didnt-deploy-the-agent-you-evaluated"
+            }
+          ],
+          "extra": {
+            "hn_id": "49674222",
+            "points": 4,
+            "comments": 0
+          },
+          "uid": "018083ce249fd9bf",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Codex 产品负责人：已修复 Astra 多项质量问题，今日午夜前将重置",
+          "url": "https://readhub.cn/topic/8wM9If5tRwK",
+          "summary": "OpenAI Codex 产品负责人 Tibo 针对近期 Astra 用户反馈的质量问题发布更新，称团队已发现并修复多项缺陷，将在北京时间今日中午 12 点前进行重置。团队修复的问题包括旧模型技能触发异常、禁用了影响约 4000 至 5000 名用户的上下文管理实验、移除配置不当的引擎，还做了一些小改进，整体体验将有明显提升。",
+          "published_at": "2026-09-12T19:11:04+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wM9If5tRwK"
+            }
+          ],
+          "extra": {},
+          "uid": "5bb005e9b8e17a7e",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Agentica – Six AI agents that plan, build, and deploy a company with you",
+          "url": "https://ai-biz.dev/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-12T18:17:12+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://ai-biz.dev/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49670861",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "fd156e03794eb8e2",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "rizqinrr/viserys-agent",
+          "url": "https://github.com/rizqinrr/viserys-agent",
+          "summary": "",
+          "published_at": "2026-09-12T16:51:29Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/rizqinrr/viserys-agent"
+            }
+          ],
+          "extra": {
+            "stars": 626,
+            "language": "JavaScript"
+          },
+          "uid": "7b8ce9257cf1831e",
+          "score": 2,
+          "featured": true
+        },
+        {
+          "title": "govin-ai/dunhuang-aura-skill",
+          "url": "https://github.com/govin-ai/dunhuang-aura-skill",
+          "summary": "",
+          "published_at": "2026-09-12T12:53:03Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/govin-ai/dunhuang-aura-skill"
+            }
+          ],
+          "extra": {
+            "stars": 39,
+            "language": "Python"
+          },
+          "uid": "279bc8018fa5a4ea",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Chuloo/mural",
+          "url": "https://github.com/Chuloo/mural",
+          "summary": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
+          "published_at": "2026-09-12T11:51:08Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Chuloo/mural"
+            }
+          ],
+          "extra": {
+            "stars": 130,
+            "language": "Swift"
+          },
+          "uid": "41108b824867c175",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "QApilot MCP for Android",
+          "url": "https://www.producthunt.com/products/qapilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Android app testing inside your coding agent",
+          "published_at": "2026-09-12T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/qapilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 180,
+            "topics": [
+              "Software Engineering",
+              "Artificial Intelligence",
+              "Development"
+            ]
+          },
+          "uid": "58954c2056111796",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "ABrush — AI Studio for Digital Artists",
+          "url": "https://www.producthunt.com/products/abrush-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "AI Studio for Digital Artists",
+          "published_at": "2026-09-12T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/abrush-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 121,
+            "topics": [
+              "Design Tools",
+              "Productivity",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "c40af0d284e6e942",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "Qiuner/birdview",
+          "url": "https://github.com/Qiuner/birdview",
+          "summary": "Stop letting AI code blind. Map the architecture before every change with Birdview.",
+          "published_at": "2026-09-12T06:59:27Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Qiuner/birdview"
+            }
+          ],
+          "extra": {
+            "stars": 89,
+            "language": "JavaScript"
+          },
+          "uid": "bd3720048ab31b83",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Xu123-Bob/Baize",
+          "url": "https://github.com/Xu123-Bob/Baize",
+          "summary": "白泽 —— 中国古代神话中通晓万物的瑞兽，如今化身为 Vibe Coding 助手。  一个开源的 AI Coding Agent CLI，支持多后端（DeepSeek / OpenAI 兼容 / Ollama 本地），具备工具调用、技能加载、子代理委派、上下文压缩、安全沙箱等完整能力。在终端即可与 AI 结对编程。",
+          "published_at": "2026-09-12T05:17:38Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Xu123-Bob/Baize"
+            }
+          ],
+          "extra": {
+            "stars": 67,
+            "language": "JavaScript"
+          },
+          "uid": "91646f5c7c975a89",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "kruzovic7/ai-data-extractor",
+          "url": "https://github.com/kruzovic7/ai-data-extractor",
+          "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+          "published_at": "2026-09-11T18:12:58Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/kruzovic7/ai-data-extractor"
+            }
+          ],
+          "extra": {
+            "stars": 178,
+            "language": "Python"
+          },
+          "uid": "ec0a3d27713df2cb",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "arumwu/local-workspace-mcp",
+          "url": "https://github.com/arumwu/local-workspace-mcp",
+          "summary": "Self-hosted MCP for local files, terminal processes, Office documents and named computers",
+          "published_at": "2026-09-11T13:44:46Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/arumwu/local-workspace-mcp"
+            }
+          ],
+          "extra": {
+            "stars": 46,
+            "language": "Python"
+          },
+          "uid": "0e516d028a7a0b1e",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "WestFox-AwA/dsh-prompt-optimizer",
+          "url": "https://github.com/WestFox-AwA/dsh-prompt-optimizer",
+          "summary": "",
+          "published_at": "2026-09-11T10:42:22Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/WestFox-AwA/dsh-prompt-optimizer"
+            }
+          ],
+          "extra": {
+            "stars": 30,
+            "language": "JavaScript"
+          },
+          "uid": "8264393fc642d984",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Hona/openeval",
+          "url": "https://github.com/Hona/openeval",
+          "summary": "Typed prompt-and-judge SDK, CLI, and evidence viewer for agent evaluations",
+          "published_at": "2026-09-11T10:03:31Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Hona/openeval"
+            }
+          ],
+          "extra": {
+            "stars": 57,
+            "language": "TypeScript"
+          },
+          "uid": "a386009dea9bbab2",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "LuxUmbra697/DSH-Desktop",
+          "url": "https://github.com/LuxUmbra697/DSH-Desktop",
+          "summary": "把 DeepSeek Harness 装进一个独立窗口：双击即用、免终端、免浏览器，支持插件改造，载荷可裁到 210 MB（便携包 74.8 MB），内置运行环境探测与 DSH 就地更新。",
+          "published_at": "2026-09-11T09:44:39Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/LuxUmbra697/DSH-Desktop"
+            }
+          ],
+          "extra": {
+            "stars": 51,
+            "language": "C#"
+          },
+          "uid": "6bdc63aff0342c91",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "wyuzhi/qisi-video-remix",
+          "url": "https://github.com/wyuzhi/qisi-video-remix",
+          "summary": "视频创意改编 Agent Skill：参考视频 → 剧本 → 分镜 → 分段生成提示词。By qisi.",
+          "published_at": "2026-09-11T08:50:18Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wyuzhi/qisi-video-remix"
+            }
+          ],
+          "extra": {
+            "stars": 75,
+            "language": null
+          },
+          "uid": "e31f94453cb0ee37",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "Anysite.io",
+          "url": "https://www.producthunt.com/products/anysite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Build and enrich B2B lists by chatting to your agent",
+          "published_at": "2026-09-11T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/anysite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 460,
+            "topics": [
+              "Sales",
+              "Marketing",
+              "Developer Tools"
+            ]
+          },
+          "uid": "46530434f01e28bf",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "easyspecs.ai",
+          "url": "https://www.producthunt.com/products/easyspecs-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "The spec review platform",
+          "published_at": "2026-09-11T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/easyspecs-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 153,
+            "topics": [
+              "SaaS",
+              "Developer Tools",
+              "Development"
+            ]
+          },
+          "uid": "74847268e2c3d0e8",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "chat-recall",
+          "url": "https://www.producthunt.com/products/chat-recall?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Ctrl+F for every conversation you've had with an AI",
+          "published_at": "2026-09-11T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/chat-recall?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 95,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence",
+              "Security"
+            ]
+          },
+          "uid": "7ba719bfb6b3421e",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "eternityspring/reelbench-skills",
+          "url": "https://github.com/eternityspring/reelbench-skills",
+          "summary": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+          "published_at": "2026-09-11T04:55:49Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/eternityspring/reelbench-skills"
+            }
+          ],
+          "extra": {
+            "stars": 338,
+            "language": "HTML"
+          },
+          "uid": "be0162c8c073f2f3",
+          "score": 2,
+          "featured": true
+        },
+        {
+          "title": "html-diagram — 可编辑HTML图表的Claude Code技能",
+          "url": "https://github.com/tonywjs/html-diagram",
+          "summary": "편집 가능한 HTML 도식을 만드는 Claude Code 스킬. 문서 자체가 에디터.",
+          "published_at": "2026-09-11T04:06:06Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/tonywjs/html-diagram"
+            }
+          ],
+          "extra": {
+            "stars": 74,
+            "language": "HTML"
+          },
+          "uid": "67a9ea52b3fe5a66",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "browser-use/life-recorder",
+          "url": "https://github.com/browser-use/life-recorder",
+          "summary": "",
+          "published_at": "2026-09-11T02:51:50Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/browser-use/life-recorder"
+            }
+          ],
+          "extra": {
+            "stars": 203,
+            "language": "Swift"
+          },
+          "uid": "d696c4e79e8699bc",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "南鸢·人像角色设定师",
+          "url": "https://github.com/nuyoah-ai-works/nuyoah-portrait-character-designer",
+          "summary": "南鸢·人像角色设定师：把人物气质转成脸部结构、妆容与完整中文提示词",
+          "published_at": "2026-09-11T02:11:49Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/nuyoah-ai-works/nuyoah-portrait-character-designer"
+            }
+          ],
+          "extra": {
+            "stars": 67,
+            "language": "Python"
+          },
+          "uid": "010d395c7c241ecb",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "Kimi K2.8发布：性能逼近K3，百万上下文全员开放",
+          "url": "https://www.qbitai.com/2026/09/487688.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/487688.html"
+            }
+          ],
+          "extra": {},
+          "uid": "8d6f27c070d6069c",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "百度秒哒再升级",
+          "url": "https://www.qbitai.com/2026/09/487415.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/487415.html"
+            }
+          ],
+          "extra": {},
+          "uid": "034c9de49624cdf2",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "王云鹤创业后交出首个模型",
+          "url": "https://www.qbitai.com/2026/09/485555.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/485555.html"
+            }
+          ],
+          "extra": {},
+          "uid": "3c7bc55437765981",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "银行Agent上岗：4200万小微经营者可用",
+          "url": "https://www.qbitai.com/2026/09/487631.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/487631.html"
+            }
+          ],
+          "extra": {},
+          "uid": "00cf27ef8c061a31",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "“吃货快乐榜”也全面AI化了",
+          "url": "https://www.qbitai.com/2026/09/487282.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/487282.html"
+            }
+          ],
+          "extra": {},
+          "uid": "191f5d44ea964c3a",
+          "score": 2,
+          "featured": false
+        },
+        {
+          "title": "ChatGPT Images 2.5上线",
+          "url": "https://www.qbitai.com/2026/09/486684.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/486684.html"
+            }
+          ],
+          "extra": {},
+          "uid": "e711223057168bb9",
+          "score": 4,
+          "featured": true
+        },
+        {
+          "title": "蓝色光标与AhaCreator达成深度合作",
+          "url": "https://www.qbitai.com/2026/09/486651.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/486651.html"
+            }
+          ],
+          "extra": {},
+          "uid": "7cc65b19ad9522fe",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "实测星火X2.5",
+          "url": "https://www.qbitai.com/2026/09/486350.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/486350.html"
+            }
+          ],
+          "extra": {},
+          "uid": "a48774978c21c3b9",
+          "score": 3,
+          "featured": false
+        },
+        {
+          "title": "国内首份办公Agent用户行为报告发布",
+          "url": "https://www.qbitai.com/2026/09/485064.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/485064.html"
+            }
+          ],
+          "extra": {},
+          "uid": "942e0c4ce068e0d3",
+          "score": 4,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_online",
+      "label": "线上AI应用/Agent黑客松",
+      "items": [
+        {
+          "title": "「爆款开场计划」AI短片大赛",
+          "url": "https://www.waytoagi.com/events/580",
+          "summary": "2026-08-27 ~ 2026-10-10「爆款开场计划」AI短片大赛报名开启20万奖金池！查看活动详情",
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/580"
+            }
+          ],
+          "extra": {
+            "start": "2026-08-27",
+            "end": "2026-10-10",
+            "format_hint": "unknown",
+            "hackathon": {
+              "start": "2026-08-27",
+              "end": "2026-10-10",
+              "format": "线上",
+              "location": "",
+              "register_url": ""
+            }
+          },
+          "uid": "fb67b4656c2c80e7",
+          "score": 3,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_offline_cn",
+      "label": "线下（中国大陆）AI应用/Agent黑客松",
+      "items": [
+        {
+          "title": "Anker 首届黑客松挑战赛",
+          "url": "https://www.waytoagi.com/events/586",
+          "summary": "2026-09-07 ~ 2026-10-17Anker 首届黑客松挑战赛让创造发生 · 让世界看见查看活动详情",
+          "published_at": "2026-09-07T00:00:00+08:00",
+          "categories": [
+            "hackathon_offline_cn"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/586"
+            }
+          ],
+          "extra": {
+            "start": "2026-09-07",
+            "end": "2026-10-17",
+            "format_hint": "unknown",
+            "hackathon": {
+              "start": "2026-09-07",
+              "end": "2026-10-17",
+              "format": "线下",
+              "location": "",
+              "register_url": ""
+            }
+          },
+          "uid": "0fcd36de9dba313b",
+          "score": 3,
+          "featured": true
+        },
+        {
+          "title": "B站首届AI创造公开赛",
+          "url": "https://www.qbitai.com/2026/09/484890.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "hackathon_offline_cn"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/484890.html"
+            }
+          ],
+          "extra": {
+            "hackathon": {
+              "start": "",
+              "end": "2026-09-06",
+              "format": "线下",
+              "location": "",
+              "register_url": ""
+            }
+          },
+          "uid": "0f2ba2b7fd6eb76d",
+          "score": 3,
+          "featured": true
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "daily_brief": "- Anthropic CEO 达里奥・阿莫代伊发文呼吁全行业放缓前沿模型发展，并宣布引入第三方评估机构等新安全措施；OpenAI CEO 奥尔特曼表示将采纳赋予独立评估机构类员工访问权限的建议，马斯克公开认同阿莫代伊的观点。\n- 奥尔特曼明确表示 OpenAI 今年不会上市，也不会在 2026 年上市，称仍有大量安全工作需要完成，此前市场原本预计 OpenAI 与 Anthropic 今年都可能进行大规模 IPO。\n- OpenAI Codex 产品负责人 Tibo 称已修复 Astra 的多项质量问题，包括旧模型技能触发异常、影响约 4000 至 5000 名用户的上下文管理实验被禁用、配置不当的引擎被移除，并将在北京时间今日中午 12 点前重置。\n- Kimi 发布 K2.8，官方称性能逼近 K3，百万上下文向全员开放。\n- 银行 Agent 上岗，4200 万小微经营者可用；国内首份办公 Agent 用户行为报告同期发布。\n- 王云鹤创业后交出首个模型，百度秒哒再升级，ChatGPT Images 2.5 上线。",
+    "product_insights": "## 今日值得注意的产品\n\n**Anysite.io** 做的是让用户通过对话让 agent 生成和补全 B2B 客户名单，面向销售和市场团队，在 Product Hunt 拿到 460 票。B2B 名单构建的既有做法是买数据库或写爬虫脚本，前者数据陈旧、后者维护成本高。用对话驱动 agent 做补全，把\"筛条件\"变成\"描述目标客户\"，对非技术销售来说门槛确实降了一档。风险在于名单质量很难当场验证，用户第一次拿到错数据就会流失。\n\n**QApilot MCP for Android** 把 Android 应用测试塞进编码 agent 里，开发者不用切出 IDE 就能跑真机测试，180 票。移动端自动化测试长期被 Appium 这类工具占据，配置繁琐、脚本和业务代码分离。MCP 这种接法让测试动作成为 agent 可调用的一个工具，好处是测试和修 bug 在同一个上下文里完成，省掉来回切换。它能不能成立取决于 MCP 客户端本身的稳定性，而不是这个插件。\n\n**chat-recall** 是给所有 AI 对话做 Ctrl+F 的检索工具，95 票。真实问题很明确：一个人同时在 ChatGPT、Claude、Cursor 里积累了几千条对话，想找回某次结论只能靠记忆翻。它做的是跨平台索引，价值随使用时长增长。难点在数据获取，各平台导出能力参差，本地存储方案要用户自己承担隐私权衡。\n\n**百度秒哒再升级** 和 **银行 Agent 上岗（4200 万小微经营者可用）** 是今天国内两条落地信号。前者是低代码生成类产品的迭代，后者把 agent 放进银行信贷流程服务小微客户。银行场景的特点是流程固定、合规要求硬，agent 在这里能跑通说明它处理的是有明确规则边界的任务，而不是开放式对话。这类场景的替换成本高，一旦接入就很难换掉。\n\n**Kimi K2.8** 发布，官方称性能逼近 K3，百万上下文全员开放。上下文长度从差异化卖点变成标配，这个趋势对长文档处理类应用是利好，对靠\"长上下文\"做溢价的厂商是压力。全员开放意味着不再按档位限制，会直接改变用户的输入习惯。\n\n## 可以借鉴的做法\n\n**把测试、检索、名单构建这类动作做成 agent 可调用的工具，而不是独立应用。** 用户已经在 IDE 或对话界面里，多开一个窗口就是多一次流失，嵌进去的留存明显更好。\n\n**给 agent 建规则基准测试，比如 AgentRuleBench 检查 agent 是否违反推断出的架构规则。** 架构约束是代码评审里最容易被 agent 忽略的部分，把它变成可自动检查的项，比事后人工 review 便宜。\n\n**开源聊天历史提取器，覆盖 Claude Code、Cursor、Windsurf、Aider 等多个工具。** 用户的数据散在各家平台，谁先提供统一出口谁就拿到这批数据的使用权，后续做检索或分析都以此为入口。\n\n**把模型能力做成 CLI 加多后端支持，比如白泽支持 DeepSeek、OpenAI 兼容和本地 Ollama。** 用户对后端的选择会变，绑定单一供应商的工具有迁移成本，多后端让切换只改配置。\n\n**为 agent 评估提供带类型的 prompt-and-judge SDK 和证据查看器，如 openeval。** 评估结果的争议往往出在\"凭什么这么判\"，把判断依据可视化能减少团队内部对分数的扯皮。",
+    "hackathon_trends": "## 主办方在关注什么\n\n**用 AI 直接产出内容，尤其是视频。** 「爆款开场计划」AI短片大赛把 20 万奖金池押在\"开场\"这一个环节上，说明主办方真正想看的不是完整成片，而是前几秒能不能抓住人——这是短视频时代最值钱也最难做的一段。B站首届AI创造公开赛虽然简介留白，但从平台属性推断，大概率也在找能直接发布、能带来播放的内容形态。做内容的人现在有了明确的用武之地。\n\n**硬件与 AI 的结合正在被认真对待。** Anker 首届黑客松挑战赛是这家做充电和储能的公司第一次办黑客松，线下形式、一个多月的周期，给了足够时间把想法做成能摸到的东西。和纯软件比赛不同，这类赛事更看重作品能不能真的用起来，对做端侧模型、智能硬件交互、嵌入式 AI 的团队是个信号。\n\n**平台方在抢创作者，而不只是抢技术。** B站亲自下场办 AI 创造公开赛，时间卡在 9 月初结束，节奏很紧。这不像是要选技术方案，更像是要提前签下一批能用 AI 稳定产出的创作者。对参赛者来说，技术分可能不是唯一标准，作品在平台上的传播潜力同样重要。\n\n## 选题建议\n\n**做\"三秒钩子\"的 AI 短片，把开场当作独立作品来打磨。** 「爆款开场计划」明确把评判重心放在开场，与其花力气铺完整叙事，不如反复迭代前 3 到 5 秒的视觉冲击和情绪节奏，现在动手正好赶得上 10 月截止。\n\n**给 Anker 这类硬件公司做一个\"能演示\"的 AI 功能原型。** 首届比赛通常评委更宽容、更想看新东西，把一个具体的日常场景（比如充电安全提醒、储能调度建议）做成可交互的 demo，比讲宏大故事更容易被记住，报名 9 月 7 日开放，准备时间还算充裕。\n\n**如果想押 B站，就做适合二创和传播的 AI 内容模板。** 平台办赛往往希望赛后能持续产出，与其交一个孤立的作品，不如交一套别人能跟着用的方法或工具，9 月 6 日就截止，得尽快定方向。"
+  }
+}
