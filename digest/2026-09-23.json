@@ -1,0 +1,4007 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T10:34:17+08:00",
+  "stats": {
+    "raw_items": 128,
+    "after_dedupe": 108
+  },
+  "degraded_sources": [
+    {
+      "id": "qbitai",
+      "reason": "RemoteProtocolError: Server disconnected without sending a response."
+    },
+    {
+      "id": "dorahacks",
+      "reason": "HTTPStatusError: Client error '404 Page not found: /api/hackathon/?format=json&page_size=50' for url 'https://dorahacks.io/api/hackathon/?format=json&page_size=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "id": "competehub",
+      "reason": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.competehub.dev/zh'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
+  "categories": [
+    {
+      "key": "startup_project",
+      "label": "AI Agent创业项目",
+      "items": [
+        {
+          "title": "Wiki Foundation Model for Complex Agentic Reasoning",
+          "url": "https://academy.dair.ai/papers/wfm-wiki-foundation-model-for-complex-agentic-reasoning-2609.18182",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T10:01:17+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://academy.dair.ai/papers/wfm-wiki-foundation-model-for-complex-agentic-reasoning-2609.18182"
+            }
+          ],
+          "extra": {
+            "hn_id": "49810764",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "169be0da45fc9957",
+          "featured": false
+        },
+        {
+          "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-23T08:54:48+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424"
+            }
+          ],
+          "extra": {
+            "hn_id": "49810295",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "e0ffb209158958cb",
+          "featured": false
+        },
+        {
+          "title": "The new CC, an AI agent built for families",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+          "summary": "HN 36 points / 45 comments",
+          "published_at": "2026-09-23T07:46:07+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49809806",
+            "points": 36,
+            "comments": 45
+          },
+          "uid": "281410b55e051cb9",
+          "featured": false
+        },
+        {
+          "title": "Show HN: A fast, offline Markdown viewer for macOS built in Swift",
+          "url": "https://github.com/temir-dev/tims-markdown-reader",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-23T06:39:45+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/temir-dev/tims-markdown-reader"
+            }
+          ],
+          "extra": {
+            "hn_id": "49809267",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "bc5d121ed83d4564",
+          "featured": false
+        },
+        {
+          "title": "Autonomous AI Agents Are Breaking into Online Retailers",
+          "url": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-09-23T06:00:20+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company"
+            }
+          ],
+          "extra": {
+            "hn_id": "49808771",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "4e2cdff813bb3dba",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support",
+          "url": "https://jade.email/",
+          "summary": "HN 3 points / 4 comments",
+          "published_at": "2026-09-23T05:46:57+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://jade.email/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49808620",
+            "points": 3,
+            "comments": 4
+          },
+          "uid": "28a9bfa89a60656b",
+          "featured": false
+        },
+        {
+          "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+          "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
+          "summary": "HN 11 points / 0 comments",
+          "published_at": "2026-09-23T05:43:04+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202"
+            }
+          ],
+          "extra": {
+            "hn_id": "49808565",
+            "points": 11,
+            "comments": 0
+          },
+          "uid": "49964e25947f48ba",
+          "featured": false
+        },
+        {
+          "title": "Open source tool for building hierarchical agent loops",
+          "url": "https://github.com/plasma-ai/fractal",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T03:55:16+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/plasma-ai/fractal"
+            }
+          ],
+          "extra": {
+            "hn_id": "49807198",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "88ea8a72c4518509",
+          "featured": false
+        },
+        {
+          "title": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
+          "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
+          "summary": "HN 3 points / 1 comments",
+          "published_at": "2026-09-23T03:35:04+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49806928",
+            "points": 3,
+            "comments": 1
+          },
+          "uid": "c3548d192288775c",
+          "featured": false
+        },
+        {
+          "title": "第二次中国 — 新西兰新能源汽车对话在京举行",
+          "url": "https://readhub.cn/topic/8weEXixcfue",
+          "summary": "工业和信息化部总工程师王卫明与新西兰城市、环境、区域和交通部副部长克里斯・尼斯在北京共同主持召开第二次中新新能源汽车对话。双方均表示，该对话机制是落实两国领导人重要共识的务实举措、为相关领域政策交流搭建了重要平台，愿继续在新能源汽车领域加强对话交流与合作。此前双方曾于去年 12 月在新西兰惠灵顿举行首次中新新能源汽车对话，为两国产业合作奠定了重要基础。",
+          "published_at": "2026-09-23T02:20:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weEXixcfue"
+            }
+          ],
+          "extra": {},
+          "uid": "3c7975235216a1c7",
+          "featured": false
+        },
+        {
+          "title": "阿里巴巴将在芬兰荷兰建数据中心 扩大多国布局",
+          "url": "https://readhub.cn/topic/8weIu5TkpQ5",
+          "summary": "阿里巴巴将在芬兰和荷兰建设数据中心，同时扩大在德国、法国和阿联酋的数据中心布局。",
+          "published_at": "2026-09-23T02:20:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weIu5TkpQ5"
+            }
+          ],
+          "extra": {},
+          "uid": "b4a6f0c8ff76f3bc",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Notes on Agentic AI – A text-first guide for practicing engineers",
+          "url": "https://github.com/mrsachindixit/agentixit",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T02:19:28+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/mrsachindixit/agentixit"
+            }
+          ],
+          "extra": {
+            "hn_id": "49805807",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "4a70a5896cbdf6eb",
+          "featured": false
+        },
+        {
+          "title": "Meta Tests Muse AI Agent Calls That Are Made by Humans in a Call Center",
+          "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+          "summary": "HN 6 points / 0 comments",
+          "published_at": "2026-09-23T02:15:57+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49805751",
+            "points": 6,
+            "comments": 0
+          },
+          "uid": "aed259d0a79846a7",
+          "featured": false
+        },
+        {
+          "title": "Unreal Agent",
+          "url": "https://unreallabs.ai/blog/unreal-agent/",
+          "summary": "HN 138 points / 83 comments",
+          "published_at": "2026-09-23T02:15:53+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://unreallabs.ai/blog/unreal-agent/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49805748",
+            "points": 138,
+            "comments": 83
+          },
+          "uid": "0ae28eab3fcb4464",
+          "featured": true
+        },
+        {
+          "title": "阿里云发布企业级 Agent 平台 AgentCore",
+          "url": "https://readhub.cn/topic/8weHNUfVclj",
+          "summary": "云栖大会期间，阿里云发布企业级 Agent 平台 AgentCore，旨在通过更原生的人机协作方式以及更完整的 Agent 构建和治理平台能力，提升企业生产力。",
+          "published_at": "2026-09-23T02:15:30+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weHNUfVclj"
+            }
+          ],
+          "extra": {},
+          "uid": "cac6568428dea3fb",
+          "featured": false
+        },
+        {
+          "title": "传祺越 7 正式上市 权益价 16.18 万至 20.78 万 上市 30 分钟订单破 1.6 万台",
+          "url": "https://readhub.cn/topic/8we872lxCaX",
+          "summary": "传祺越 7 于 9 月 22 日正式上市，上市权益价 16.18 万-20.78 万元，上市 30 分钟订单突破 16815 台。该车定位全场景智享硬核 SUV，主打兼顾城市通勤与家庭越野出行，拥有原创八方美学外观、星际屏车机系统、广汽全栈自研星源插混系统、高阶智驾配置、三把锁与 AI 全地形大师系统、闭式双腔空簧等硬核配置，还支持丰富的无损拓展改装，车身安全与耐久表现突出。发布会同步推出专属服务生态「祺野天下」，围绕用户越野生活提供全链路保障，上市期间还推出了多项购车相关权益。",
+          "published_at": "2026-09-23T02:05:25+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we872lxCaX"
+            }
+          ],
+          "extra": {},
+          "uid": "dc91d16b0ad82a38",
+          "featured": false
+        },
+        {
+          "title": "苹果关闭 Apple Park 访客中心 AR 体验区 改为零售空间",
+          "url": "https://readhub.cn/topic/8weAEOBj4Ss",
+          "summary": "苹果今年夏天关闭 Apple Park 访客中心部分区域进行改造，目前该空间已重新开放，最大变化是移除了此前用于沉浸式探索 Apple Park 的增强现实体验区，将该区域改造为传统 Apple Store 的延伸空间，增设配件展示区与产品陈列桌，访客中心的咖啡馆等其余部分保持不变。",
+          "published_at": "2026-09-23T01:50:54+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAEOBj4Ss"
+            }
+          ],
+          "extra": {},
+          "uid": "b9cde0b367f48b9f",
+          "featured": false
+        },
+        {
+          "title": "我国首个环岛天然气管网海南管网累计输气超 350 亿立方米",
+          "url": "https://readhub.cn/topic/8weGenbvTTV",
+          "summary": "我国首个环岛天然气管网海南管网累计输气超 350 亿立方米，为海南自由贸易港和清洁能源岛建设提供坚实支撑。",
+          "published_at": "2026-09-23T01:50:54+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weGenbvTTV"
+            }
+          ],
+          "extra": {},
+          "uid": "66c722677b45e93a",
+          "featured": false
+        },
+        {
+          "title": "深圳华强：存储产品线出货额同比增超 330% MLCC 高端产能紧张交期拉长",
+          "url": "https://readhub.cn/topic/8wdP3pXT7fS",
+          "summary": "深圳华强披露，当前 MLCC 市场处于 AI 算力建设驱动的高景气周期，AI 服务器大幅增加高容 MLCC 用量并挤压消费级产能，高端产能紧张、建设周期长，短期新增供给难快速释放，采购需求上升，整体交期拉长，公司 2026 年上半年 MLCC 销售收入保持增长。公司作为多家存储厂商的重要代理商，2026 年上半年存储类产品线出货额同比增幅超 330%，相关业务收入占授权分销业务收入总额比例超 40%。",
+          "published_at": "2026-09-23T01:40:48+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wdP3pXT7fS"
+            }
+          ],
+          "extra": {},
+          "uid": "b98f5a2406a22062",
+          "featured": false
+        },
+        {
+          "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+          "url": "https://www.coveragecat.com/",
+          "summary": "HN 44 points / 28 comments",
+          "published_at": "2026-09-23T01:26:36+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.coveragecat.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49804931",
+            "points": 44,
+            "comments": 28
+          },
+          "uid": "566be4095e3a6aff",
+          "featured": false
+        },
+        {
+          "title": "Omdia：上半年全球 AI 眼镜出货量 420 万台 同比增长 127%",
+          "url": "https://readhub.cn/topic/8wd7CXbxw2o",
+          "summary": "2026 年上半年全球 AI 眼镜出货量达 420 万台，同比增长 127%。当前 AI 眼镜仍处于新兴品类发展阶段，随着市场从较低基数持续扩大，增速正逐步趋于稳定，同时不同镜框设计的竞争日益加剧，用户隐私问题受到更多关注，市场环境正变得更加复杂。",
+          "published_at": "2026-09-23T01:25:25+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wd7CXbxw2o"
+            }
+          ],
+          "extra": {},
+          "uid": "13669dc9bc20e2da",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Nomoreda – Browser EDA, MCP-Friendly, KiCad/Altium-Compatible",
+          "url": "https://nomoreda.com/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T01:24:57+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://nomoreda.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49804897",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "75ad91af3f4a9e31",
+          "featured": false
+        },
+        {
+          "title": "高端 MLCC 缺货严重 华强北相关商家爆单价格看涨",
+          "url": "https://readhub.cn/topic/8weAEQUVItL",
+          "summary": "当前 MLCC 市场供货紧张，原厂因需求旺盛多数签了长协，外流出货少，其中 AI 类、部分高端 MLCC 价格波动大、缺货严重。作为国内 MLCC 现货集散地之一的深圳华强电子世界一层聚集了全球主要 MLCC 品牌柜台，各类规格产品齐全。业内普遍认为 AI 类 MLCC 未来较长时间将持续缺货、价格看涨，消费类 MLCC 价格走势则取决于原厂扩产情况及消费电子市场需求情况。",
+          "published_at": "2026-09-23T01:20:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAEQUVItL"
+            }
+          ],
+          "extra": {},
+          "uid": "243a08f0230eb85b",
+          "featured": false
+        },
+        {
+          "title": "嵌化合生完成数千万 Pre-A 轮融资，用于长效多肽及偶联药物开发",
+          "url": "https://readhub.cn/topic/8weAESJlFn6",
+          "summary": "成都嵌化合生医药科技有限公司 2022 年成立，聚焦蛋白质工程与合成生物学交叉领域，致力于长效多肽及偶联药物开发，近日完成数千万人民币 Pre-A 轮融资，由道远资本领投，成都科创投跟投，点石资本担任本轮独家财务顾问，资金将主要用于完善特有的嵌合翻译系统技术平台及现有候选分子的临床前研究。公司依托全球首创的嵌合翻译系统技术，可在原核、真核细胞内特定位点高效引入超百种非天然氨基酸，赋予蛋白质新的结构与功能属性，解决了含非天然氨基酸的长链多肽药物合成难点，底层平台可工程化放大。公司管线布局代谢慢病多靶多肽药物、无义突变遗传病创新药，核心科学工作衔接浙江大学基础研究，创始人林世贤博士拥有顶尖学术背景与产业转化能力，已组建专业全职转化团队，相关管线已获得明确药效和药代结果。本轮投资方及财务顾问均看好公司底层技术的平台价值与管线的发展前景。",
+          "published_at": "2026-09-23T01:15:24+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAESJlFn6"
+            }
+          ],
+          "extra": {},
+          "uid": "021083afb4f917f6",
+          "featured": false
+        },
+        {
+          "title": "报告：预计 2026 年中国智能算力规模同比增长 87.9%",
+          "url": "https://readhub.cn/topic/8weEVPudumW",
+          "summary": "联合发布的《2026 年中国人工智能计算力发展评估报告》指出，智能体正重塑算力基础设施，推动 Token 消耗激增，带动中国智能算力规模增速大幅上调，算力跃升为与水利、电网、铁路等同等级的国家战略基础设施。报告预计，受智能体数量与 Token 消耗快速增长带动，算力需求持续攀升，2026 年中国智能算力规模预计达 2576.5 EFLOPS，同比增长 87.9%，2030 年将进一步达 10524.3 EFLOPS，2025-2030 年中国智能算力规模复合增长率由此前预测的 46.2% 提升至 50.3%。",
+          "published_at": "2026-09-23T01:15:23+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weEVPudumW"
+            }
+          ],
+          "extra": {},
+          "uid": "0ac2a921919562a8",
+          "featured": false
+        },
+        {
+          "title": "苹果新款 Mac 作为本地 AI 机器向企业推销 无需按 token 付费",
+          "url": "https://readhub.cn/topic/8we1exRiOsR",
+          "summary": "苹果新款 Mac mini 和 Mac Studio 台式机周二开始出货，苹果将其作为无需支付按 token 计费云费用的本地 AI 机器向企业推销，称四台设备组成的堆栈可通过 Thunderbolt 5 及 RDMA 连接，仅用一个电源插座就能运行万亿参数 AI 模型，分布式 AI 推理速度最高比单台机器快三倍，相关 AI 模型还可向下适配 iPhone、iPad。目前 M6 Mac mini 起售价 899 美元，入门款价格因内存成本上涨 100 美元，M5 Ultra Mac Studio 起售价 5499 美元，最高配 20000 美元、搭载 512GB 统一内存的 M5 Ultra Mac Studio 要到 10 月底出货。当前苹果在企业台式机和笔记本电脑市场份额约 4.6%，远低于 Windows 的 91.3%，微软正联合芯片厂商以端侧 AI 布局同赛道，英伟达等也在推出相关 AI 台式机产品。",
+          "published_at": "2026-09-23T01:10:37+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we1exRiOsR"
+            }
+          ],
+          "extra": {},
+          "uid": "650ce953209fe646",
+          "featured": false
+        },
+        {
+          "title": "华为 Mate XT 2 非凡大师手写笔套装开售 定价 29999 元",
+          "url": "https://readhub.cn/topic/8weAwPMcjqV",
+          "summary": "华为 Mate XT 2 非凡大师手写笔套装全渠道开售，为 16GB + 2TB 锦紫配色版本，标配灵盾防窥屏，定价 29999 元，是当前华为官方渠道标价最高的手机产品。套装除手机外还包含 M-Pen 3 Mini 手写笔与定制保护壳，购机另赠价值 499 元的旋转支架保护壳。M-Pen 3 Mini 延迟低至 2ms，配合 HarmonyOS 7 全局手写识别可满足笔记、PDF 批改、绘图等需求，便携性优于平板加触控笔组合。该套装机型核心配置与普通版一致，搭载麒麟 9050 Pro 芯片，性能较上代提升 42%，首发 HarmonyOS 7，配备 10.2 英寸 3K 内屏与 6.5 英寸外屏，支持 IP58 / 59 级防尘抗水，首次实现折叠屏硬件级防窥，该存储规格为系列最高。套装面向有高频移动办公和创作需求的人群，三屏态下可同时开启多类软件并直接用笔操作，强化了产品移动生产力工具的定位。",
+          "published_at": "2026-09-23T01:10:37+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAwPMcjqV"
+            }
+          ],
+          "extra": {},
+          "uid": "b4fc21a1d781b575",
+          "featured": false
+        },
+        {
+          "title": "中信证券：建议关注 Kimi 等基座模型厂商和 AI 应用生态发展潜力",
+          "url": "https://readhub.cn/topic/8weBehW31X3",
+          "summary": "月之暗面发布 Kimi 金融行业解决方案，整合多个权威数据源、多项金融技能与合规安全措施，具备机构级数据建模和报告交付能力，目前已有数十家金融机构基于相关 Kimi 产品开展业务创新或共建金融方案。AI 竞争正从模型能力转向场景落地比拼，行业解决方案可将通用模型能力沉淀为专业金融工作流，实现显著提效，支撑智能体进入真实业务流程。当前基座模型能力提升、商业化快速放量，商业模式正从标准化 API 服务迈向垂直行业纵深变现，金融场景有望成为提升收入质量与客户黏性的关键抓手，基座模型厂商及 AI 应用生态具备发展潜力。",
+          "published_at": "2026-09-23T00:50:36+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weBehW31X3"
+            }
+          ],
+          "extra": {},
+          "uid": "12d5c64be3c03540",
+          "featured": false
+        },
+        {
+          "title": "抖音公告打击违规导流 近一个月处置烟草类违规账号 5368 个",
+          "url": "https://readhub.cn/topic/8wdMFQTS7s9",
+          "summary": "抖音黑板报发布公告称严厉打击各类违规导流内容，对相关违规内容及账号采取梯度处置，对涉嫌违法犯罪的线索依法固定证据并上报主管部门。部分违规用户以日常分享等方式隐晦宣传烟草、捕猎野生动物等内容，借助暗语黑话等为站外交易导流，平台通过多种方式开展治理。公告披露多起典型违规案例，近一个月平台因违规宣传烟草类内容处置账号 5368 个。",
+          "published_at": "2026-09-23T00:45:24+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wdMFQTS7s9"
+            }
+          ],
+          "extra": {},
+          "uid": "b30f93005511df10",
+          "featured": false
+        },
+        {
+          "title": "海外 MLCC 龙头涨价 融资客加仓多只 MLCC 概念股",
+          "url": "https://readhub.cn/topic/8we9Vsqo2AS",
+          "summary": "近期全球 MLCC 龙头陆续上调产品报价，核心驱动力为算力产业链对高容量型号的强劲拉动，AI 服务器与高速光模块对 MLCC 用量呈指数级提升，行业结构性缺口持续扩大，伴随本土厂商产能释放、产品升级，MLCC 产业链有望迎来业绩兑现期。下半年以来融资客加仓多只 MLCC 概念股，截至 9 月 21 日，斯迪克、风华高科、双星新材、昀冢科技 4 股融资净买入额均超 5000 万元，分别为 10.82 亿元、3.70 亿元、8167.71 万元、7443.88 万元。",
+          "published_at": "2026-09-23T00:45:23+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we9Vsqo2AS"
+            }
+          ],
+          "extra": {},
+          "uid": "97485cdd88864f96",
+          "featured": false
+        },
+        {
+          "title": "微软旗下 Xbox 部门正在进行新一轮裁员",
+          "url": "https://readhub.cn/topic/8wdVXUcFRtM",
+          "summary": "微软旗下 Xbox 部门正在进行新一轮裁员，并将其部分游戏工作室整合至动视旗下管理。",
+          "published_at": "2026-09-23T00:45:23+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wdVXUcFRtM"
+            }
+          ],
+          "extra": {},
+          "uid": "882c4b6f86b97e9a",
+          "featured": false
+        },
+        {
+          "title": "古尔曼称苹果酝酿 homeOS：整合多系统特性，服务智能家居中枢",
+          "url": "https://readhub.cn/topic/8weAwFBcRh0",
+          "summary": "苹果正在研发融合 iOS、watchOS 与 tvOS 界面特征的智能家居中枢系统，预估名为 homeOS。该系统采用应用图标网格布局，提供组件和可定制时钟表盘，将预装在类似 HomePod 设计、整合 6 或 7 英寸方形显示屏的智能家居中枢设备上，设备内置人脸识别功能，可展示对应个性化信息。Siri AI 为系统交互核心，设备支持 FaceTime 视频通话、家庭安防监控等多项功能，平台还可能预装新的 Siri 应用用于 Siri AI 对话。",
+          "published_at": "2026-09-23T00:45:22+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAwFBcRh0"
+            }
+          ],
+          "extra": {},
+          "uid": "85288760a4e175cd",
+          "featured": false
+        },
+        {
+          "title": "亚洲开发银行略微上调亚太发展中经济体增长预期",
+          "url": "https://readhub.cn/topic/8weAGAOuiiP",
+          "summary": "亚开行发布《2026 年亚洲发展展望（9 月版）》，指出亚太发展中经济体增速虽较去年放缓但仍具韧性，预计 2026 年该区域发展中经济体增长率为 5.0%，较 7 月预测略有上调，低于 2025 年的 5.5%，2027 年增速预测维持 5.1% 不变。报告提及今年强厄尔尼诺现象将拖累增长、加剧价格压力，将 2026 年该区域通胀率预测下调至 4.2%，2027 年通胀率小幅上调至 3.5%。",
+          "published_at": "2026-09-23T00:20:41+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAGAOuiiP"
+            }
+          ],
+          "extra": {},
+          "uid": "b923c94bbac6599c",
+          "featured": false
+        },
+        {
+          "title": "消息称苹果推迟 AI 吊坠项目，暂未公布后续上市计划",
+          "url": "https://readhub.cn/topic/8we3nkHhR4B",
+          "summary": "苹果曾研发一款形态类似挂坠、可佩戴在颈部、夹在衣物上或固定于身体其他部位的带摄像头人工智能可穿戴设备，目前该项目已被推迟，苹果暂未公布后续上市计划。",
+          "published_at": "2026-09-23T00:20:41+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we3nkHhR4B"
+            }
+          ],
+          "extra": {},
+          "uid": "a2f5868c17293167",
+          "featured": false
+        },
+        {
+          "title": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
+          "url": "https://ai-rete-rag.com/",
+          "summary": "HN 34 points / 2 comments",
+          "published_at": "2026-09-23T00:15:06+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://ai-rete-rag.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49803683",
+            "points": 34,
+            "comments": 2
+          },
+          "uid": "ff407be6a0900597",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Kado – Search to Allow Personal Agents to Find Agent Apps",
+          "url": "https://kado.so",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-22T23:36:46+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://kado.so"
+            }
+          ],
+          "extra": {
+            "hn_id": "49803059",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "0c184d4757075c8f",
+          "featured": false
+        },
+        {
+          "title": "Show HN: DrivingBench – Frontier LLMs Driving a Real Toyota Corolla",
+          "url": "https://drivingbench.com/",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-22T22:29:43+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://drivingbench.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49801925",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "18c511d8742ebf23",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Venya lets AI agents use secrets without seeing them",
+          "url": "https://github.com/tabith-llc/venya",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-22T21:56:28+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/tabith-llc/venya"
+            }
+          ],
+          "extra": {
+            "hn_id": "49801376",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "c8973d9031833a21",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Relay – a self-hosted LLM gateway with smart routing and request pacing",
+          "url": "https://github.com/anchorshell/relay",
+          "summary": "HN 2 points / 3 comments",
+          "published_at": "2026-09-22T20:32:33+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/anchorshell/relay"
+            }
+          ],
+          "extra": {
+            "hn_id": "49800187",
+            "points": 2,
+            "comments": 3
+          },
+          "uid": "785385404399699b",
+          "featured": false
+        },
+        {
+          "title": "miuuyy/Astra-Ares — Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage.",
+          "url": "https://github.com/miuuyy/Astra-Ares",
+          "summary": "Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage.",
+          "published_at": "2026-09-22T14:10:07Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/miuuyy/Astra-Ares"
+            }
+          ],
+          "extra": {
+            "stars": 161,
+            "language": "JavaScript"
+          },
+          "uid": "73be2969491af5c6",
+          "featured": false
+        },
+        {
+          "title": "edison-land/paragravity — Native, non-invasive parallel multi-account & sandbox manager for Google Antigravity",
+          "url": "https://github.com/edison-land/paragravity",
+          "summary": "Native, non-invasive parallel multi-account & sandbox manager for Google Antigravity",
+          "published_at": "2026-09-22T09:51:33Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/edison-land/paragravity"
+            }
+          ],
+          "extra": {
+            "stars": 63,
+            "language": "Python"
+          },
+          "uid": "d58a783349d697f0",
+          "featured": false
+        },
+        {
+          "title": "rgem227/knoweldge-base — Personal or team knowledge base, supports MCP API calls.",
+          "url": "https://github.com/rgem227/knoweldge-base",
+          "summary": "Personal or team knowledge base, supports MCP API calls.",
+          "published_at": "2026-09-22T04:28:59Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/rgem227/knoweldge-base"
+            }
+          ],
+          "extra": {
+            "stars": 121,
+            "language": "Python"
+          },
+          "uid": "4fb5745a05a4cd8c",
+          "featured": false
+        },
+        {
+          "title": "yibie/jev-engineering-zh — 《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图",
+          "url": "https://github.com/yibie/jev-engineering-zh",
+          "summary": "《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图",
+          "published_at": "2026-09-22T04:28:47Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/yibie/jev-engineering-zh"
+            }
+          ],
+          "extra": {
+            "stars": 70,
+            "language": null
+          },
+          "uid": "a545711fa6d834ed",
+          "featured": false
+        },
+        {
+          "title": "lhlGitHub/threejs-architecture-effects — An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
+          "url": "https://github.com/lhlGitHub/threejs-architecture-effects",
+          "summary": "An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
+          "published_at": "2026-09-22T03:01:05Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/lhlGitHub/threejs-architecture-effects"
+            }
+          ],
+          "extra": {
+            "stars": 114,
+            "language": "TypeScript"
+          },
+          "uid": "30863f69943b6295",
+          "featured": false
+        },
+        {
+          "title": "kydlikebtc/awesome-jev — 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilingual EN/中文, JSON schema, and a cross-platform compatibility table.",
+          "url": "https://github.com/kydlikebtc/awesome-jev",
+          "summary": "805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilingual EN/中文, JSON schema, and a cross-platform compatibility table.",
+          "published_at": "2026-09-22T02:22:54Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/kydlikebtc/awesome-jev"
+            }
+          ],
+          "extra": {
+            "stars": 161,
+            "language": "Python"
+          },
+          "uid": "9a8025219d91b620",
+          "featured": false
+        },
+        {
+          "title": "JunMa11/MedJev",
+          "url": "https://github.com/JunMa11/MedJev",
+          "summary": "",
+          "published_at": "2026-09-22T01:53:56Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/JunMa11/MedJev"
+            }
+          ],
+          "extra": {
+            "stars": 54,
+            "language": "Python"
+          },
+          "uid": "cb5110f78aa6e7d7",
+          "featured": false
+        },
+        {
+          "title": "unreallabsai/unreal-agent — Async-first agent harness",
+          "url": "https://github.com/unreallabsai/unreal-agent",
+          "summary": "Async-first agent harness",
+          "published_at": "2026-09-21T23:14:02Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/unreallabsai/unreal-agent"
+            }
+          ],
+          "extra": {
+            "stars": 1025,
+            "language": "Go"
+          },
+          "uid": "7a2c931fe4102412",
+          "featured": true
+        },
+        {
+          "title": "Michael-Jiahao-Zhang/game-the-llm-reviewer — Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "summary": "Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "published_at": "2026-09-21T23:11:47Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer"
+            }
+          ],
+          "extra": {
+            "stars": 104,
+            "language": null
+          },
+          "uid": "a3609e4ccf2b2a99",
+          "featured": false
+        },
+        {
+          "title": "ipenywis/laya-ultrafast — Same as jev-ultrafast but using Laya",
+          "url": "https://github.com/ipenywis/laya-ultrafast",
+          "summary": "Same as jev-ultrafast but using Laya",
+          "published_at": "2026-09-21T22:21:52Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/ipenywis/laya-ultrafast"
+            }
+          ],
+          "extra": {
+            "stars": 116,
+            "language": "Python"
+          },
+          "uid": "c347940d8c83cab5",
+          "featured": false
+        },
+        {
+          "title": "unicodef1wn/lauren-poteto-rules — Engineering rules for building trustworthy coding-agent workflows, inspired by Lauren Tan.",
+          "url": "https://github.com/unicodef1wn/lauren-poteto-rules",
+          "summary": "Engineering rules for building trustworthy coding-agent workflows, inspired by Lauren Tan.",
+          "published_at": "2026-09-21T16:44:51Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/unicodef1wn/lauren-poteto-rules"
+            }
+          ],
+          "extra": {
+            "stars": 65,
+            "language": null
+          },
+          "uid": "f653c5eee7028ab2",
+          "featured": false
+        },
+        {
+          "title": "malevrigns/agent-jev — AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
+          "url": "https://github.com/malevrigns/agent-jev",
+          "summary": "AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
+          "published_at": "2026-09-21T16:24:42Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/malevrigns/agent-jev"
+            }
+          ],
+          "extra": {
+            "stars": 217,
+            "language": "Python"
+          },
+          "uid": "341acac317acfbaa",
+          "featured": false
+        },
+        {
+          "title": "jev-chat/jev-chat-windows — 微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+          "url": "https://github.com/jev-chat/jev-chat-windows",
+          "summary": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+          "published_at": "2026-09-21T14:37:14Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jev-chat/jev-chat-windows"
+            }
+          ],
+          "extra": {
+            "stars": 288,
+            "language": "Python"
+          },
+          "uid": "d491b1b5d3b8c1cc",
+          "featured": false
+        },
+        {
+          "title": "CTNicholas/jev-workflow-builder",
+          "url": "https://github.com/CTNicholas/jev-workflow-builder",
+          "summary": "",
+          "published_at": "2026-09-21T14:31:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/CTNicholas/jev-workflow-builder"
+            }
+          ],
+          "extra": {
+            "stars": 133,
+            "language": "TypeScript"
+          },
+          "uid": "813103c96ee53ee8",
+          "featured": false
+        },
+        {
+          "title": "virajbhartiya/laya-vs-jev — Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording",
+          "url": "https://github.com/virajbhartiya/laya-vs-jev",
+          "summary": "Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording",
+          "published_at": "2026-09-21T14:30:39Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/virajbhartiya/laya-vs-jev"
+            }
+          ],
+          "extra": {
+            "stars": 85,
+            "language": "Python"
+          },
+          "uid": "162148f341d7f553",
+          "featured": false
+        },
+        {
+          "title": "haibarazz/awesome-codex-research",
+          "url": "https://github.com/haibarazz/awesome-codex-research",
+          "summary": "",
+          "published_at": "2026-09-21T14:08:06Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/haibarazz/awesome-codex-research"
+            }
+          ],
+          "extra": {
+            "stars": 101,
+            "language": "Python"
+          },
+          "uid": "c4e0da6ea6e13655",
+          "featured": false
+        },
+        {
+          "title": "Futureppo/typesafe_register — typesafe.ai注册机，极致优化，无限jev",
+          "url": "https://github.com/Futureppo/typesafe_register",
+          "summary": "typesafe.ai注册机，极致优化，无限jev",
+          "published_at": "2026-09-21T13:21:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Futureppo/typesafe_register"
+            }
+          ],
+          "extra": {
+            "stars": 114,
+            "language": "Python"
+          },
+          "uid": "5304bfa904533416",
+          "featured": false
+        },
+        {
+          "title": "jev-chat/jev-chat-jarvis-mac — 微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
+          "url": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+          "summary": "微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
+          "published_at": "2026-09-21T11:39:32Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jev-chat/jev-chat-jarvis-mac"
+            }
+          ],
+          "extra": {
+            "stars": 206,
+            "language": "Python"
+          },
+          "uid": "637a7155e573932a",
+          "featured": false
+        },
+        {
+          "title": "jev-chat/jev-chat-jarvis — 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+          "url": "https://github.com/jev-chat/jev-chat-jarvis",
+          "summary": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+          "published_at": "2026-09-21T11:12:53Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jev-chat/jev-chat-jarvis"
+            }
+          ],
+          "extra": {
+            "stars": 4046,
+            "language": "Kotlin"
+          },
+          "uid": "6cf30f044df65ecb",
+          "featured": true
+        },
+        {
+          "title": "TianyuCodings/JevHarness — LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
+          "url": "https://github.com/TianyuCodings/JevHarness",
+          "summary": "LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
+          "published_at": "2026-09-21T08:59:46Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/TianyuCodings/JevHarness"
+            }
+          ],
+          "extra": {
+            "stars": 143,
+            "language": "Python"
+          },
+          "uid": "69b7d5e6e51603e2",
+          "featured": false
+        },
+        {
+          "title": "f/jev-leftpad — Left-pad strings with TypeSafe AI's Jev. For reasons.",
+          "url": "https://github.com/f/jev-leftpad",
+          "summary": "Left-pad strings with TypeSafe AI's Jev. For reasons.",
+          "published_at": "2026-09-21T08:34:36Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/f/jev-leftpad"
+            }
+          ],
+          "extra": {
+            "stars": 82,
+            "language": "JavaScript"
+          },
+          "uid": "b30c5e3506663df2",
+          "featured": false
+        },
+        {
+          "title": "mater1996/travel-planning — travel planning",
+          "url": "https://github.com/mater1996/travel-planning",
+          "summary": "travel planning",
+          "published_at": "2026-09-21T07:44:55Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/mater1996/travel-planning"
+            }
+          ],
+          "extra": {
+            "stars": 114,
+            "language": "Python"
+          },
+          "uid": "a5247f27b975ecee",
+          "featured": false
+        },
+        {
+          "title": "fstandhartinger/chat-seek-vscode — Local VS Code search across Claude Code, Codex, and OpenCode chats with Laya reranking",
+          "url": "https://github.com/fstandhartinger/chat-seek-vscode",
+          "summary": "Local VS Code search across Claude Code, Codex, and OpenCode chats with Laya reranking",
+          "published_at": "2026-09-21T06:17:12Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/fstandhartinger/chat-seek-vscode"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": "JavaScript"
+          },
+          "uid": "794d9760d699d861",
+          "featured": false
+        },
+        {
+          "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "url": "https://github.com/nokia-applied-research/AnyJev",
+          "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "published_at": "2026-09-21T05:55:40Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/nokia-applied-research/AnyJev"
+            }
+          ],
+          "extra": {
+            "stars": 69,
+            "language": "Python"
+          },
+          "uid": "ec0e6d23ae9f18dc",
+          "featured": false
+        },
+        {
+          "title": "awdqwdasdg/Comfyui-Spectrum-Qwen2.1 — Literal Slop.",
+          "url": "https://github.com/awdqwdasdg/Comfyui-Spectrum-Qwen2.1",
+          "summary": "Literal Slop.",
+          "published_at": "2026-09-21T05:14:57Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/awdqwdasdg/Comfyui-Spectrum-Qwen2.1"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": "Python"
+          },
+          "uid": "e1e91ae983e87ee5",
+          "featured": false
+        },
+        {
+          "title": "OnlistTeam/ai-manager — AI Manager desktop application for AI coding tools",
+          "url": "https://github.com/OnlistTeam/ai-manager",
+          "summary": "AI Manager desktop application for AI coding tools",
+          "published_at": "2026-09-21T05:07:53Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/OnlistTeam/ai-manager"
+            }
+          ],
+          "extra": {
+            "stars": 101,
+            "language": "Rust"
+          },
+          "uid": "b8f668a6b88a1659",
+          "featured": false
+        },
+        {
+          "title": "HeyPuter/builder — 📦✨ AI Builder For Creating Sites and Apps! An open-source alternative to Lovable, Replit, v0, and similar platforms.",
+          "url": "https://github.com/HeyPuter/builder",
+          "summary": "📦✨ AI Builder For Creating Sites and Apps! An open-source alternative to Lovable, Replit, v0, and similar platforms.",
+          "published_at": "2026-09-21T03:45:45Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/HeyPuter/builder"
+            }
+          ],
+          "extra": {
+            "stars": 97,
+            "language": "JavaScript"
+          },
+          "uid": "ef1083bda0828e1b",
+          "featured": false
+        },
+        {
+          "title": "freestylefly/WeChatBridge — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+          "url": "https://github.com/freestylefly/WeChatBridge",
+          "summary": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+          "published_at": "2026-09-21T02:54:51Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/freestylefly/WeChatBridge"
+            }
+          ],
+          "extra": {
+            "stars": 299,
+            "language": "Swift"
+          },
+          "uid": "d6f7b5cedec7d459",
+          "featured": false
+        },
+        {
+          "title": "deepopen-com/deepopen — 非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine.",
+          "url": "https://github.com/deepopen-com/deepopen",
+          "summary": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+          "published_at": "2026-09-21T02:12:24Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/deepopen-com/deepopen"
+            }
+          ],
+          "extra": {
+            "stars": 210,
+            "language": "Python"
+          },
+          "uid": "89b8bdaf190e6bef",
+          "featured": false
+        },
+        {
+          "title": "Rizzo-AI-Academy/rizzo-flow — The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+          "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+          "summary": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+          "published_at": "2026-09-21T00:00:02Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow"
+            }
+          ],
+          "extra": {
+            "stars": 347,
+            "language": "Python"
+          },
+          "uid": "935e96afe1fdbc97",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "investment_direction",
+      "label": "投资机构看好的AI Agent方向",
+      "items": [
+        {
+          "title": "第二次中国 — 新西兰新能源汽车对话在京举行",
+          "url": "https://readhub.cn/topic/8weEXixcfue",
+          "summary": "工业和信息化部总工程师王卫明与新西兰城市、环境、区域和交通部副部长克里斯・尼斯在北京共同主持召开第二次中新新能源汽车对话。双方均表示，该对话机制是落实两国领导人重要共识的务实举措、为相关领域政策交流搭建了重要平台，愿继续在新能源汽车领域加强对话交流与合作。此前双方曾于去年 12 月在新西兰惠灵顿举行首次中新新能源汽车对话，为两国产业合作奠定了重要基础。",
+          "published_at": "2026-09-23T02:20:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weEXixcfue"
+            }
+          ],
+          "extra": {},
+          "uid": "3c7975235216a1c7",
+          "featured": false
+        },
+        {
+          "title": "阿里巴巴将在芬兰荷兰建数据中心 扩大多国布局",
+          "url": "https://readhub.cn/topic/8weIu5TkpQ5",
+          "summary": "阿里巴巴将在芬兰和荷兰建设数据中心，同时扩大在德国、法国和阿联酋的数据中心布局。",
+          "published_at": "2026-09-23T02:20:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weIu5TkpQ5"
+            }
+          ],
+          "extra": {},
+          "uid": "b4a6f0c8ff76f3bc",
+          "featured": false
+        },
+        {
+          "title": "阿里云发布企业级 Agent 平台 AgentCore",
+          "url": "https://readhub.cn/topic/8weHNUfVclj",
+          "summary": "云栖大会期间，阿里云发布企业级 Agent 平台 AgentCore，旨在通过更原生的人机协作方式以及更完整的 Agent 构建和治理平台能力，提升企业生产力。",
+          "published_at": "2026-09-23T02:15:30+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weHNUfVclj"
+            }
+          ],
+          "extra": {},
+          "uid": "cac6568428dea3fb",
+          "featured": false
+        },
+        {
+          "title": "传祺越 7 正式上市 权益价 16.18 万至 20.78 万 上市 30 分钟订单破 1.6 万台",
+          "url": "https://readhub.cn/topic/8we872lxCaX",
+          "summary": "传祺越 7 于 9 月 22 日正式上市，上市权益价 16.18 万-20.78 万元，上市 30 分钟订单突破 16815 台。该车定位全场景智享硬核 SUV，主打兼顾城市通勤与家庭越野出行，拥有原创八方美学外观、星际屏车机系统、广汽全栈自研星源插混系统、高阶智驾配置、三把锁与 AI 全地形大师系统、闭式双腔空簧等硬核配置，还支持丰富的无损拓展改装，车身安全与耐久表现突出。发布会同步推出专属服务生态「祺野天下」，围绕用户越野生活提供全链路保障，上市期间还推出了多项购车相关权益。",
+          "published_at": "2026-09-23T02:05:25+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we872lxCaX"
+            }
+          ],
+          "extra": {},
+          "uid": "dc91d16b0ad82a38",
+          "featured": false
+        },
+        {
+          "title": "苹果关闭 Apple Park 访客中心 AR 体验区 改为零售空间",
+          "url": "https://readhub.cn/topic/8weAEOBj4Ss",
+          "summary": "苹果今年夏天关闭 Apple Park 访客中心部分区域进行改造，目前该空间已重新开放，最大变化是移除了此前用于沉浸式探索 Apple Park 的增强现实体验区，将该区域改造为传统 Apple Store 的延伸空间，增设配件展示区与产品陈列桌，访客中心的咖啡馆等其余部分保持不变。",
+          "published_at": "2026-09-23T01:50:54+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAEOBj4Ss"
+            }
+          ],
+          "extra": {},
+          "uid": "b9cde0b367f48b9f",
+          "featured": false
+        },
+        {
+          "title": "我国首个环岛天然气管网海南管网累计输气超 350 亿立方米",
+          "url": "https://readhub.cn/topic/8weGenbvTTV",
+          "summary": "我国首个环岛天然气管网海南管网累计输气超 350 亿立方米，为海南自由贸易港和清洁能源岛建设提供坚实支撑。",
+          "published_at": "2026-09-23T01:50:54+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weGenbvTTV"
+            }
+          ],
+          "extra": {},
+          "uid": "66c722677b45e93a",
+          "featured": false
+        },
+        {
+          "title": "深圳华强：存储产品线出货额同比增超 330% MLCC 高端产能紧张交期拉长",
+          "url": "https://readhub.cn/topic/8wdP3pXT7fS",
+          "summary": "深圳华强披露，当前 MLCC 市场处于 AI 算力建设驱动的高景气周期，AI 服务器大幅增加高容 MLCC 用量并挤压消费级产能，高端产能紧张、建设周期长，短期新增供给难快速释放，采购需求上升，整体交期拉长，公司 2026 年上半年 MLCC 销售收入保持增长。公司作为多家存储厂商的重要代理商，2026 年上半年存储类产品线出货额同比增幅超 330%，相关业务收入占授权分销业务收入总额比例超 40%。",
+          "published_at": "2026-09-23T01:40:48+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wdP3pXT7fS"
+            }
+          ],
+          "extra": {},
+          "uid": "b98f5a2406a22062",
+          "featured": false
+        },
+        {
+          "title": "Omdia：上半年全球 AI 眼镜出货量 420 万台 同比增长 127%",
+          "url": "https://readhub.cn/topic/8wd7CXbxw2o",
+          "summary": "2026 年上半年全球 AI 眼镜出货量达 420 万台，同比增长 127%。当前 AI 眼镜仍处于新兴品类发展阶段，随着市场从较低基数持续扩大，增速正逐步趋于稳定，同时不同镜框设计的竞争日益加剧，用户隐私问题受到更多关注，市场环境正变得更加复杂。",
+          "published_at": "2026-09-23T01:25:25+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wd7CXbxw2o"
+            }
+          ],
+          "extra": {},
+          "uid": "13669dc9bc20e2da",
+          "featured": false
+        },
+        {
+          "title": "高端 MLCC 缺货严重 华强北相关商家爆单价格看涨",
+          "url": "https://readhub.cn/topic/8weAEQUVItL",
+          "summary": "当前 MLCC 市场供货紧张，原厂因需求旺盛多数签了长协，外流出货少，其中 AI 类、部分高端 MLCC 价格波动大、缺货严重。作为国内 MLCC 现货集散地之一的深圳华强电子世界一层聚集了全球主要 MLCC 品牌柜台，各类规格产品齐全。业内普遍认为 AI 类 MLCC 未来较长时间将持续缺货、价格看涨，消费类 MLCC 价格走势则取决于原厂扩产情况及消费电子市场需求情况。",
+          "published_at": "2026-09-23T01:20:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAEQUVItL"
+            }
+          ],
+          "extra": {},
+          "uid": "243a08f0230eb85b",
+          "featured": false
+        },
+        {
+          "title": "嵌化合生完成数千万 Pre-A 轮融资，用于长效多肽及偶联药物开发",
+          "url": "https://readhub.cn/topic/8weAESJlFn6",
+          "summary": "成都嵌化合生医药科技有限公司 2022 年成立，聚焦蛋白质工程与合成生物学交叉领域，致力于长效多肽及偶联药物开发，近日完成数千万人民币 Pre-A 轮融资，由道远资本领投，成都科创投跟投，点石资本担任本轮独家财务顾问，资金将主要用于完善特有的嵌合翻译系统技术平台及现有候选分子的临床前研究。公司依托全球首创的嵌合翻译系统技术，可在原核、真核细胞内特定位点高效引入超百种非天然氨基酸，赋予蛋白质新的结构与功能属性，解决了含非天然氨基酸的长链多肽药物合成难点，底层平台可工程化放大。公司管线布局代谢慢病多靶多肽药物、无义突变遗传病创新药，核心科学工作衔接浙江大学基础研究，创始人林世贤博士拥有顶尖学术背景与产业转化能力，已组建专业全职转化团队，相关管线已获得明确药效和药代结果。本轮投资方及财务顾问均看好公司底层技术的平台价值与管线的发展前景。",
+          "published_at": "2026-09-23T01:15:24+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAESJlFn6"
+            }
+          ],
+          "extra": {},
+          "uid": "021083afb4f917f6",
+          "featured": false
+        },
+        {
+          "title": "报告：预计 2026 年中国智能算力规模同比增长 87.9%",
+          "url": "https://readhub.cn/topic/8weEVPudumW",
+          "summary": "联合发布的《2026 年中国人工智能计算力发展评估报告》指出，智能体正重塑算力基础设施，推动 Token 消耗激增，带动中国智能算力规模增速大幅上调，算力跃升为与水利、电网、铁路等同等级的国家战略基础设施。报告预计，受智能体数量与 Token 消耗快速增长带动，算力需求持续攀升，2026 年中国智能算力规模预计达 2576.5 EFLOPS，同比增长 87.9%，2030 年将进一步达 10524.3 EFLOPS，2025-2030 年中国智能算力规模复合增长率由此前预测的 46.2% 提升至 50.3%。",
+          "published_at": "2026-09-23T01:15:23+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weEVPudumW"
+            }
+          ],
+          "extra": {},
+          "uid": "0ac2a921919562a8",
+          "featured": false
+        },
+        {
+          "title": "苹果新款 Mac 作为本地 AI 机器向企业推销 无需按 token 付费",
+          "url": "https://readhub.cn/topic/8we1exRiOsR",
+          "summary": "苹果新款 Mac mini 和 Mac Studio 台式机周二开始出货，苹果将其作为无需支付按 token 计费云费用的本地 AI 机器向企业推销，称四台设备组成的堆栈可通过 Thunderbolt 5 及 RDMA 连接，仅用一个电源插座就能运行万亿参数 AI 模型，分布式 AI 推理速度最高比单台机器快三倍，相关 AI 模型还可向下适配 iPhone、iPad。目前 M6 Mac mini 起售价 899 美元，入门款价格因内存成本上涨 100 美元，M5 Ultra Mac Studio 起售价 5499 美元，最高配 20000 美元、搭载 512GB 统一内存的 M5 Ultra Mac Studio 要到 10 月底出货。当前苹果在企业台式机和笔记本电脑市场份额约 4.6%，远低于 Windows 的 91.3%，微软正联合芯片厂商以端侧 AI 布局同赛道，英伟达等也在推出相关 AI 台式机产品。",
+          "published_at": "2026-09-23T01:10:37+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we1exRiOsR"
+            }
+          ],
+          "extra": {},
+          "uid": "650ce953209fe646",
+          "featured": false
+        },
+        {
+          "title": "华为 Mate XT 2 非凡大师手写笔套装开售 定价 29999 元",
+          "url": "https://readhub.cn/topic/8weAwPMcjqV",
+          "summary": "华为 Mate XT 2 非凡大师手写笔套装全渠道开售，为 16GB + 2TB 锦紫配色版本，标配灵盾防窥屏，定价 29999 元，是当前华为官方渠道标价最高的手机产品。套装除手机外还包含 M-Pen 3 Mini 手写笔与定制保护壳，购机另赠价值 499 元的旋转支架保护壳。M-Pen 3 Mini 延迟低至 2ms，配合 HarmonyOS 7 全局手写识别可满足笔记、PDF 批改、绘图等需求，便携性优于平板加触控笔组合。该套装机型核心配置与普通版一致，搭载麒麟 9050 Pro 芯片，性能较上代提升 42%，首发 HarmonyOS 7，配备 10.2 英寸 3K 内屏与 6.5 英寸外屏，支持 IP58 / 59 级防尘抗水，首次实现折叠屏硬件级防窥，该存储规格为系列最高。套装面向有高频移动办公和创作需求的人群，三屏态下可同时开启多类软件并直接用笔操作，强化了产品移动生产力工具的定位。",
+          "published_at": "2026-09-23T01:10:37+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAwPMcjqV"
+            }
+          ],
+          "extra": {},
+          "uid": "b4fc21a1d781b575",
+          "featured": false
+        },
+        {
+          "title": "中信证券：建议关注 Kimi 等基座模型厂商和 AI 应用生态发展潜力",
+          "url": "https://readhub.cn/topic/8weBehW31X3",
+          "summary": "月之暗面发布 Kimi 金融行业解决方案，整合多个权威数据源、多项金融技能与合规安全措施，具备机构级数据建模和报告交付能力，目前已有数十家金融机构基于相关 Kimi 产品开展业务创新或共建金融方案。AI 竞争正从模型能力转向场景落地比拼，行业解决方案可将通用模型能力沉淀为专业金融工作流，实现显著提效，支撑智能体进入真实业务流程。当前基座模型能力提升、商业化快速放量，商业模式正从标准化 API 服务迈向垂直行业纵深变现，金融场景有望成为提升收入质量与客户黏性的关键抓手，基座模型厂商及 AI 应用生态具备发展潜力。",
+          "published_at": "2026-09-23T00:50:36+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weBehW31X3"
+            }
+          ],
+          "extra": {},
+          "uid": "12d5c64be3c03540",
+          "featured": false
+        },
+        {
+          "title": "抖音公告打击违规导流 近一个月处置烟草类违规账号 5368 个",
+          "url": "https://readhub.cn/topic/8wdMFQTS7s9",
+          "summary": "抖音黑板报发布公告称严厉打击各类违规导流内容，对相关违规内容及账号采取梯度处置，对涉嫌违法犯罪的线索依法固定证据并上报主管部门。部分违规用户以日常分享等方式隐晦宣传烟草、捕猎野生动物等内容，借助暗语黑话等为站外交易导流，平台通过多种方式开展治理。公告披露多起典型违规案例，近一个月平台因违规宣传烟草类内容处置账号 5368 个。",
+          "published_at": "2026-09-23T00:45:24+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wdMFQTS7s9"
+            }
+          ],
+          "extra": {},
+          "uid": "b30f93005511df10",
+          "featured": false
+        },
+        {
+          "title": "海外 MLCC 龙头涨价 融资客加仓多只 MLCC 概念股",
+          "url": "https://readhub.cn/topic/8we9Vsqo2AS",
+          "summary": "近期全球 MLCC 龙头陆续上调产品报价，核心驱动力为算力产业链对高容量型号的强劲拉动，AI 服务器与高速光模块对 MLCC 用量呈指数级提升，行业结构性缺口持续扩大，伴随本土厂商产能释放、产品升级，MLCC 产业链有望迎来业绩兑现期。下半年以来融资客加仓多只 MLCC 概念股，截至 9 月 21 日，斯迪克、风华高科、双星新材、昀冢科技 4 股融资净买入额均超 5000 万元，分别为 10.82 亿元、3.70 亿元、8167.71 万元、7443.88 万元。",
+          "published_at": "2026-09-23T00:45:23+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we9Vsqo2AS"
+            }
+          ],
+          "extra": {},
+          "uid": "97485cdd88864f96",
+          "featured": false
+        },
+        {
+          "title": "微软旗下 Xbox 部门正在进行新一轮裁员",
+          "url": "https://readhub.cn/topic/8wdVXUcFRtM",
+          "summary": "微软旗下 Xbox 部门正在进行新一轮裁员，并将其部分游戏工作室整合至动视旗下管理。",
+          "published_at": "2026-09-23T00:45:23+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wdVXUcFRtM"
+            }
+          ],
+          "extra": {},
+          "uid": "882c4b6f86b97e9a",
+          "featured": false
+        },
+        {
+          "title": "古尔曼称苹果酝酿 homeOS：整合多系统特性，服务智能家居中枢",
+          "url": "https://readhub.cn/topic/8weAwFBcRh0",
+          "summary": "苹果正在研发融合 iOS、watchOS 与 tvOS 界面特征的智能家居中枢系统，预估名为 homeOS。该系统采用应用图标网格布局，提供组件和可定制时钟表盘，将预装在类似 HomePod 设计、整合 6 或 7 英寸方形显示屏的智能家居中枢设备上，设备内置人脸识别功能，可展示对应个性化信息。Siri AI 为系统交互核心，设备支持 FaceTime 视频通话、家庭安防监控等多项功能，平台还可能预装新的 Siri 应用用于 Siri AI 对话。",
+          "published_at": "2026-09-23T00:45:22+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAwFBcRh0"
+            }
+          ],
+          "extra": {},
+          "uid": "85288760a4e175cd",
+          "featured": false
+        },
+        {
+          "title": "亚洲开发银行略微上调亚太发展中经济体增长预期",
+          "url": "https://readhub.cn/topic/8weAGAOuiiP",
+          "summary": "亚开行发布《2026 年亚洲发展展望（9 月版）》，指出亚太发展中经济体增速虽较去年放缓但仍具韧性，预计 2026 年该区域发展中经济体增长率为 5.0%，较 7 月预测略有上调，低于 2025 年的 5.5%，2027 年增速预测维持 5.1% 不变。报告提及今年强厄尔尼诺现象将拖累增长、加剧价格压力，将 2026 年该区域通胀率预测下调至 4.2%，2027 年通胀率小幅上调至 3.5%。",
+          "published_at": "2026-09-23T00:20:41+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8weAGAOuiiP"
+            }
+          ],
+          "extra": {},
+          "uid": "b923c94bbac6599c",
+          "featured": false
+        },
+        {
+          "title": "消息称苹果推迟 AI 吊坠项目，暂未公布后续上市计划",
+          "url": "https://readhub.cn/topic/8we3nkHhR4B",
+          "summary": "苹果曾研发一款形态类似挂坠、可佩戴在颈部、夹在衣物上或固定于身体其他部位的带摄像头人工智能可穿戴设备，目前该项目已被推迟，苹果暂未公布后续上市计划。",
+          "published_at": "2026-09-23T00:20:41+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8we3nkHhR4B"
+            }
+          ],
+          "extra": {},
+          "uid": "a2f5868c17293167",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "key": "new_product",
+      "label": "涌现的新AI应用/Agent产品",
+      "items": [
+        {
+          "title": "Wiki Foundation Model for Complex Agentic Reasoning",
+          "url": "https://academy.dair.ai/papers/wfm-wiki-foundation-model-for-complex-agentic-reasoning-2609.18182",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T10:01:17+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://academy.dair.ai/papers/wfm-wiki-foundation-model-for-complex-agentic-reasoning-2609.18182"
+            }
+          ],
+          "extra": {
+            "hn_id": "49810764",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "169be0da45fc9957",
+          "featured": false
+        },
+        {
+          "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-23T08:54:48+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424"
+            }
+          ],
+          "extra": {
+            "hn_id": "49810295",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "e0ffb209158958cb",
+          "featured": false
+        },
+        {
+          "title": "The new CC, an AI agent built for families",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+          "summary": "HN 36 points / 45 comments",
+          "published_at": "2026-09-23T07:46:07+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49809806",
+            "points": 36,
+            "comments": 45
+          },
+          "uid": "281410b55e051cb9",
+          "featured": false
+        },
+        {
+          "title": "Show HN: A fast, offline Markdown viewer for macOS built in Swift",
+          "url": "https://github.com/temir-dev/tims-markdown-reader",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-23T06:39:45+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/temir-dev/tims-markdown-reader"
+            }
+          ],
+          "extra": {
+            "hn_id": "49809267",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "bc5d121ed83d4564",
+          "featured": false
+        },
+        {
+          "title": "Autonomous AI Agents Are Breaking into Online Retailers",
+          "url": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-09-23T06:00:20+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company"
+            }
+          ],
+          "extra": {
+            "hn_id": "49808771",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "4e2cdff813bb3dba",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support",
+          "url": "https://jade.email/",
+          "summary": "HN 3 points / 4 comments",
+          "published_at": "2026-09-23T05:46:57+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://jade.email/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49808620",
+            "points": 3,
+            "comments": 4
+          },
+          "uid": "28a9bfa89a60656b",
+          "featured": false
+        },
+        {
+          "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+          "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
+          "summary": "HN 11 points / 0 comments",
+          "published_at": "2026-09-23T05:43:04+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202"
+            }
+          ],
+          "extra": {
+            "hn_id": "49808565",
+            "points": 11,
+            "comments": 0
+          },
+          "uid": "49964e25947f48ba",
+          "featured": false
+        },
+        {
+          "title": "Open source tool for building hierarchical agent loops",
+          "url": "https://github.com/plasma-ai/fractal",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T03:55:16+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/plasma-ai/fractal"
+            }
+          ],
+          "extra": {
+            "hn_id": "49807198",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "88ea8a72c4518509",
+          "featured": false
+        },
+        {
+          "title": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
+          "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
+          "summary": "HN 3 points / 1 comments",
+          "published_at": "2026-09-23T03:35:04+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49806928",
+            "points": 3,
+            "comments": 1
+          },
+          "uid": "c3548d192288775c",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Notes on Agentic AI – A text-first guide for practicing engineers",
+          "url": "https://github.com/mrsachindixit/agentixit",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T02:19:28+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/mrsachindixit/agentixit"
+            }
+          ],
+          "extra": {
+            "hn_id": "49805807",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "4a70a5896cbdf6eb",
+          "featured": false
+        },
+        {
+          "title": "Meta Tests Muse AI Agent Calls That Are Made by Humans in a Call Center",
+          "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
+          "summary": "HN 6 points / 0 comments",
+          "published_at": "2026-09-23T02:15:57+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49805751",
+            "points": 6,
+            "comments": 0
+          },
+          "uid": "aed259d0a79846a7",
+          "featured": false
+        },
+        {
+          "title": "Unreal Agent",
+          "url": "https://unreallabs.ai/blog/unreal-agent/",
+          "summary": "HN 138 points / 83 comments",
+          "published_at": "2026-09-23T02:15:53+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://unreallabs.ai/blog/unreal-agent/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49805748",
+            "points": 138,
+            "comments": 83
+          },
+          "uid": "0ae28eab3fcb4464",
+          "featured": true
+        },
+        {
+          "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+          "url": "https://www.coveragecat.com/",
+          "summary": "HN 44 points / 28 comments",
+          "published_at": "2026-09-23T01:26:36+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.coveragecat.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49804931",
+            "points": 44,
+            "comments": 28
+          },
+          "uid": "566be4095e3a6aff",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Nomoreda – Browser EDA, MCP-Friendly, KiCad/Altium-Compatible",
+          "url": "https://nomoreda.com/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-23T01:24:57+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://nomoreda.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49804897",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "75ad91af3f4a9e31",
+          "featured": false
+        },
+        {
+          "title": "Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",
+          "url": "https://ai-rete-rag.com/",
+          "summary": "HN 34 points / 2 comments",
+          "published_at": "2026-09-23T00:15:06+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://ai-rete-rag.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49803683",
+            "points": 34,
+            "comments": 2
+          },
+          "uid": "ff407be6a0900597",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Kado – Search to Allow Personal Agents to Find Agent Apps",
+          "url": "https://kado.so",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-22T23:36:46+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://kado.so"
+            }
+          ],
+          "extra": {
+            "hn_id": "49803059",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "0c184d4757075c8f",
+          "featured": false
+        },
+        {
+          "title": "Show HN: DrivingBench – Frontier LLMs Driving a Real Toyota Corolla",
+          "url": "https://drivingbench.com/",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-22T22:29:43+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://drivingbench.com/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49801925",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "18c511d8742ebf23",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Venya lets AI agents use secrets without seeing them",
+          "url": "https://github.com/tabith-llc/venya",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-22T21:56:28+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/tabith-llc/venya"
+            }
+          ],
+          "extra": {
+            "hn_id": "49801376",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "c8973d9031833a21",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Relay – a self-hosted LLM gateway with smart routing and request pacing",
+          "url": "https://github.com/anchorshell/relay",
+          "summary": "HN 2 points / 3 comments",
+          "published_at": "2026-09-22T20:32:33+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/anchorshell/relay"
+            }
+          ],
+          "extra": {
+            "hn_id": "49800187",
+            "points": 2,
+            "comments": 3
+          },
+          "uid": "785385404399699b",
+          "featured": false
+        },
+        {
+          "title": "miuuyy/Astra-Ares — Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage.",
+          "url": "https://github.com/miuuyy/Astra-Ares",
+          "summary": "Adaptive reasoning effort for GPT-6 Astra during Codex tasks, powered by Jev to reduce token usage.",
+          "published_at": "2026-09-22T14:10:07Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/miuuyy/Astra-Ares"
+            }
+          ],
+          "extra": {
+            "stars": 161,
+            "language": "JavaScript"
+          },
+          "uid": "73be2969491af5c6",
+          "featured": false
+        },
+        {
+          "title": "edison-land/paragravity — Native, non-invasive parallel multi-account & sandbox manager for Google Antigravity",
+          "url": "https://github.com/edison-land/paragravity",
+          "summary": "Native, non-invasive parallel multi-account & sandbox manager for Google Antigravity",
+          "published_at": "2026-09-22T09:51:33Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/edison-land/paragravity"
+            }
+          ],
+          "extra": {
+            "stars": 63,
+            "language": "Python"
+          },
+          "uid": "d58a783349d697f0",
+          "featured": false
+        },
+        {
+          "title": "WZRD — AI-native documents, slides, forms and sheets that talk back",
+          "url": "https://www.producthunt.com/products/wzrd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "AI-native documents, slides, forms and sheets that talk back",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/wzrd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 252,
+            "topics": [
+              "Productivity",
+              "No-Code",
+              "Design"
+            ]
+          },
+          "uid": "8692128e0452ddf0",
+          "featured": true
+        },
+        {
+          "title": "SereneDB — Ultra-Fast Search & Analytics Database, Agentic AI ready",
+          "url": "https://www.producthunt.com/products/serenedb-krummelanke?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Ultra-Fast Search & Analytics Database, Agentic AI ready",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/serenedb-krummelanke?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 205,
+            "topics": [
+              "Open Source",
+              "Developer Tools",
+              "GitHub",
+              "Database"
+            ]
+          },
+          "uid": "6fd3e66823297ee7",
+          "featured": true
+        },
+        {
+          "title": "Freebuff Ads — Advertise to 500k developers in our coding agent",
+          "url": "https://www.producthunt.com/products/freebuff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Advertise to 500k developers in our coding agent",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/freebuff-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 143,
+            "topics": [
+              "Marketing",
+              "Advertising",
+              "Developer Tools"
+            ]
+          },
+          "uid": "14e6f73ce7fbefd2",
+          "featured": true
+        },
+        {
+          "title": "PixelCrew — Production-ready design from a crew of AI agents",
+          "url": "https://www.producthunt.com/products/pixelcrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Production-ready design from a crew of AI agents",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/pixelcrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 131,
+            "topics": [
+              "Design Tools",
+              "SaaS",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "4802fb81271ba422",
+          "featured": true
+        },
+        {
+          "title": "Plane Agents — Assign work to AI agents, like any teammate",
+          "url": "https://www.producthunt.com/products/planehq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Assign work to AI agents, like any teammate",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/planehq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 113,
+            "topics": [
+              "Productivity",
+              "Task Management",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "a0396ad531def0e5",
+          "featured": true
+        },
+        {
+          "title": "MiMo-V2.6 — Open omnimodal intelligence, trained in public",
+          "url": "https://www.producthunt.com/products/mimo-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Open omnimodal intelligence, trained in public",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/mimo-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 111,
+            "topics": [
+              "Open Source",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "e934bea2837eeaf4",
+          "featured": true
+        },
+        {
+          "title": "WeWeb MCP — Your AI agent builds the app. You stay in control.",
+          "url": "https://www.producthunt.com/products/weweb-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Your AI agent builds the app. You stay in control.",
+          "published_at": "2026-09-22T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/weweb-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 105,
+            "topics": [
+              "Software Engineering",
+              "No-Code",
+              "Vibe coding"
+            ]
+          },
+          "uid": "276e443a3400e541",
+          "featured": true
+        },
+        {
+          "title": "rgem227/knoweldge-base — Personal or team knowledge base, supports MCP API calls.",
+          "url": "https://github.com/rgem227/knoweldge-base",
+          "summary": "Personal or team knowledge base, supports MCP API calls.",
+          "published_at": "2026-09-22T04:28:59Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/rgem227/knoweldge-base"
+            }
+          ],
+          "extra": {
+            "stars": 121,
+            "language": "Python"
+          },
+          "uid": "4fb5745a05a4cd8c",
+          "featured": false
+        },
+        {
+          "title": "yibie/jev-engineering-zh — 《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图",
+          "url": "https://github.com/yibie/jev-engineering-zh",
+          "summary": "《Jev 工程学：为 coding agent 而作》完整中文翻译 — 保留原结构与 7 张插图",
+          "published_at": "2026-09-22T04:28:47Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/yibie/jev-engineering-zh"
+            }
+          ],
+          "extra": {
+            "stars": 70,
+            "language": null
+          },
+          "uid": "a545711fa6d834ed",
+          "featured": false
+        },
+        {
+          "title": "lhlGitHub/threejs-architecture-effects — An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
+          "url": "https://github.com/lhlGitHub/threejs-architecture-effects",
+          "summary": "An Agent Skill for building interactive, self-assembling 3D architecture with Three.js.  一个用 Three.js 生成可交互、可动态建造 3D 建筑的 Agent Skill。",
+          "published_at": "2026-09-22T03:01:05Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/lhlGitHub/threejs-architecture-effects"
+            }
+          ],
+          "extra": {
+            "stars": 114,
+            "language": "TypeScript"
+          },
+          "uid": "30863f69943b6295",
+          "featured": false
+        },
+        {
+          "title": "kydlikebtc/awesome-jev — 805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilingual EN/中文, JSON schema, and a cross-platform compatibility table.",
+          "url": "https://github.com/kydlikebtc/awesome-jev",
+          "summary": "805 verified examples of Jev — TypeSafe AI's System One decision model — indexed by the decision each one makes, not the blog that mentioned it. Every cited call site is re-read by CI each week. Bilingual EN/中文, JSON schema, and a cross-platform compatibility table.",
+          "published_at": "2026-09-22T02:22:54Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/kydlikebtc/awesome-jev"
+            }
+          ],
+          "extra": {
+            "stars": 161,
+            "language": "Python"
+          },
+          "uid": "9a8025219d91b620",
+          "featured": false
+        },
+        {
+          "title": "JunMa11/MedJev",
+          "url": "https://github.com/JunMa11/MedJev",
+          "summary": "",
+          "published_at": "2026-09-22T01:53:56Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/JunMa11/MedJev"
+            }
+          ],
+          "extra": {
+            "stars": 54,
+            "language": "Python"
+          },
+          "uid": "cb5110f78aa6e7d7",
+          "featured": false
+        },
+        {
+          "title": "unreallabsai/unreal-agent — Async-first agent harness",
+          "url": "https://github.com/unreallabsai/unreal-agent",
+          "summary": "Async-first agent harness",
+          "published_at": "2026-09-21T23:14:02Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/unreallabsai/unreal-agent"
+            }
+          ],
+          "extra": {
+            "stars": 1025,
+            "language": "Go"
+          },
+          "uid": "7a2c931fe4102412",
+          "featured": true
+        },
+        {
+          "title": "Michael-Jiahao-Zhang/game-the-llm-reviewer — Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer",
+          "summary": "Defend sound research against LLM reviewer bias through meaning-preserving rewrites.",
+          "published_at": "2026-09-21T23:11:47Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Michael-Jiahao-Zhang/game-the-llm-reviewer"
+            }
+          ],
+          "extra": {
+            "stars": 104,
+            "language": null
+          },
+          "uid": "a3609e4ccf2b2a99",
+          "featured": false
+        },
+        {
+          "title": "ipenywis/laya-ultrafast — Same as jev-ultrafast but using Laya",
+          "url": "https://github.com/ipenywis/laya-ultrafast",
+          "summary": "Same as jev-ultrafast but using Laya",
+          "published_at": "2026-09-21T22:21:52Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/ipenywis/laya-ultrafast"
+            }
+          ],
+          "extra": {
+            "stars": 116,
+            "language": "Python"
+          },
+          "uid": "c347940d8c83cab5",
+          "featured": false
+        },
+        {
+          "title": "unicodef1wn/lauren-poteto-rules — Engineering rules for building trustworthy coding-agent workflows, inspired by Lauren Tan.",
+          "url": "https://github.com/unicodef1wn/lauren-poteto-rules",
+          "summary": "Engineering rules for building trustworthy coding-agent workflows, inspired by Lauren Tan.",
+          "published_at": "2026-09-21T16:44:51Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/unicodef1wn/lauren-poteto-rules"
+            }
+          ],
+          "extra": {
+            "stars": 65,
+            "language": null
+          },
+          "uid": "f653c5eee7028ab2",
+          "featured": false
+        },
+        {
+          "title": "malevrigns/agent-jev — AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
+          "url": "https://github.com/malevrigns/agent-jev",
+          "summary": "AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
+          "published_at": "2026-09-21T16:24:42Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/malevrigns/agent-jev"
+            }
+          ],
+          "extra": {
+            "stars": 217,
+            "language": "Python"
+          },
+          "uid": "341acac317acfbaa",
+          "featured": false
+        },
+        {
+          "title": "jev-chat/jev-chat-windows — 微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+          "url": "https://github.com/jev-chat/jev-chat-windows",
+          "summary": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+          "published_at": "2026-09-21T14:37:14Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jev-chat/jev-chat-windows"
+            }
+          ],
+          "extra": {
+            "stars": 288,
+            "language": "Python"
+          },
+          "uid": "d491b1b5d3b8c1cc",
+          "featured": false
+        },
+        {
+          "title": "CTNicholas/jev-workflow-builder",
+          "url": "https://github.com/CTNicholas/jev-workflow-builder",
+          "summary": "",
+          "published_at": "2026-09-21T14:31:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/CTNicholas/jev-workflow-builder"
+            }
+          ],
+          "extra": {
+            "stars": 133,
+            "language": "TypeScript"
+          },
+          "uid": "813103c96ee53ee8",
+          "featured": false
+        },
+        {
+          "title": "virajbhartiya/laya-vs-jev — Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording",
+          "url": "https://github.com/virajbhartiya/laya-vs-jev",
+          "summary": "Laya vs Jev: local MLX and hosted AI decisions playing T-Rex side by side, with live metrics and replay recording",
+          "published_at": "2026-09-21T14:30:39Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/virajbhartiya/laya-vs-jev"
+            }
+          ],
+          "extra": {
+            "stars": 85,
+            "language": "Python"
+          },
+          "uid": "162148f341d7f553",
+          "featured": false
+        },
+        {
+          "title": "haibarazz/awesome-codex-research",
+          "url": "https://github.com/haibarazz/awesome-codex-research",
+          "summary": "",
+          "published_at": "2026-09-21T14:08:06Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/haibarazz/awesome-codex-research"
+            }
+          ],
+          "extra": {
+            "stars": 101,
+            "language": "Python"
+          },
+          "uid": "c4e0da6ea6e13655",
+          "featured": false
+        },
+        {
+          "title": "Futureppo/typesafe_register — typesafe.ai注册机，极致优化，无限jev",
+          "url": "https://github.com/Futureppo/typesafe_register",
+          "summary": "typesafe.ai注册机，极致优化，无限jev",
+          "published_at": "2026-09-21T13:21:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Futureppo/typesafe_register"
+            }
+          ],
+          "extra": {
+            "stars": 114,
+            "language": "Python"
+          },
+          "uid": "5304bfa904533416",
+          "featured": false
+        },
+        {
+          "title": "jev-chat/jev-chat-jarvis-mac — 微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
+          "url": "https://github.com/jev-chat/jev-chat-jarvis-mac",
+          "summary": "微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。",
+          "published_at": "2026-09-21T11:39:32Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jev-chat/jev-chat-jarvis-mac"
+            }
+          ],
+          "extra": {
+            "stars": 206,
+            "language": "Python"
+          },
+          "uid": "637a7155e573932a",
+          "featured": false
+        },
+        {
+          "title": "jev-chat/jev-chat-jarvis — 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+          "url": "https://github.com/jev-chat/jev-chat-jarvis",
+          "summary": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+          "published_at": "2026-09-21T11:12:53Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jev-chat/jev-chat-jarvis"
+            }
+          ],
+          "extra": {
+            "stars": 4046,
+            "language": "Kotlin"
+          },
+          "uid": "6cf30f044df65ecb",
+          "featured": true
+        },
+        {
+          "title": "TianyuCodings/JevHarness — LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
+          "url": "https://github.com/TianyuCodings/JevHarness",
+          "summary": "LLM-authored task-specific Jev harnesses with optional full-trajectory reward reflection and GEPA evolution.",
+          "published_at": "2026-09-21T08:59:46Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/TianyuCodings/JevHarness"
+            }
+          ],
+          "extra": {
+            "stars": 143,
+            "language": "Python"
+          },
+          "uid": "69b7d5e6e51603e2",
+          "featured": false
+        },
+        {
+          "title": "f/jev-leftpad — Left-pad strings with TypeSafe AI's Jev. For reasons.",
+          "url": "https://github.com/f/jev-leftpad",
+          "summary": "Left-pad strings with TypeSafe AI's Jev. For reasons.",
+          "published_at": "2026-09-21T08:34:36Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/f/jev-leftpad"
+            }
+          ],
+          "extra": {
+            "stars": 82,
+            "language": "JavaScript"
+          },
+          "uid": "b30c5e3506663df2",
+          "featured": false
+        },
+        {
+          "title": "mater1996/travel-planning — travel planning",
+          "url": "https://github.com/mater1996/travel-planning",
+          "summary": "travel planning",
+          "published_at": "2026-09-21T07:44:55Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/mater1996/travel-planning"
+            }
+          ],
+          "extra": {
+            "stars": 114,
+            "language": "Python"
+          },
+          "uid": "a5247f27b975ecee",
+          "featured": false
+        },
+        {
+          "title": "Jev — Fast, structured AI decisions for software automation",
+          "url": "https://www.producthunt.com/products/jev-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Fast, structured AI decisions for software automation",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/jev-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 522,
+            "topics": [
+              "API",
+              "Developer Tools",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "f01e7aadb53a7126",
+          "featured": true
+        },
+        {
+          "title": "Superset Mobile — Your coding agents, now in your pocket",
+          "url": "https://www.producthunt.com/products/superset-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Your coding agents, now in your pocket",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/superset-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 500,
+            "topics": [
+              "iOS",
+              "Artificial Intelligence",
+              "Development"
+            ]
+          },
+          "uid": "54e3bc7808e2ffa0",
+          "featured": true
+        },
+        {
+          "title": "Sai — The autonomous computer fleet at your command",
+          "url": "https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "The autonomous computer fleet at your command",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 418,
+            "topics": [
+              "Productivity",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "0b4e5261759895fa",
+          "featured": true
+        },
+        {
+          "title": "Arcjet — Secure the AI agents you're building at runtime",
+          "url": "https://www.producthunt.com/products/arcjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Secure the AI agents you're building at runtime",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/arcjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 393,
+            "topics": [
+              "Developer Tools",
+              "SDK",
+              "Security"
+            ]
+          },
+          "uid": "c706582910dc1647",
+          "featured": true
+        },
+        {
+          "title": "Hyrax AI — The AI architect for your entire codebase",
+          "url": "https://www.producthunt.com/products/tristan-benozer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "The AI architect for your entire codebase",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/tristan-benozer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 222,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence",
+              "GitHub"
+            ]
+          },
+          "uid": "9e76cfcb904c9084",
+          "featured": true
+        },
+        {
+          "title": "Google Flow for iOS & Android — Google's AI creative studio now on mobile",
+          "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Google's AI creative studio now on mobile",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 179,
+            "topics": [
+              "Photo & Video",
+              "Video Art",
+              "Video"
+            ]
+          },
+          "uid": "382db3ac4f91641f",
+          "featured": true
+        },
+        {
+          "title": "CC — Shared agent that helps keep your family in sync",
+          "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Shared agent that helps keep your family in sync",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 118,
+            "topics": [
+              "Productivity",
+              "Artificial Intelligence",
+              "Family"
+            ]
+          },
+          "uid": "239e3f6009cac302",
+          "featured": true
+        },
+        {
+          "title": "AI Creative Insights by Decode — Predict which ad wins before you spend on media",
+          "url": "https://www.producthunt.com/products/decode-by-entropik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Predict which ad wins before you spend on media",
+          "published_at": "2026-09-21T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/decode-by-entropik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 111,
+            "topics": [
+              "Marketing",
+              "Advertising",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "d17eeb94579af5b0",
+          "featured": true
+        },
+        {
+          "title": "fstandhartinger/chat-seek-vscode — Local VS Code search across Claude Code, Codex, and OpenCode chats with Laya reranking",
+          "url": "https://github.com/fstandhartinger/chat-seek-vscode",
+          "summary": "Local VS Code search across Claude Code, Codex, and OpenCode chats with Laya reranking",
+          "published_at": "2026-09-21T06:17:12Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/fstandhartinger/chat-seek-vscode"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": "JavaScript"
+          },
+          "uid": "794d9760d699d861",
+          "featured": false
+        },
+        {
+          "title": "nokia-applied-research/AnyJev — Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "url": "https://github.com/nokia-applied-research/AnyJev",
+          "summary": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+          "published_at": "2026-09-21T05:55:40Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/nokia-applied-research/AnyJev"
+            }
+          ],
+          "extra": {
+            "stars": 69,
+            "language": "Python"
+          },
+          "uid": "ec0e6d23ae9f18dc",
+          "featured": false
+        },
+        {
+          "title": "awdqwdasdg/Comfyui-Spectrum-Qwen2.1 — Literal Slop.",
+          "url": "https://github.com/awdqwdasdg/Comfyui-Spectrum-Qwen2.1",
+          "summary": "Literal Slop.",
+          "published_at": "2026-09-21T05:14:57Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/awdqwdasdg/Comfyui-Spectrum-Qwen2.1"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": "Python"
+          },
+          "uid": "e1e91ae983e87ee5",
+          "featured": false
+        },
+        {
+          "title": "OnlistTeam/ai-manager — AI Manager desktop application for AI coding tools",
+          "url": "https://github.com/OnlistTeam/ai-manager",
+          "summary": "AI Manager desktop application for AI coding tools",
+          "published_at": "2026-09-21T05:07:53Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/OnlistTeam/ai-manager"
+            }
+          ],
+          "extra": {
+            "stars": 101,
+            "language": "Rust"
+          },
+          "uid": "b8f668a6b88a1659",
+          "featured": false
+        },
+        {
+          "title": "HeyPuter/builder — 📦✨ AI Builder For Creating Sites and Apps! An open-source alternative to Lovable, Replit, v0, and similar platforms.",
+          "url": "https://github.com/HeyPuter/builder",
+          "summary": "📦✨ AI Builder For Creating Sites and Apps! An open-source alternative to Lovable, Replit, v0, and similar platforms.",
+          "published_at": "2026-09-21T03:45:45Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/HeyPuter/builder"
+            }
+          ],
+          "extra": {
+            "stars": 97,
+            "language": "JavaScript"
+          },
+          "uid": "ef1083bda0828e1b",
+          "featured": false
+        },
+        {
+          "title": "freestylefly/WeChatBridge — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+          "url": "https://github.com/freestylefly/WeChatBridge",
+          "summary": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+          "published_at": "2026-09-21T02:54:51Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/freestylefly/WeChatBridge"
+            }
+          ],
+          "extra": {
+            "stars": 299,
+            "language": "Swift"
+          },
+          "uid": "d6f7b5cedec7d459",
+          "featured": false
+        },
+        {
+          "title": "deepopen-com/deepopen — 非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine.",
+          "url": "https://github.com/deepopen-com/deepopen",
+          "summary": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+          "published_at": "2026-09-21T02:12:24Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/deepopen-com/deepopen"
+            }
+          ],
+          "extra": {
+            "stars": 210,
+            "language": "Python"
+          },
+          "uid": "89b8bdaf190e6bef",
+          "featured": false
+        },
+        {
+          "title": "Rizzo-AI-Academy/rizzo-flow — The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+          "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+          "summary": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+          "published_at": "2026-09-21T00:00:02Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow"
+            }
+          ],
+          "extra": {
+            "stars": 347,
+            "language": "Python"
+          },
+          "uid": "935e96afe1fdbc97",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_online",
+      "label": "线上AI应用/Agent黑客松",
+      "items": [
+        {
+          "title": "Image 1: Devpost",
+          "url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg"
+            }
+          ],
+          "extra": {},
+          "uid": "671f763ca522c02f",
+          "featured": true
+        },
+        {
+          "title": "Join a hackathon",
+          "url": "https://devpost.com/hackathons?themes[]=Artificial+Intelligence#join-a-hackathon",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/hackathons?themes[]=Artificial+Intelligence#join-a-hackathon"
+            }
+          ],
+          "extra": {},
+          "uid": "f7cb0dcc7fb282b9",
+          "featured": true
+        },
+        {
+          "title": "Host a public hackathon",
+          "url": "https://info.devpost.com/product/public-hackathons",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/product/public-hackathons"
+            }
+          ],
+          "extra": {},
+          "uid": "d40206987013da25",
+          "featured": true
+        },
+        {
+          "title": "Host an internal hackathon",
+          "url": "https://info.devpost.com/product/devpost-for-teams",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/product/devpost-for-teams"
+            }
+          ],
+          "extra": {},
+          "uid": "29a3b32e59cd6a05",
+          "featured": true
+        },
+        {
+          "title": "AI hackathons",
+          "url": "https://info.devpost.com/product/ai-hackathons",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/product/ai-hackathons"
+            }
+          ],
+          "extra": {},
+          "uid": "e48dae853b0627d3",
+          "featured": true
+        },
+        {
+          "title": "Blog Insights into hackathon planning and participation",
+          "url": "https://info.devpost.com/blog",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/blog"
+            }
+          ],
+          "extra": {},
+          "uid": "61f39ea1bb741419",
+          "featured": true
+        },
+        {
+          "title": "Customer stories Inspiration from peers and other industry leaders",
+          "url": "https://info.devpost.com/customer-stories",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/customer-stories"
+            }
+          ],
+          "extra": {},
+          "uid": "d29f24e8ed8fe3ea",
+          "featured": true
+        },
+        {
+          "title": "Webinars & events Upcoming events and on-demand recordings",
+          "url": "https://info.devpost.com/webinar-events",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/webinar-events"
+            }
+          ],
+          "extra": {},
+          "uid": "3c1327e5ea933af5",
+          "featured": true
+        },
+        {
+          "title": "Help desk Common questions and support documentation",
+          "url": "https://help.devpost.com/",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://help.devpost.com/"
+            }
+          ],
+          "extra": {},
+          "uid": "b332611419ca677d",
+          "featured": true
+        },
+        {
+          "title": "Match my eligibility",
+          "url": "https://devpost.com/users/register",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/users/register"
+            }
+          ],
+          "extra": {},
+          "uid": "f1da6a45b8e45e32",
+          "featured": true
+        },
+        {
+          "title": "Image 13",
+          "url": "https://devpost.com/packs/media/src/images/devpost-icon-rgb30px-cf33601e5c3b0e238dfead218b072884.png",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/packs/media/src/images/devpost-icon-rgb30px-cf33601e5c3b0e238dfead218b072884.png"
+            }
+          ],
+          "extra": {},
+          "uid": "953d6aacc951fb7d",
+          "featured": true
+        },
+        {
+          "title": "Featured",
+          "url": "https://revenuecat-shipaton-2026.devpost.com/",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://revenuecat-shipaton-2026.devpost.com/"
+            }
+          ],
+          "extra": {},
+          "uid": "ac65bf69afd30c63",
+          "featured": true
+        },
+        {
+          "title": "Your projects",
+          "url": "https://devpost.com/portfolio/redirect?page=projects",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/portfolio/redirect?page=projects"
+            }
+          ],
+          "extra": {},
+          "uid": "4891303b65ba2363",
+          "featured": true
+        },
+        {
+          "title": "Settings",
+          "url": "https://devpost.com/settings",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/settings"
+            }
+          ],
+          "extra": {},
+          "uid": "1732287bcf7fe967",
+          "featured": true
+        },
+        {
+          "title": "Facebook",
+          "url": "https://www.facebook.com/devposthacks",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://www.facebook.com/devposthacks"
+            }
+          ],
+          "extra": {},
+          "uid": "8d90245bfe5e87e3",
+          "featured": true
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/company/devpost/",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://www.linkedin.com/company/devpost/"
+            }
+          ],
+          "extra": {},
+          "uid": "a7f3da5f98236df2",
+          "featured": true
+        },
+        {
+          "title": "Community guidelines",
+          "url": "https://info.devpost.com/legal/community-guidelines",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/community-guidelines"
+            }
+          ],
+          "extra": {},
+          "uid": "1a52243ebe0324e2",
+          "featured": true
+        },
+        {
+          "title": "Security",
+          "url": "https://info.devpost.com/legal/security",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/security"
+            }
+          ],
+          "extra": {},
+          "uid": "0d0488a9f6fcbaa0",
+          "featured": true
+        },
+        {
+          "title": "CA notice",
+          "url": "https://info.devpost.com/legal/california-consumer-privacy-act",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/california-consumer-privacy-act"
+            }
+          ],
+          "extra": {},
+          "uid": "ee423831a7a9f740",
+          "featured": true
+        },
+        {
+          "title": "Privacy policy",
+          "url": "https://info.devpost.com/legal/privacy-policy",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/privacy-policy"
+            }
+          ],
+          "extra": {},
+          "uid": "d40fdedcf7492345",
+          "featured": true
+        },
+        {
+          "title": "Terms of service",
+          "url": "https://info.devpost.com/legal/terms-of-service",
+          "summary": "",
+          "published_at": "2026-09-23T10:34:13+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/terms-of-service"
+            }
+          ],
+          "extra": {},
+          "uid": "7803abd78f97f5db",
+          "featured": true
+        },
+        {
+          "title": "支付宝·智能体涌现奖首轮报名开启1000万奖池，年度大奖100万！",
+          "url": "https://www.waytoagi.com/events/588",
+          "summary": "2026-09-10 ~ 2026-11-10支付宝·智能体涌现奖首轮报名开启1000万奖池，年度大奖100万！查看活动详情",
+          "published_at": "2026-09-10T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/588"
+            }
+          ],
+          "extra": {
+            "start": "2026-09-10",
+            "end": "2026-11-10",
+            "format_hint": "unknown"
+          },
+          "uid": "bd83184d5df8badf",
+          "featured": true
+        },
+        {
+          "title": "Anker 首届黑客松挑战赛让创造发生 · 让世界看见",
+          "url": "https://www.waytoagi.com/events/586",
+          "summary": "2026-09-07 ~ 2026-10-17Anker 首届黑客松挑战赛让创造发生 · 让世界看见查看活动详情",
+          "published_at": "2026-09-07T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/586"
+            }
+          ],
+          "extra": {
+            "start": "2026-09-07",
+            "end": "2026-10-17",
+            "format_hint": "unknown"
+          },
+          "uid": "0fcd36de9dba313b",
+          "featured": true
+        },
+        {
+          "title": "「爆款开场计划」AI短片大赛报名开启20万奖金池！",
+          "url": "https://www.waytoagi.com/events/580",
+          "summary": "2026-08-27 ~ 2026-10-10「爆款开场计划」AI短片大赛报名开启20万奖金池！查看活动详情",
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/580"
+            }
+          ],
+          "extra": {
+            "start": "2026-08-27",
+            "end": "2026-10-10",
+            "format_hint": "unknown"
+          },
+          "uid": "fb67b4656c2c80e7",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_offline_cn",
+      "label": "线下（中国大陆）AI应用/Agent黑客松",
+      "items": []
+    }
+  ],
+  "analysis": {
+    "daily_brief": null,
+    "product_insights": null,
+    "hackathon_trends": null
+  }
+}
