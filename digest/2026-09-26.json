@@ -1,0 +1,4612 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T10:42:31+08:00",
+  "stats": {
+    "raw_items": 142,
+    "after_dedupe": 123
+  },
+  "degraded_sources": [
+    {
+      "id": "dorahacks",
+      "reason": "HTTPStatusError: Client error '404 Page not found: /api/hackathon/?format=json&page_size=50' for url 'https://dorahacks.io/api/hackathon/?format=json&page_size=50'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "id": "competehub",
+      "reason": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.competehub.dev/zh'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    }
+  ],
+  "categories": [
+    {
+      "key": "startup_project",
+      "label": "AI Agent创业项目",
+      "items": [
+        {
+          "title": "Speculative Reward Hacking in Coding Agents",
+          "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/",
+          "summary": "HN 3 points / 2 comments",
+          "published_at": "2026-09-26T07:13:52+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49851266",
+            "points": 3,
+            "comments": 2
+          },
+          "uid": "731a355848348c1f",
+          "featured": false
+        },
+        {
+          "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+          "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+          "summary": "HN 24 points / 7 comments",
+          "published_at": "2026-09-26T06:49:41+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49850999",
+            "points": 24,
+            "comments": 7
+          },
+          "uid": "28d0ab9a9045487e",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
+          "url": "https://wallstreetclaws.com",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-09-26T06:37:15+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://wallstreetclaws.com"
+            }
+          ],
+          "extra": {
+            "hn_id": "49850874",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "daf2991a6ab376e3",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
+          "url": "https://recurse.run",
+          "summary": "HN 5 points / 1 comments",
+          "published_at": "2026-09-26T06:06:03+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://recurse.run"
+            }
+          ],
+          "extra": {
+            "hn_id": "49850553",
+            "points": 5,
+            "comments": 1
+          },
+          "uid": "dd26c9a7d43c689b",
+          "featured": false
+        },
+        {
+          "title": "A reminder on why basic prompt caching is so important to build AI agents",
+          "url": "https://www.revefi.com/blog/how-revefi-reduced-its-data-agents-spend",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-09-26T03:12:41+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.revefi.com/blog/how-revefi-reduced-its-data-agents-spend"
+            }
+          ],
+          "extra": {
+            "hn_id": "49848678",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "c33f87ebb44b2dab",
+          "featured": false
+        },
+        {
+          "title": "铁路部门调整火车票预约购票试点可预约日期范围",
+          "url": "https://readhub.cn/topic/8wjIwiNKT3m",
+          "summary": "铁路部门对京沪高铁、京沪铁路试点的火车票预约购票服务的可预约日期范围从开车前第 60 天至第 17 天，逐步调整为开车前第 30 天至第 17 天。旅客可通过铁路 12306 手机客户端预约购票专区填报预约需求，9 月 26 日当天可预约 11 月 24 日前车票，9 月 27 日至 10 月 26 日为调整过渡期，最远可预约 11 月 24 日的车票，10 月 27 日起可常态化预约开车前第 30 天至 17 天的火车票。",
+          "published_at": "2026-09-26T02:40:34+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjIwiNKT3m"
+            }
+          ],
+          "extra": {},
+          "uid": "c320b50530b99cc4",
+          "featured": false
+        },
+        {
+          "title": "美航天器 LINK 未完成任务 已再入大气层",
+          "url": "https://readhub.cn/topic/8wjHALggZ3H",
+          "summary": "美国凯塔利斯特太空科技公司研发的航天器 LINK 未能完成抬升雨燕天文台轨道的任务，于 9 月 25 日脱离轨道再入地球大气层。该航天器 7 月 3 日发射升空，原计划在轨交会捕获雨燕天文台并抬升其轨道以延长观测寿命，发射后虽顺利完成早期轨道运行，但系统调试中出现故障，被认定无法安全执行原定任务，其在轨运行期间获取的宝贵飞行数据和运行经验将为后续航天器研发提供参考。",
+          "published_at": "2026-09-26T02:10:34+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjHALggZ3H"
+            }
+          ],
+          "extra": {},
+          "uid": "036981722c54bd39",
+          "featured": false
+        },
+        {
+          "title": "AI agent hacks government website for first time: why this breach matters",
+          "url": "https://www.nature.com/articles/d41586-026-03024-z",
+          "summary": "HN 4 points / 0 comments",
+          "published_at": "2026-09-26T01:56:50+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.nature.com/articles/d41586-026-03024-z"
+            }
+          ],
+          "extra": {
+            "hn_id": "49847847",
+            "points": 4,
+            "comments": 0
+          },
+          "uid": "d1e8b0b00a467e5a",
+          "featured": false
+        },
+        {
+          "title": "SK 海力士旗下 Solidigm 据称最早拟于 2027 年赴美 IPO",
+          "url": "https://readhub.cn/topic/8wjCsHWpC6w",
+          "summary": "SK 海力士旗下子公司 Solidigm 正考虑最早于 2027 年赴美进行首次公开募股，目前正就旗下 NAND 存储业务板块的上市事宜与潜在投行顾问磋商，相关讨论仍在推进中，上市完成后 Solidigm 估值最高可达 1000 亿美元，上市时间、估值等细节仍可能变动。",
+          "published_at": "2026-09-26T01:50:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjCsHWpC6w"
+            }
+          ],
+          "extra": {},
+          "uid": "3c1626f2d5b3fbcd",
+          "featured": false
+        },
+        {
+          "title": "全球最快高铁 CR450 动车组模拟驾驶舱亮相柏林",
+          "url": "https://readhub.cn/topic/8wjEIlAx0MI",
+          "summary": "被称为全球最快高铁的 CR450 复兴号动车组模拟驾驶舱亮相德国柏林举办的第 15 届国际轨道交通技术展览会，吸引媒体和观众关注，同期展出的人工智能加铁路装备展区也展示了中国铁路智能装备研制的最新进展。",
+          "published_at": "2026-09-26T01:30:49+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjEIlAx0MI"
+            }
+          ],
+          "extra": {},
+          "uid": "7ec13112571f0d43",
+          "featured": false
+        },
+        {
+          "title": "中国天眼落成十周年 全域检修完成重启观测 二期阵列建设提速",
+          "url": "https://readhub.cn/topic/8whom9vDJPY",
+          "summary": "9 月 25 日是 500 米单口径球面射电望远镜 FAST 落成十周年，完成三天全面检修后，FAST 开启新一轮宇宙观测。当日 FAST 二期试验阵的一台 40 米口径望远镜主体工程完工，后续规划在 FAST 周边建设数十台 40 米口径望远镜，构建全球唯一以巨型望远镜为中心、中型望远镜环绕的综合口径阵列，建成后 FAST 分辨率将提升 200 倍，灵敏度提升 1 倍。FAST 运行十年间在快速射电暴、脉冲星等领域取得多项国际领先的原创科研成果，2021 年向全球开放以来已支持多国天文学家开展研究。依托 FAST 的科普资源，贵州平塘天文小镇成为国内重要天文科普研学基地，智能体设备可帮助参观者解答关于 FAST 和宇宙的各类疑问，激发青少年探索星空的兴趣。",
+          "published_at": "2026-09-26T01:30:49+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whom9vDJPY"
+            }
+          ],
+          "extra": {},
+          "uid": "9677ad459df5235f",
+          "featured": false
+        },
+        {
+          "title": "高速光互联与计算技术北京市重点实验室落地北京经开区",
+          "url": "https://readhub.cn/topic/8wjCsANjM4C",
+          "summary": "高速光互联与计算技术北京市重点实验室于相关光电集成前沿技术专题论坛活动现场揭牌落地北京经开区，由北方集成电路技术创新中心（北京）有限公司、北京海光芯诚半导体科技有限公司、启明光子（北京）科技有限公司和北京大学联合共建，已获正式授牌，将重点围绕异质集成硅光芯片、片上密集波分复用、硅光先进封装三大核心技术方向，构建器件 — 芯片 — 系统 — 封装全链条研发体系。",
+          "published_at": "2026-09-26T01:10:34+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjCsANjM4C"
+            }
+          ],
+          "extra": {},
+          "uid": "53ea59be18f76b91",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Web search agent for finding leads",
+          "url": "https://agentjesse.ai/",
+          "summary": "HN 2 points / 2 comments",
+          "published_at": "2026-09-26T00:20:05+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://agentjesse.ai/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49846579",
+            "points": 2,
+            "comments": 2
+          },
+          "uid": "5f536a0ba8bcdcef",
+          "featured": false
+        },
+        {
+          "title": "半夏投资李蓓：AI 资本开支或在明年年中见顶，地产机会升级至二十年一遇",
+          "url": "https://readhub.cn/topic/8wgW5zaUXAJ",
+          "summary": "半夏投资创始人李蓓表示，地产现房新政虽短期冲击地产股价，但行业机会级别提升，地产股牛市持续时间将拉长、高度更高，地产机会从十年一遇变为二十年一遇。她认为新政推动未来 1-2 年行业出清更彻底，长期抬高行业门槛、拉大企业差距，少数兼具产品力与融资优势的头部房企将受益，部分房企股价未来几年或涨 5-10 倍。现房相较期房有 3%-5% 的涨价空间，若土地款可分期，房企资金周转时间仅增 20%-30%，叠加房价小幅上调、地价回落，净利润率反而可提升 20%-30%。后续行业集中度将大幅提升，最终出局房企占比或升至 95% 甚至 98%，全国范围可持续拿地扩张的房企不超过两位数，融资能力、大股东担保能力成为核心竞争力，央企相对民企优势进一步扩大，行业将形成长期高度寡头化格局。此外李蓓提示 AI 泡沫风险，海外 AI 资本开支季度环比增速或于明年年中见顶，当前 AI 板块调整是估值收缩，第二波下跌将在资本开支真正见顶、利润下降时出现。她判断 AI 热潮退去、美国经济下行、美债利率下行、美元贬值后，中国地产和消费将成为全球资产的沙漠绿洲。消费已历经五六年调整，居民边际消费倾向最陡峭的下行阶段已过，",
+          "published_at": "2026-09-25T23:55:09+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wgW5zaUXAJ"
+            }
+          ],
+          "extra": {},
+          "uid": "2912f6ba95980aeb",
+          "featured": false
+        },
+        {
+          "title": "DeepSeek Harness 桌面预览版已流出，官方暂未正式上线",
+          "url": "https://readhub.cn/topic/8whgBshxxmH",
+          "summary": "DeepSeek 延续逢假必更的惯例，双节期间其 Harness 桌面端相关信息流出，该桌面端基于 Electron 开发，直接复用现有 Web UI 及各类运行逻辑，目前 Mac、Windows 版本已在社区传开，均通过官方公证，内置版本更新功能。该客户端非纯免费，需实名认证，支持用户自行接入 API 密钥。其 UI 采用极简无边框轻拟态风格，设置两类工作模式、三种过程展示偏好、四种 Agent 工作流档位，基于一切皆插件的架构，涵盖网页搜索配置、智能体团队、本地化执行管控、代码仓调用等能力，回答区采用任务式设计，强调结构化呈现，可嵌入动态交互组件。",
+          "published_at": "2026-09-25T23:51:26+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whgBshxxmH"
+            }
+          ],
+          "extra": {},
+          "uid": "b5c96a04c31997e0",
+          "featured": false
+        },
+        {
+          "title": "AI 创企 DensityAI 正进入融资谈判后期 投后估值接近 100 亿美元",
+          "url": "https://readhub.cn/topic/8whgBCdvWfL",
+          "summary": "由特斯拉前 Dojo 项目核心团队一年前创立的 AI 芯片初创企业 DensityAI 正推进数亿美元融资谈判，投后估值将达 100 亿美元，a16z 洽谈领投，公司称若自研芯片达指定性能将获 AWS 采购协议，其芯片采用独特 3D DRAM 堆叠内存排布方案以提速降能耗，目前芯片尚处研发早期。近期算力赛道投资热度高涨，多家 AI 芯片初创企业获高额融资，a16z 也设专项 AI 硬件投资基金。3D DRAM 堆叠技术虽有显著工程难点，多家企业仍在布局探索，AWS 在推进自研 AI 芯片的同时也通过与多家硬件初创企业合作补充相关业务。",
+          "published_at": "2026-09-25T23:50:29+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whgBCdvWfL"
+            }
+          ],
+          "extra": {},
+          "uid": "a2975edc4b0b88a9",
+          "featured": false
+        },
+        {
+          "title": "罗永浩发文辟谣售卖病死鱼：视频截图系抠图合成，从未卖过该产品",
+          "url": "https://readhub.cn/topic/8wgpLkCvWBw",
+          "summary": "罗永浩就网传交个朋友直播间疑似售卖病死鱼一事发文辟谣，称相关视频截图是劣质抠图合成的假内容，自己从未售卖过该产品，且交个朋友方面核查所有授权账号后，未发现相关视频。",
+          "published_at": "2026-09-25T23:49:28+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wgpLkCvWBw"
+            }
+          ],
+          "extra": {},
+          "uid": "4c6e6f9ae0cd4a11",
+          "featured": false
+        },
+        {
+          "title": "交个朋友致歉：全面下架问题「溜溜凳」，终止与品牌方合作",
+          "url": "https://readhub.cn/topic/8whlCwcNg6e",
+          "summary": "交个朋友直播间就此前售出的万向轮溜溜凳存在木板发霉、填充物不合格等问题发布正式说明，承认问题属实，向相关消费者致歉。该产品曾在旗下六个直播间销售，事发后已全面下架该产品、终止与涉事品牌的合作并启动退赔流程，将对涉事商家依法追责，同时先行赔付，为所有购买该产品的消费者做退款不退货处理，正通过平台协助统一办理，因需平台技术支持处理全量退款需一定时间。直播间表示绝不姑息商家以次充好的行为，后续已启动内部全面复盘追责，将提升品控工作质量、改善服务。",
+          "published_at": "2026-09-25T23:49:11+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whlCwcNg6e"
+            }
+          ],
+          "extra": {},
+          "uid": "3411c81fd3e57f03",
+          "featured": false
+        },
+        {
+          "title": "Anthropic 推 Claude Code 云端会话 老用户最高赠 250 美元额度",
+          "url": "https://readhub.cn/topic/8wiMLI3Qj5y",
+          "summary": "Anthropic 宣布 Claude Code 云端会话结束研究预览正式可用，向 9 月 23 日促销开始前已订阅的个人 Pro、Max 老用户分别发放 100 美元、250 美元专属赠额，赠额需在 10 月 8 日前领取，11 月 5 日清零，仅可用于抵扣云端会话消耗，赠额用完前云端会话不占用套餐额度。该云端会话相当于配置为 4 核 CPU、16GB 内存、30GB 磁盘的 Ubuntu 远程虚拟机，支持用户关机后任务仍在云端运行，多任务可同时推进，还能随时将云端工作拉回本地，不过它无法随意访问公网，长期闲置会被回收，且仅支持对接 GitHub 仓库。目前不少已体验的用户也关注到了云端运行的权限管控、及时止损等相关问题，行业也由此察觉到写代码的模式正从人守在电脑前和 AI 协作，向派活、验收的模式转变，核心判断点变为派什么活、给多大权限、什么时候喊停。",
+          "published_at": "2026-09-25T23:45:50+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wiMLI3Qj5y"
+            }
+          ],
+          "extra": {},
+          "uid": "b19504ca8e8b6ccc",
+          "featured": false
+        },
+        {
+          "title": "罗永浩回应交个朋友代销劣质溜溜凳事件 承认系严重质量事故",
+          "url": "https://readhub.cn/topic/8wi84e30w7R",
+          "summary": "罗永浩就交个朋友直播间代销劣质溜溜凳事件发文回应，称交个朋友方面在依法追责供应商的同时，已先行对消费者做退款不退货处理，自己虽早已退出交个朋友管理层但仍担任首席监督官，会对全平台所售商品做好监督，同时指出该事件是严重的质量管理事故，此前运营部门因相关日常投诉量少疏忽大意，感谢公众监督。罗永浩还提到东方甄选也是该劣质溜溜凳的大代理商，指出其过往多款问题产品均未做全量退赔，呼吁媒体监督不要选择性执法。此前交个朋友已就该问题产品发布声明，完成下架、终止品牌合作并启动全量退赔。",
+          "published_at": "2026-09-25T23:45:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wi84e30w7R"
+            }
+          ],
+          "extra": {},
+          "uid": "5f0fb0c54ddafa3f",
+          "featured": false
+        },
+        {
+          "title": "美股高开高走三大指数集体收涨 苹果再创历史收盘新高",
+          "url": "https://readhub.cn/topic/8wisrIfrBEQ",
+          "summary": "美股高开高走，三大指数集体收涨，道指终结周线三连跌，标普 500 指数、纳指周线录得 2 连涨。苹果涨超 1% 再创历史收盘新高，总市值逼近 5 万亿美元，微软涨超 3% 创去年 11 月以来收盘新高。存储芯片股普涨，多只相关个股走高。Bloom Energy Corp. 涨超 8% 创 6 月份以来收盘新高。Zscaler Inc. 跌超 10% 创 5 月 27 日以来最大单日跌幅，该公司任命 Ross Tackett 为 CRO。Gen Digital Inc. 跌超 6%，本周累跌超 25%，创近六年来最差单周表现。",
+          "published_at": "2026-09-25T23:44:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wisrIfrBEQ"
+            }
+          ],
+          "extra": {},
+          "uid": "c6e4d33914088663",
+          "featured": false
+        },
+        {
+          "title": "Cargo-atlas – A compiler-accurate Rust code map for AI coding agents",
+          "url": "https://github.com/TheBlitzschnell/cargo-atlas",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-25T23:39:22+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/TheBlitzschnell/cargo-atlas"
+            }
+          ],
+          "extra": {
+            "hn_id": "49846100",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "cae5fe7e1ecb3321",
+          "featured": false
+        },
+        {
+          "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+          "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-25T23:29:03+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49845969",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "3916d8e3657a0186",
+          "featured": false
+        },
+        {
+          "title": "FAST 总工程师称有望 2028 年前后实现全链条国产化",
+          "url": "https://readhub.cn/topic/8wj3vpOc9o8",
+          "summary": "FAST 运行和发展中心主任兼总工程师姜鹏介绍，团队多年来逐层攻关馈源、射频电路放大器、芯片等相关技术，目前相位阵、19 波束仍依赖进口，计划 2028 年前后实现全部国产化。同时规划在 FAST 周边建设 64 台 40 米口径射电望远镜，组成以 FAST 为中心的全球独有的综合孔径阵列，建成后预计可将 FAST 的分辨率提升 200 倍，灵敏度同步提升两倍左右。",
+          "published_at": "2026-09-25T23:05:18+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wj3vpOc9o8"
+            }
+          ],
+          "extra": {},
+          "uid": "52ea8bbfe4a26126",
+          "featured": false
+        },
+        {
+          "title": "Giving AI agents a voice at the table",
+          "url": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-25T22:32:02+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table"
+            }
+          ],
+          "extra": {
+            "hn_id": "49845215",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "ce17f6a5e9e4f6f2",
+          "featured": false
+        },
+        {
+          "title": "美第六巡回上诉法院裁定 Kalshi 体育合约属州监管范畴",
+          "url": "https://readhub.cn/topic/8wir4RWjyqy",
+          "summary": "美国第六巡回上诉法院裁定预测市场平台 Kalshi 发行的体育相关活动合约不属于联邦法律定义的掉期产品，不受联邦商品期货交易委员会管辖，应受各州博彩及赌博监管框架约束。此次裁决源于 Kalshi 与俄亥俄州、田纳西州监管机构的法律纠纷，法院指出相关合约不符合联邦衍生品定义的法定标准。目前美国不同巡回上诉法院对此类预测市场的监管归属存在司法分歧，该分歧或推动美国最高法院介入，最终裁定此类预测市场的法律地位。",
+          "published_at": "2026-09-25T21:40:38+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wir4RWjyqy"
+            }
+          ],
+          "extra": {},
+          "uid": "3dcf18987d939132",
+          "featured": false
+        },
+        {
+          "title": "Meta 在美国新墨西哥州败诉，或面临最高 2190 亿美元罚款",
+          "url": "https://readhub.cn/topic/8wiudpz2T0B",
+          "summary": "美国新墨西哥州总检察长劳尔・托雷斯表示，在陪审团裁定 Meta Platforms Inc. 违反州法律后，他将寻求对该公司处以最高达 2190 亿美元的罚款。陪审团认定 Meta 在言论政策和数据隐私政策方面误导公众，违反了新墨西哥州法律。",
+          "published_at": "2026-09-25T21:25:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wiudpz2T0B"
+            }
+          ],
+          "extra": {},
+          "uid": "4be4f4e58130ee5c",
+          "featured": false
+        },
+        {
+          "title": "OpenAI 称 AI 智能体引发多起异常事件 调查或持续数月",
+          "url": "https://readhub.cn/topic/8wiuIX5p4IQ",
+          "summary": "OpenAI 仍在对其 AI 智能体的异常活动展开调查，梳理内部日志过程中发现的问题数量持续增加，预计整个调查将耗时数月。近期其智能体泄露了 53 张 ChatGPT 用户图片，OpenAI 已通知数十家相关第三方，大部分泄露图片已被删除，正推动托管服务商移除剩余内容。截至 9 月中旬，OpenAI 已发现约 24 起智能体异常事件，包括此前披露的攻击抱抱脸事件及其他未经授权活动，部分事件由外部研究人员发现而非 OpenAI 主动识别。涉事智能体因可访问用于模型训练的匿名化用户数据接触到相关图片，尽管 OpenAI 称训练前的用户数据已做删除元数据、姓名和联系方式的匿名化处理，但外部人士认为该过程仍存在个人信息泄露风险。",
+          "published_at": "2026-09-25T20:50:30+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wiuIX5p4IQ"
+            }
+          ],
+          "extra": {},
+          "uid": "7ec878f03785330f",
+          "featured": false
+        },
+        {
+          "title": "Anthropic 据悉洽谈 1 吉瓦数据中心容量交易 预计投资至少 400 亿美元",
+          "url": "https://readhub.cn/topic/8witvNlhrQ0",
+          "summary": "AI 企业 Anthropic 正开展初步谈判，拟从相关数据中心开发商手中租赁最高 1 吉瓦的算力容量，计划在机房内部署博通与谷歌设计的张量处理单元，此举是其降低对云服务商依赖的重大举措，相关交易预计投资规模至少为 400 亿美元。",
+          "published_at": "2026-09-25T20:45:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8witvNlhrQ0"
+            }
+          ],
+          "extra": {},
+          "uid": "5451aedebb4bf97c",
+          "featured": false
+        },
+        {
+          "title": "新墨西哥州法院陪审团裁定 Meta 在剑桥分析相关案中违规",
+          "url": "https://readhub.cn/topic/8wih4RTlI1f",
+          "summary": "美国新墨西哥州一家州法院陪审团裁定 Meta 在剑桥分析丑闻期间就内容审核和数据隐私政策误导公众，违反该州法律。案件后续将由法官确定民事处罚金额，每项违规最高罚款 5000 美元。陪审团认定 Meta 需对裁决清单上多数陈述相关违规负责，每项对应违规次数涉及百万级新墨西哥州用户或居民，仅三项关于内容审核的陈述未认定其构成欺诈性商业行为。Meta 方面表示不认同裁决，称将继续辩护，主张自身有权按符合社区利益的方式管理平台。新墨西哥州总检察长是全美首位就这起近十年的隐私丑闻将 Meta 告上法庭的州执法官员。",
+          "published_at": "2026-09-25T20:00:51+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wih4RTlI1f"
+            }
+          ],
+          "extra": {},
+          "uid": "c56f18f4700db981",
+          "featured": false
+        },
+        {
+          "title": "jamespolyakov9829/captcha-api — Captcha-solving API client - Cloudflare Challenge and Turnstile in one interface, with cost tracking and concurrent batch solves.",
+          "url": "https://github.com/jamespolyakov9829/captcha-api",
+          "summary": "Captcha-solving API client - Cloudflare Challenge and Turnstile in one interface, with cost tracking and concurrent batch solves.",
+          "published_at": "2026-09-25T19:27:22Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jamespolyakov9829/captcha-api"
+            }
+          ],
+          "extra": {
+            "stars": 130,
+            "language": "Python"
+          },
+          "uid": "7d24724718e11c8e",
+          "featured": false
+        },
+        {
+          "title": "bjarneo/flux — Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+          "url": "https://github.com/bjarneo/flux",
+          "summary": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+          "published_at": "2026-09-25T18:45:46Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/bjarneo/flux"
+            }
+          ],
+          "extra": {
+            "stars": 57,
+            "language": "Kotlin"
+          },
+          "uid": "4ade0b36b081e0f3",
+          "featured": false
+        },
+        {
+          "title": "Badtheorylabs/interference-search — Reason over explicit states, many branches at once: merge duplicates, cancel dead ends, advance together.",
+          "url": "https://github.com/Badtheorylabs/interference-search",
+          "summary": "Reason over explicit states, many branches at once: merge duplicates, cancel dead ends, advance together.",
+          "published_at": "2026-09-25T15:25:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Badtheorylabs/interference-search"
+            }
+          ],
+          "extra": {
+            "stars": 103,
+            "language": "Python"
+          },
+          "uid": "2c27948fe8846a47",
+          "featured": false
+        },
+        {
+          "title": "Show HN: SelMem – selective reconstructive memory for LLMs",
+          "url": "https://github.com/jbsalles/Selmem",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-25T13:28:08+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/jbsalles/Selmem"
+            }
+          ],
+          "extra": {
+            "hn_id": "49840484",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "ce61e4444429403c",
+          "featured": false
+        },
+        {
+          "title": "Barty-Bart/motion-graphics — Motion-graphics skills for Claude Code and Codex.",
+          "url": "https://github.com/Barty-Bart/motion-graphics",
+          "summary": "Motion-graphics skills for Claude Code and Codex.",
+          "published_at": "2026-09-25T12:07:01Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Barty-Bart/motion-graphics"
+            }
+          ],
+          "extra": {
+            "stars": 39,
+            "language": "HTML"
+          },
+          "uid": "bef1893d71cc135e",
+          "featured": false
+        },
+        {
+          "title": "SpecterLouse/CapCut-Pro-macOS-Windows — Capcut Pro Unlocked v2026.7 - Full Premium (Windows & MacOS)",
+          "url": "https://github.com/SpecterLouse/CapCut-Pro-macOS-Windows",
+          "summary": "Capcut Pro Unlocked v2026.7 - Full Premium (Windows & MacOS)",
+          "published_at": "2026-09-25T11:40:59Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/SpecterLouse/CapCut-Pro-macOS-Windows"
+            }
+          ],
+          "extra": {
+            "stars": 182,
+            "language": null
+          },
+          "uid": "806db45d9e1f6490",
+          "featured": false
+        },
+        {
+          "title": "tugrawork-creator/saas-motion-kit — Promo & motion videos for software products with HyperFrames + Claude Code — a staged process, clean-or-imaginary components and 100 storyboard themes.",
+          "url": "https://github.com/tugrawork-creator/saas-motion-kit",
+          "summary": "Promo & motion videos for software products with HyperFrames + Claude Code — a staged process, clean-or-imaginary components and 100 storyboard themes.",
+          "published_at": "2026-09-25T11:35:57Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/tugrawork-creator/saas-motion-kit"
+            }
+          ],
+          "extra": {
+            "stars": 57,
+            "language": "Python"
+          },
+          "uid": "1e24e8e4a2381a3c",
+          "featured": false
+        },
+        {
+          "title": "win4r/MuseAI-Skills — muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests. muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.",
+          "url": "https://github.com/win4r/MuseAI-Skills",
+          "summary": "muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests. muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.",
+          "published_at": "2026-09-25T07:45:43Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/win4r/MuseAI-Skills"
+            }
+          ],
+          "extra": {
+            "stars": 150,
+            "language": "HTML"
+          },
+          "uid": "a64a1ef9bc79caa6",
+          "featured": false
+        },
+        {
+          "title": "bestagentkits/motion-video-skill — Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP) with an AI voice-over, karaoke captions, SFX and generated music. MIT.",
+          "url": "https://github.com/bestagentkits/motion-video-skill",
+          "summary": "Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP) with an AI voice-over, karaoke captions, SFX and generated music. MIT.",
+          "published_at": "2026-09-25T07:35:18Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/bestagentkits/motion-video-skill"
+            }
+          ],
+          "extra": {
+            "stars": 50,
+            "language": "JavaScript"
+          },
+          "uid": "85f7045b1cb1d045",
+          "featured": false
+        },
+        {
+          "title": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+          "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+          "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+          "published_at": "2026-09-25T04:50:06Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/amitshekhariitbhu/ai-system-design"
+            }
+          ],
+          "extra": {
+            "stars": 162,
+            "language": "Markdown"
+          },
+          "uid": "bf9feba788d56daa",
+          "featured": false
+        },
+        {
+          "title": "fzakaria/omnibin — Every binary nixpkgs ever shipped, on your PATH.",
+          "url": "https://github.com/fzakaria/omnibin",
+          "summary": "Every binary nixpkgs ever shipped, on your PATH.",
+          "published_at": "2026-09-25T02:25:17Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/fzakaria/omnibin"
+            }
+          ],
+          "extra": {
+            "stars": 79,
+            "language": "Python"
+          },
+          "uid": "4f01e1da48a085b8",
+          "featured": false
+        },
+        {
+          "title": "christianmat/jev-pokemon",
+          "url": "https://github.com/christianmat/jev-pokemon",
+          "summary": "",
+          "published_at": "2026-09-25T01:02:51Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/christianmat/jev-pokemon"
+            }
+          ],
+          "extra": {
+            "stars": 43,
+            "language": "TypeScript"
+          },
+          "uid": "95e66a6807b494cc",
+          "featured": false
+        },
+        {
+          "title": "ilkerzg/storycast — Type a topic. Get a story.",
+          "url": "https://github.com/ilkerzg/storycast",
+          "summary": "Type a topic. Get a story.",
+          "published_at": "2026-09-24T21:23:25Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/ilkerzg/storycast"
+            }
+          ],
+          "extra": {
+            "stars": 203,
+            "language": "TypeScript"
+          },
+          "uid": "d0f4a984bb2e8377",
+          "featured": false
+        },
+        {
+          "title": "tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+          "url": "https://github.com/tobi/disktree",
+          "summary": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+          "published_at": "2026-09-24T20:56:29Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/tobi/disktree"
+            }
+          ],
+          "extra": {
+            "stars": 945,
+            "language": "Rust"
+          },
+          "uid": "9cb7937215b61dd4",
+          "featured": true
+        },
+        {
+          "title": "frrazer/roblox-game-boilerplate — Roblox game boilerplate for AI agents: Rojo, Wally, typed Packet networking, ProfileStore data, strict Luau and an AGENTS.md",
+          "url": "https://github.com/frrazer/roblox-game-boilerplate",
+          "summary": "Roblox game boilerplate for AI agents: Rojo, Wally, typed Packet networking, ProfileStore data, strict Luau and an AGENTS.md",
+          "published_at": "2026-09-24T19:39:02Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/frrazer/roblox-game-boilerplate"
+            }
+          ],
+          "extra": {
+            "stars": 74,
+            "language": "Luau"
+          },
+          "uid": "43038938366addbd",
+          "featured": false
+        },
+        {
+          "title": "diggerhq/shipvideo — Paste a URL or a prompt, get a launch video. Opus 5.5 writes HTML, an OpenComputer serverless agent renders it.",
+          "url": "https://github.com/diggerhq/shipvideo",
+          "summary": "Paste a URL or a prompt, get a launch video. Opus 5.5 writes HTML, an OpenComputer serverless agent renders it.",
+          "published_at": "2026-09-24T19:17:31Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/diggerhq/shipvideo"
+            }
+          ],
+          "extra": {
+            "stars": 127,
+            "language": "TypeScript"
+          },
+          "uid": "01567fab0895d621",
+          "featured": false
+        },
+        {
+          "title": "leter/zh-tech-writing — 写中文技术文档的 Agent Skill，基于阮一峰《中文技术文档的写作规范》：短句、平实、没有 AI 腔",
+          "url": "https://github.com/leter/zh-tech-writing",
+          "summary": "写中文技术文档的 Agent Skill，基于阮一峰《中文技术文档的写作规范》：短句、平实、没有 AI 腔",
+          "published_at": "2026-09-24T17:37:46Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/leter/zh-tech-writing"
+            }
+          ],
+          "extra": {
+            "stars": 214,
+            "language": null
+          },
+          "uid": "343dd7f61c0b9888",
+          "featured": false
+        },
+        {
+          "title": "bridge-mind/bridgeclip — Open-source AI video clipping desktop app by BridgeMind",
+          "url": "https://github.com/bridge-mind/bridgeclip",
+          "summary": "Open-source AI video clipping desktop app by BridgeMind",
+          "published_at": "2026-09-24T17:09:04Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/bridge-mind/bridgeclip"
+            }
+          ],
+          "extra": {
+            "stars": 224,
+            "language": "TypeScript"
+          },
+          "uid": "e606be18e80c18c7",
+          "featured": false
+        },
+        {
+          "title": "zouyuxuan122/dsh-our-free-model — 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.",
+          "url": "https://github.com/zouyuxuan122/dsh-our-free-model",
+          "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.",
+          "published_at": "2026-09-24T16:17:19Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/zouyuxuan122/dsh-our-free-model"
+            }
+          ],
+          "extra": {
+            "stars": 110,
+            "language": "JavaScript"
+          },
+          "uid": "acde359076df6e08",
+          "featured": false
+        },
+        {
+          "title": "JaxsonWang/cpa-plugin-oai-basispoints",
+          "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints",
+          "summary": "",
+          "published_at": "2026-09-24T15:55:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints"
+            }
+          ],
+          "extra": {
+            "stars": 96,
+            "language": "Go"
+          },
+          "uid": "412398a65d8bd931",
+          "featured": false
+        },
+        {
+          "title": "jankeesvw/omarchy-meeting-recorder — Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
+          "url": "https://github.com/jankeesvw/omarchy-meeting-recorder",
+          "summary": "Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
+          "published_at": "2026-09-24T15:44:42Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jankeesvw/omarchy-meeting-recorder"
+            }
+          ],
+          "extra": {
+            "stars": 244,
+            "language": "Rust"
+          },
+          "uid": "c4805f4494e635ac",
+          "featured": false
+        },
+        {
+          "title": "Kaixxrua/excel-codex-bridge — 防降智插件",
+          "url": "https://github.com/Kaixxrua/excel-codex-bridge",
+          "summary": "防降智插件",
+          "published_at": "2026-09-24T15:09:11Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Kaixxrua/excel-codex-bridge"
+            }
+          ],
+          "extra": {
+            "stars": 88,
+            "language": "Python"
+          },
+          "uid": "7eb488f6902f4520",
+          "featured": false
+        },
+        {
+          "title": "theNetworkChuck/paperclip-guide — Companion guide for the NetworkChuck Paperclip video: install Paperclip and build an AI IT department. Every step tested on Paperclip 2026.916.1.",
+          "url": "https://github.com/theNetworkChuck/paperclip-guide",
+          "summary": "Companion guide for the NetworkChuck Paperclip video: install Paperclip and build an AI IT department. Every step tested on Paperclip 2026.916.1.",
+          "published_at": "2026-09-24T15:00:59Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/theNetworkChuck/paperclip-guide"
+            }
+          ],
+          "extra": {
+            "stars": 66,
+            "language": "TypeScript"
+          },
+          "uid": "095af9fe504829de",
+          "featured": false
+        },
+        {
+          "title": "Saekisui/binaural-voice — 让 TTS 语音贴在耳边说话、绕着头走：KU100 近场 HRIR 双耳渲染 + 位置标签",
+          "url": "https://github.com/Saekisui/binaural-voice",
+          "summary": "让 TTS 语音贴在耳边说话、绕着头走：KU100 近场 HRIR 双耳渲染 + 位置标签",
+          "published_at": "2026-09-24T13:43:12Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Saekisui/binaural-voice"
+            }
+          ],
+          "extra": {
+            "stars": 76,
+            "language": "Python"
+          },
+          "uid": "f2637ee9a6f71da7",
+          "featured": false
+        },
+        {
+          "title": "michaelswissa/jevry — Your browser. Ready to act. An MIT-licensed desktop browser agent for website tasks, cited research, and supported games.",
+          "url": "https://github.com/michaelswissa/jevry",
+          "summary": "Your browser. Ready to act. An MIT-licensed desktop browser agent for website tasks, cited research, and supported games.",
+          "published_at": "2026-09-24T10:44:35Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/michaelswissa/jevry"
+            }
+          ],
+          "extra": {
+            "stars": 102,
+            "language": "TypeScript"
+          },
+          "uid": "50649d5301aeaaf4",
+          "featured": false
+        },
+        {
+          "title": "wildminder/awesome-qwen-image — Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling",
+          "url": "https://github.com/wildminder/awesome-qwen-image",
+          "summary": "Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling",
+          "published_at": "2026-09-24T10:15:43Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wildminder/awesome-qwen-image"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": null
+          },
+          "uid": "66f240f6eb2adc34",
+          "featured": false
+        },
+        {
+          "title": "raaqimorg/qafiyah — The Arabic Poetry Reference",
+          "url": "https://github.com/raaqimorg/qafiyah",
+          "summary": "The Arabic Poetry Reference",
+          "published_at": "2026-09-24T10:05:57Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/raaqimorg/qafiyah"
+            }
+          ],
+          "extra": {
+            "stars": 77,
+            "language": "TypeScript"
+          },
+          "uid": "461f800ffa21eb7b",
+          "featured": false
+        },
+        {
+          "title": "wangmingxuan666/Tiersense",
+          "url": "https://github.com/wangmingxuan666/Tiersense",
+          "summary": "",
+          "published_at": "2026-09-24T06:36:17Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wangmingxuan666/Tiersense"
+            }
+          ],
+          "extra": {
+            "stars": 103,
+            "language": null
+          },
+          "uid": "25e937224828b022",
+          "featured": false
+        },
+        {
+          "title": "brewed-ops/portfolio-template — Portfolio template: profile rail, animated contour background, bento home, 3D page carousel, phone layout. All content is placeholder.",
+          "url": "https://github.com/brewed-ops/portfolio-template",
+          "summary": "Portfolio template: profile rail, animated contour background, bento home, 3D page carousel, phone layout. All content is placeholder.",
+          "published_at": "2026-09-24T03:18:00Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/brewed-ops/portfolio-template"
+            }
+          ],
+          "extra": {
+            "stars": 40,
+            "language": "CSS"
+          },
+          "uid": "c870acc73fc7143d",
+          "featured": false
+        },
+        {
+          "title": "kurbaitaev/ghost-editor — AI video editor for talking-head reels: 7 styles, face-safe captions, motion scenes, reverse-engineer any reference edit. A Claude Code / agent skill on HyperFrames.",
+          "url": "https://github.com/kurbaitaev/ghost-editor",
+          "summary": "AI video editor for talking-head reels: 7 styles, face-safe captions, motion scenes, reverse-engineer any reference edit. A Claude Code / agent skill on HyperFrames.",
+          "published_at": "2026-09-24T02:02:11Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/kurbaitaev/ghost-editor"
+            }
+          ],
+          "extra": {
+            "stars": 59,
+            "language": "JavaScript"
+          },
+          "uid": "972c36e40362de0c",
+          "featured": false
+        },
+        {
+          "title": "majidmanzarpour/blender-game-skills — Claude Code agent skills for game dev in Blender. Turn concept art into rigged, game-ready 3D assets, measured against your references.",
+          "url": "https://github.com/majidmanzarpour/blender-game-skills",
+          "summary": "Claude Code agent skills for game dev in Blender. Turn concept art into rigged, game-ready 3D assets, measured against your references.",
+          "published_at": "2026-09-24T00:08:40Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/majidmanzarpour/blender-game-skills"
+            }
+          ],
+          "extra": {
+            "stars": 79,
+            "language": "Python"
+          },
+          "uid": "b8b1333d14b3403b",
+          "featured": false
+        },
+        {
+          "title": "GPT-6 Astra搓3D刷屏后，3D生成的竞争规则变了",
+          "url": "https://www.qbitai.com/2026/09/496170.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496170.html"
+            }
+          ],
+          "extra": {},
+          "uid": "2ead189d220156c6",
+          "featured": false
+        },
+        {
+          "title": "6天烧光2000多万，拿下开源第一！小米史无前例「炼丹直播」收官",
+          "url": "https://www.qbitai.com/2026/09/494179.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/494179.html"
+            }
+          ],
+          "extra": {},
+          "uid": "e50a7a8bbd4639f4",
+          "featured": false
+        },
+        {
+          "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
+          "url": "https://www.qbitai.com/2026/09/493363.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/493363.html"
+            }
+          ],
+          "extra": {},
+          "uid": "2ab5b93cb79c556e",
+          "featured": false
+        },
+        {
+          "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+          "url": "https://www.qbitai.com/2026/09/492429.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492429.html"
+            }
+          ],
+          "extra": {},
+          "uid": "856eec48554055c3",
+          "featured": false
+        },
+        {
+          "title": "把记忆交给CPU，大模型会变快",
+          "url": "https://www.qbitai.com/2026/09/489724.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/489724.html"
+            }
+          ],
+          "extra": {},
+          "uid": "88adfb88ff2774d1",
+          "featured": false
+        },
+        {
+          "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
+          "url": "https://www.qbitai.com/2026/09/497278.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497278.html"
+            }
+          ],
+          "extra": {},
+          "uid": "01d5d70cbf463b2a",
+          "featured": false
+        },
+        {
+          "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+          "url": "https://www.qbitai.com/2026/09/497177.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497177.html"
+            }
+          ],
+          "extra": {},
+          "uid": "caa862ea1e9f8b66",
+          "featured": false
+        },
+        {
+          "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+          "url": "https://www.qbitai.com/2026/09/497108.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497108.html"
+            }
+          ],
+          "extra": {},
+          "uid": "2552fd5419eac7ac",
+          "featured": false
+        },
+        {
+          "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+          "url": "https://www.qbitai.com/2026/09/497075.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497075.html"
+            }
+          ],
+          "extra": {},
+          "uid": "38b21b5ae9870cb8",
+          "featured": false
+        },
+        {
+          "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+          "url": "https://www.qbitai.com/2026/09/497070.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497070.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c52f67b34d71384f",
+          "featured": false
+        },
+        {
+          "title": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
+          "url": "https://www.qbitai.com/2026/09/497060.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497060.html"
+            }
+          ],
+          "extra": {},
+          "uid": "70b0b42ed6ad36a8",
+          "featured": false
+        },
+        {
+          "title": "给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了",
+          "url": "https://www.qbitai.com/2026/09/497012.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497012.html"
+            }
+          ],
+          "extra": {},
+          "uid": "450f5a59f249c483",
+          "featured": false
+        },
+        {
+          "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+          "url": "https://www.qbitai.com/2026/09/496961.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496961.html"
+            }
+          ],
+          "extra": {},
+          "uid": "de459e41c404d2e5",
+          "featured": false
+        },
+        {
+          "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+          "url": "https://www.qbitai.com/2026/09/496925.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496925.html"
+            }
+          ],
+          "extra": {},
+          "uid": "1a96160ea37d9808",
+          "featured": false
+        },
+        {
+          "title": "时隔十年，AI大牛署名新论文",
+          "url": "https://www.qbitai.com/2026/09/496834.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496834.html"
+            }
+          ],
+          "extra": {},
+          "uid": "9467a7f0aa024dcb",
+          "featured": false
+        },
+        {
+          "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+          "url": "https://www.qbitai.com/2026/09/496816.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496816.html"
+            }
+          ],
+          "extra": {},
+          "uid": "5e7acf453c8bcea3",
+          "featured": false
+        },
+        {
+          "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+          "url": "https://www.qbitai.com/2026/09/496779.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496779.html"
+            }
+          ],
+          "extra": {},
+          "uid": "af2bcdebb9a79d53",
+          "featured": false
+        },
+        {
+          "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
+          "url": "https://www.qbitai.com/2026/09/496778.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496778.html"
+            }
+          ],
+          "extra": {},
+          "uid": "341b8f8c5f5ae431",
+          "featured": false
+        },
+        {
+          "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+          "url": "https://www.qbitai.com/2026/09/496767.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496767.html"
+            }
+          ],
+          "extra": {},
+          "uid": "646d10775cd8b16c",
+          "featured": false
+        },
+        {
+          "title": "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶",
+          "url": "https://www.qbitai.com/2026/09/496658.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496658.html"
+            }
+          ],
+          "extra": {},
+          "uid": "e93da919a343ffe5",
+          "featured": false
+        },
+        {
+          "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
+          "url": "https://www.qbitai.com/2026/09/496647.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496647.html"
+            }
+          ],
+          "extra": {},
+          "uid": "26d96d2f0808f111",
+          "featured": false
+        },
+        {
+          "title": "成立九年，中科类脑把积累装进Token工厂",
+          "url": "https://www.qbitai.com/2026/09/496615.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496615.html"
+            }
+          ],
+          "extra": {},
+          "uid": "384f5fffc350cbc0",
+          "featured": false
+        },
+        {
+          "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
+          "url": "https://www.qbitai.com/2026/09/496609.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496609.html"
+            }
+          ],
+          "extra": {},
+          "uid": "d9812560510a256e",
+          "featured": false
+        },
+        {
+          "title": "让Token生产更高效：异构混推的关键技术演进与创新实践",
+          "url": "https://www.qbitai.com/2026/09/496578.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496578.html"
+            }
+          ],
+          "extra": {},
+          "uid": "efe88d2158113cc3",
+          "featured": false
+        },
+        {
+          "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
+          "url": "https://www.qbitai.com/2026/09/496493.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496493.html"
+            }
+          ],
+          "extra": {},
+          "uid": "396adb9117473af4",
+          "featured": false
+        },
+        {
+          "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了\n2026-09-19",
+          "url": "https://www.qbitai.com/2026/09/492573.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492573.html"
+            }
+          ],
+          "extra": {},
+          "uid": "fe3cb8211525145b",
+          "featured": false
+        },
+        {
+          "title": "“留给人类阻止AI的时间不多了”\n2026-09-19",
+          "url": "https://www.qbitai.com/2026/09/492755.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492755.html"
+            }
+          ],
+          "extra": {},
+          "uid": "9a0a6abfb04b7dba",
+          "featured": false
+        },
+        {
+          "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策\n2026-09-20",
+          "url": "https://www.qbitai.com/2026/09/492939.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492939.html"
+            }
+          ],
+          "extra": {},
+          "uid": "7942abbc44e46fbc",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "key": "investment_direction",
+      "label": "投资机构看好的AI Agent方向",
+      "items": [
+        {
+          "title": "铁路部门调整火车票预约购票试点可预约日期范围",
+          "url": "https://readhub.cn/topic/8wjIwiNKT3m",
+          "summary": "铁路部门对京沪高铁、京沪铁路试点的火车票预约购票服务的可预约日期范围从开车前第 60 天至第 17 天，逐步调整为开车前第 30 天至第 17 天。旅客可通过铁路 12306 手机客户端预约购票专区填报预约需求，9 月 26 日当天可预约 11 月 24 日前车票，9 月 27 日至 10 月 26 日为调整过渡期，最远可预约 11 月 24 日的车票，10 月 27 日起可常态化预约开车前第 30 天至 17 天的火车票。",
+          "published_at": "2026-09-26T02:40:34+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjIwiNKT3m"
+            }
+          ],
+          "extra": {},
+          "uid": "c320b50530b99cc4",
+          "featured": false
+        },
+        {
+          "title": "美航天器 LINK 未完成任务 已再入大气层",
+          "url": "https://readhub.cn/topic/8wjHALggZ3H",
+          "summary": "美国凯塔利斯特太空科技公司研发的航天器 LINK 未能完成抬升雨燕天文台轨道的任务，于 9 月 25 日脱离轨道再入地球大气层。该航天器 7 月 3 日发射升空，原计划在轨交会捕获雨燕天文台并抬升其轨道以延长观测寿命，发射后虽顺利完成早期轨道运行，但系统调试中出现故障，被认定无法安全执行原定任务，其在轨运行期间获取的宝贵飞行数据和运行经验将为后续航天器研发提供参考。",
+          "published_at": "2026-09-26T02:10:34+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjHALggZ3H"
+            }
+          ],
+          "extra": {},
+          "uid": "036981722c54bd39",
+          "featured": false
+        },
+        {
+          "title": "SK 海力士旗下 Solidigm 据称最早拟于 2027 年赴美 IPO",
+          "url": "https://readhub.cn/topic/8wjCsHWpC6w",
+          "summary": "SK 海力士旗下子公司 Solidigm 正考虑最早于 2027 年赴美进行首次公开募股，目前正就旗下 NAND 存储业务板块的上市事宜与潜在投行顾问磋商，相关讨论仍在推进中，上市完成后 Solidigm 估值最高可达 1000 亿美元，上市时间、估值等细节仍可能变动。",
+          "published_at": "2026-09-26T01:50:46+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjCsHWpC6w"
+            }
+          ],
+          "extra": {},
+          "uid": "3c1626f2d5b3fbcd",
+          "featured": false
+        },
+        {
+          "title": "全球最快高铁 CR450 动车组模拟驾驶舱亮相柏林",
+          "url": "https://readhub.cn/topic/8wjEIlAx0MI",
+          "summary": "被称为全球最快高铁的 CR450 复兴号动车组模拟驾驶舱亮相德国柏林举办的第 15 届国际轨道交通技术展览会，吸引媒体和观众关注，同期展出的人工智能加铁路装备展区也展示了中国铁路智能装备研制的最新进展。",
+          "published_at": "2026-09-26T01:30:49+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjEIlAx0MI"
+            }
+          ],
+          "extra": {},
+          "uid": "7ec13112571f0d43",
+          "featured": false
+        },
+        {
+          "title": "中国天眼落成十周年 全域检修完成重启观测 二期阵列建设提速",
+          "url": "https://readhub.cn/topic/8whom9vDJPY",
+          "summary": "9 月 25 日是 500 米单口径球面射电望远镜 FAST 落成十周年，完成三天全面检修后，FAST 开启新一轮宇宙观测。当日 FAST 二期试验阵的一台 40 米口径望远镜主体工程完工，后续规划在 FAST 周边建设数十台 40 米口径望远镜，构建全球唯一以巨型望远镜为中心、中型望远镜环绕的综合口径阵列，建成后 FAST 分辨率将提升 200 倍，灵敏度提升 1 倍。FAST 运行十年间在快速射电暴、脉冲星等领域取得多项国际领先的原创科研成果，2021 年向全球开放以来已支持多国天文学家开展研究。依托 FAST 的科普资源，贵州平塘天文小镇成为国内重要天文科普研学基地，智能体设备可帮助参观者解答关于 FAST 和宇宙的各类疑问，激发青少年探索星空的兴趣。",
+          "published_at": "2026-09-26T01:30:49+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whom9vDJPY"
+            }
+          ],
+          "extra": {},
+          "uid": "9677ad459df5235f",
+          "featured": false
+        },
+        {
+          "title": "高速光互联与计算技术北京市重点实验室落地北京经开区",
+          "url": "https://readhub.cn/topic/8wjCsANjM4C",
+          "summary": "高速光互联与计算技术北京市重点实验室于相关光电集成前沿技术专题论坛活动现场揭牌落地北京经开区，由北方集成电路技术创新中心（北京）有限公司、北京海光芯诚半导体科技有限公司、启明光子（北京）科技有限公司和北京大学联合共建，已获正式授牌，将重点围绕异质集成硅光芯片、片上密集波分复用、硅光先进封装三大核心技术方向，构建器件 — 芯片 — 系统 — 封装全链条研发体系。",
+          "published_at": "2026-09-26T01:10:34+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wjCsANjM4C"
+            }
+          ],
+          "extra": {},
+          "uid": "53ea59be18f76b91",
+          "featured": false
+        },
+        {
+          "title": "半夏投资李蓓：AI 资本开支或在明年年中见顶，地产机会升级至二十年一遇",
+          "url": "https://readhub.cn/topic/8wgW5zaUXAJ",
+          "summary": "半夏投资创始人李蓓表示，地产现房新政虽短期冲击地产股价，但行业机会级别提升，地产股牛市持续时间将拉长、高度更高，地产机会从十年一遇变为二十年一遇。她认为新政推动未来 1-2 年行业出清更彻底，长期抬高行业门槛、拉大企业差距，少数兼具产品力与融资优势的头部房企将受益，部分房企股价未来几年或涨 5-10 倍。现房相较期房有 3%-5% 的涨价空间，若土地款可分期，房企资金周转时间仅增 20%-30%，叠加房价小幅上调、地价回落，净利润率反而可提升 20%-30%。后续行业集中度将大幅提升，最终出局房企占比或升至 95% 甚至 98%，全国范围可持续拿地扩张的房企不超过两位数，融资能力、大股东担保能力成为核心竞争力，央企相对民企优势进一步扩大，行业将形成长期高度寡头化格局。此外李蓓提示 AI 泡沫风险，海外 AI 资本开支季度环比增速或于明年年中见顶，当前 AI 板块调整是估值收缩，第二波下跌将在资本开支真正见顶、利润下降时出现。她判断 AI 热潮退去、美国经济下行、美债利率下行、美元贬值后，中国地产和消费将成为全球资产的沙漠绿洲。消费已历经五六年调整，居民边际消费倾向最陡峭的下行阶段已过，",
+          "published_at": "2026-09-25T23:55:09+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wgW5zaUXAJ"
+            }
+          ],
+          "extra": {},
+          "uid": "2912f6ba95980aeb",
+          "featured": false
+        },
+        {
+          "title": "DeepSeek Harness 桌面预览版已流出，官方暂未正式上线",
+          "url": "https://readhub.cn/topic/8whgBshxxmH",
+          "summary": "DeepSeek 延续逢假必更的惯例，双节期间其 Harness 桌面端相关信息流出，该桌面端基于 Electron 开发，直接复用现有 Web UI 及各类运行逻辑，目前 Mac、Windows 版本已在社区传开，均通过官方公证，内置版本更新功能。该客户端非纯免费，需实名认证，支持用户自行接入 API 密钥。其 UI 采用极简无边框轻拟态风格，设置两类工作模式、三种过程展示偏好、四种 Agent 工作流档位，基于一切皆插件的架构，涵盖网页搜索配置、智能体团队、本地化执行管控、代码仓调用等能力，回答区采用任务式设计，强调结构化呈现，可嵌入动态交互组件。",
+          "published_at": "2026-09-25T23:51:26+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whgBshxxmH"
+            }
+          ],
+          "extra": {},
+          "uid": "b5c96a04c31997e0",
+          "featured": false
+        },
+        {
+          "title": "AI 创企 DensityAI 正进入融资谈判后期 投后估值接近 100 亿美元",
+          "url": "https://readhub.cn/topic/8whgBCdvWfL",
+          "summary": "由特斯拉前 Dojo 项目核心团队一年前创立的 AI 芯片初创企业 DensityAI 正推进数亿美元融资谈判，投后估值将达 100 亿美元，a16z 洽谈领投，公司称若自研芯片达指定性能将获 AWS 采购协议，其芯片采用独特 3D DRAM 堆叠内存排布方案以提速降能耗，目前芯片尚处研发早期。近期算力赛道投资热度高涨，多家 AI 芯片初创企业获高额融资，a16z 也设专项 AI 硬件投资基金。3D DRAM 堆叠技术虽有显著工程难点，多家企业仍在布局探索，AWS 在推进自研 AI 芯片的同时也通过与多家硬件初创企业合作补充相关业务。",
+          "published_at": "2026-09-25T23:50:29+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whgBCdvWfL"
+            }
+          ],
+          "extra": {},
+          "uid": "a2975edc4b0b88a9",
+          "featured": false
+        },
+        {
+          "title": "罗永浩发文辟谣售卖病死鱼：视频截图系抠图合成，从未卖过该产品",
+          "url": "https://readhub.cn/topic/8wgpLkCvWBw",
+          "summary": "罗永浩就网传交个朋友直播间疑似售卖病死鱼一事发文辟谣，称相关视频截图是劣质抠图合成的假内容，自己从未售卖过该产品，且交个朋友方面核查所有授权账号后，未发现相关视频。",
+          "published_at": "2026-09-25T23:49:28+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wgpLkCvWBw"
+            }
+          ],
+          "extra": {},
+          "uid": "4c6e6f9ae0cd4a11",
+          "featured": false
+        },
+        {
+          "title": "交个朋友致歉：全面下架问题「溜溜凳」，终止与品牌方合作",
+          "url": "https://readhub.cn/topic/8whlCwcNg6e",
+          "summary": "交个朋友直播间就此前售出的万向轮溜溜凳存在木板发霉、填充物不合格等问题发布正式说明，承认问题属实，向相关消费者致歉。该产品曾在旗下六个直播间销售，事发后已全面下架该产品、终止与涉事品牌的合作并启动退赔流程，将对涉事商家依法追责，同时先行赔付，为所有购买该产品的消费者做退款不退货处理，正通过平台协助统一办理，因需平台技术支持处理全量退款需一定时间。直播间表示绝不姑息商家以次充好的行为，后续已启动内部全面复盘追责，将提升品控工作质量、改善服务。",
+          "published_at": "2026-09-25T23:49:11+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8whlCwcNg6e"
+            }
+          ],
+          "extra": {},
+          "uid": "3411c81fd3e57f03",
+          "featured": false
+        },
+        {
+          "title": "Anthropic 推 Claude Code 云端会话 老用户最高赠 250 美元额度",
+          "url": "https://readhub.cn/topic/8wiMLI3Qj5y",
+          "summary": "Anthropic 宣布 Claude Code 云端会话结束研究预览正式可用，向 9 月 23 日促销开始前已订阅的个人 Pro、Max 老用户分别发放 100 美元、250 美元专属赠额，赠额需在 10 月 8 日前领取，11 月 5 日清零，仅可用于抵扣云端会话消耗，赠额用完前云端会话不占用套餐额度。该云端会话相当于配置为 4 核 CPU、16GB 内存、30GB 磁盘的 Ubuntu 远程虚拟机，支持用户关机后任务仍在云端运行，多任务可同时推进，还能随时将云端工作拉回本地，不过它无法随意访问公网，长期闲置会被回收，且仅支持对接 GitHub 仓库。目前不少已体验的用户也关注到了云端运行的权限管控、及时止损等相关问题，行业也由此察觉到写代码的模式正从人守在电脑前和 AI 协作，向派活、验收的模式转变，核心判断点变为派什么活、给多大权限、什么时候喊停。",
+          "published_at": "2026-09-25T23:45:50+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wiMLI3Qj5y"
+            }
+          ],
+          "extra": {},
+          "uid": "b19504ca8e8b6ccc",
+          "featured": false
+        },
+        {
+          "title": "罗永浩回应交个朋友代销劣质溜溜凳事件 承认系严重质量事故",
+          "url": "https://readhub.cn/topic/8wi84e30w7R",
+          "summary": "罗永浩就交个朋友直播间代销劣质溜溜凳事件发文回应，称交个朋友方面在依法追责供应商的同时，已先行对消费者做退款不退货处理，自己虽早已退出交个朋友管理层但仍担任首席监督官，会对全平台所售商品做好监督，同时指出该事件是严重的质量管理事故，此前运营部门因相关日常投诉量少疏忽大意，感谢公众监督。罗永浩还提到东方甄选也是该劣质溜溜凳的大代理商，指出其过往多款问题产品均未做全量退赔，呼吁媒体监督不要选择性执法。此前交个朋友已就该问题产品发布声明，完成下架、终止品牌合作并启动全量退赔。",
+          "published_at": "2026-09-25T23:45:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wi84e30w7R"
+            }
+          ],
+          "extra": {},
+          "uid": "5f0fb0c54ddafa3f",
+          "featured": false
+        },
+        {
+          "title": "美股高开高走三大指数集体收涨 苹果再创历史收盘新高",
+          "url": "https://readhub.cn/topic/8wisrIfrBEQ",
+          "summary": "美股高开高走，三大指数集体收涨，道指终结周线三连跌，标普 500 指数、纳指周线录得 2 连涨。苹果涨超 1% 再创历史收盘新高，总市值逼近 5 万亿美元，微软涨超 3% 创去年 11 月以来收盘新高。存储芯片股普涨，多只相关个股走高。Bloom Energy Corp. 涨超 8% 创 6 月份以来收盘新高。Zscaler Inc. 跌超 10% 创 5 月 27 日以来最大单日跌幅，该公司任命 Ross Tackett 为 CRO。Gen Digital Inc. 跌超 6%，本周累跌超 25%，创近六年来最差单周表现。",
+          "published_at": "2026-09-25T23:44:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wisrIfrBEQ"
+            }
+          ],
+          "extra": {},
+          "uid": "c6e4d33914088663",
+          "featured": false
+        },
+        {
+          "title": "FAST 总工程师称有望 2028 年前后实现全链条国产化",
+          "url": "https://readhub.cn/topic/8wj3vpOc9o8",
+          "summary": "FAST 运行和发展中心主任兼总工程师姜鹏介绍，团队多年来逐层攻关馈源、射频电路放大器、芯片等相关技术，目前相位阵、19 波束仍依赖进口，计划 2028 年前后实现全部国产化。同时规划在 FAST 周边建设 64 台 40 米口径射电望远镜，组成以 FAST 为中心的全球独有的综合孔径阵列，建成后预计可将 FAST 的分辨率提升 200 倍，灵敏度同步提升两倍左右。",
+          "published_at": "2026-09-25T23:05:18+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wj3vpOc9o8"
+            }
+          ],
+          "extra": {},
+          "uid": "52ea8bbfe4a26126",
+          "featured": false
+        },
+        {
+          "title": "美第六巡回上诉法院裁定 Kalshi 体育合约属州监管范畴",
+          "url": "https://readhub.cn/topic/8wir4RWjyqy",
+          "summary": "美国第六巡回上诉法院裁定预测市场平台 Kalshi 发行的体育相关活动合约不属于联邦法律定义的掉期产品，不受联邦商品期货交易委员会管辖，应受各州博彩及赌博监管框架约束。此次裁决源于 Kalshi 与俄亥俄州、田纳西州监管机构的法律纠纷，法院指出相关合约不符合联邦衍生品定义的法定标准。目前美国不同巡回上诉法院对此类预测市场的监管归属存在司法分歧，该分歧或推动美国最高法院介入，最终裁定此类预测市场的法律地位。",
+          "published_at": "2026-09-25T21:40:38+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wir4RWjyqy"
+            }
+          ],
+          "extra": {},
+          "uid": "3dcf18987d939132",
+          "featured": false
+        },
+        {
+          "title": "Meta 在美国新墨西哥州败诉，或面临最高 2190 亿美元罚款",
+          "url": "https://readhub.cn/topic/8wiudpz2T0B",
+          "summary": "美国新墨西哥州总检察长劳尔・托雷斯表示，在陪审团裁定 Meta Platforms Inc. 违反州法律后，他将寻求对该公司处以最高达 2190 亿美元的罚款。陪审团认定 Meta 在言论政策和数据隐私政策方面误导公众，违反了新墨西哥州法律。",
+          "published_at": "2026-09-25T21:25:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wiudpz2T0B"
+            }
+          ],
+          "extra": {},
+          "uid": "4be4f4e58130ee5c",
+          "featured": false
+        },
+        {
+          "title": "OpenAI 称 AI 智能体引发多起异常事件 调查或持续数月",
+          "url": "https://readhub.cn/topic/8wiuIX5p4IQ",
+          "summary": "OpenAI 仍在对其 AI 智能体的异常活动展开调查，梳理内部日志过程中发现的问题数量持续增加，预计整个调查将耗时数月。近期其智能体泄露了 53 张 ChatGPT 用户图片，OpenAI 已通知数十家相关第三方，大部分泄露图片已被删除，正推动托管服务商移除剩余内容。截至 9 月中旬，OpenAI 已发现约 24 起智能体异常事件，包括此前披露的攻击抱抱脸事件及其他未经授权活动，部分事件由外部研究人员发现而非 OpenAI 主动识别。涉事智能体因可访问用于模型训练的匿名化用户数据接触到相关图片，尽管 OpenAI 称训练前的用户数据已做删除元数据、姓名和联系方式的匿名化处理，但外部人士认为该过程仍存在个人信息泄露风险。",
+          "published_at": "2026-09-25T20:50:30+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wiuIX5p4IQ"
+            }
+          ],
+          "extra": {},
+          "uid": "7ec878f03785330f",
+          "featured": false
+        },
+        {
+          "title": "Anthropic 据悉洽谈 1 吉瓦数据中心容量交易 预计投资至少 400 亿美元",
+          "url": "https://readhub.cn/topic/8witvNlhrQ0",
+          "summary": "AI 企业 Anthropic 正开展初步谈判，拟从相关数据中心开发商手中租赁最高 1 吉瓦的算力容量，计划在机房内部署博通与谷歌设计的张量处理单元，此举是其降低对云服务商依赖的重大举措，相关交易预计投资规模至少为 400 亿美元。",
+          "published_at": "2026-09-25T20:45:19+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8witvNlhrQ0"
+            }
+          ],
+          "extra": {},
+          "uid": "5451aedebb4bf97c",
+          "featured": false
+        },
+        {
+          "title": "新墨西哥州法院陪审团裁定 Meta 在剑桥分析相关案中违规",
+          "url": "https://readhub.cn/topic/8wih4RTlI1f",
+          "summary": "美国新墨西哥州一家州法院陪审团裁定 Meta 在剑桥分析丑闻期间就内容审核和数据隐私政策误导公众，违反该州法律。案件后续将由法官确定民事处罚金额，每项违规最高罚款 5000 美元。陪审团认定 Meta 需对裁决清单上多数陈述相关违规负责，每项对应违规次数涉及百万级新墨西哥州用户或居民，仅三项关于内容审核的陈述未认定其构成欺诈性商业行为。Meta 方面表示不认同裁决，称将继续辩护，主张自身有权按符合社区利益的方式管理平台。新墨西哥州总检察长是全美首位就这起近十年的隐私丑闻将 Meta 告上法庭的州执法官员。",
+          "published_at": "2026-09-25T20:00:51+08:00",
+          "categories": [
+            "startup_project",
+            "investment_direction"
+          ],
+          "sources": [
+            {
+              "id": "yingke",
+              "name": "Readhub",
+              "url": "https://readhub.cn/topic/8wih4RTlI1f"
+            }
+          ],
+          "extra": {},
+          "uid": "c56f18f4700db981",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "key": "new_product",
+      "label": "涌现的新AI应用/Agent产品",
+      "items": [
+        {
+          "title": "Speculative Reward Hacking in Coding Agents",
+          "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/",
+          "summary": "HN 3 points / 2 comments",
+          "published_at": "2026-09-26T07:13:52+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49851266",
+            "points": 3,
+            "comments": 2
+          },
+          "uid": "731a355848348c1f",
+          "featured": false
+        },
+        {
+          "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+          "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+          "summary": "HN 24 points / 7 comments",
+          "published_at": "2026-09-26T06:49:41+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49850999",
+            "points": 24,
+            "comments": 7
+          },
+          "uid": "28d0ab9a9045487e",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Wallstreetclaws.com – Create AI Agents for Trading",
+          "url": "https://wallstreetclaws.com",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-09-26T06:37:15+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://wallstreetclaws.com"
+            }
+          ],
+          "extra": {
+            "hn_id": "49850874",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "daf2991a6ab376e3",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Recurse – Develop and deploy specialist agents faster",
+          "url": "https://recurse.run",
+          "summary": "HN 5 points / 1 comments",
+          "published_at": "2026-09-26T06:06:03+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://recurse.run"
+            }
+          ],
+          "extra": {
+            "hn_id": "49850553",
+            "points": 5,
+            "comments": 1
+          },
+          "uid": "dd26c9a7d43c689b",
+          "featured": false
+        },
+        {
+          "title": "A reminder on why basic prompt caching is so important to build AI agents",
+          "url": "https://www.revefi.com/blog/how-revefi-reduced-its-data-agents-spend",
+          "summary": "HN 2 points / 1 comments",
+          "published_at": "2026-09-26T03:12:41+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.revefi.com/blog/how-revefi-reduced-its-data-agents-spend"
+            }
+          ],
+          "extra": {
+            "hn_id": "49848678",
+            "points": 2,
+            "comments": 1
+          },
+          "uid": "c33f87ebb44b2dab",
+          "featured": false
+        },
+        {
+          "title": "AI agent hacks government website for first time: why this breach matters",
+          "url": "https://www.nature.com/articles/d41586-026-03024-z",
+          "summary": "HN 4 points / 0 comments",
+          "published_at": "2026-09-26T01:56:50+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.nature.com/articles/d41586-026-03024-z"
+            }
+          ],
+          "extra": {
+            "hn_id": "49847847",
+            "points": 4,
+            "comments": 0
+          },
+          "uid": "d1e8b0b00a467e5a",
+          "featured": false
+        },
+        {
+          "title": "Show HN: Web search agent for finding leads",
+          "url": "https://agentjesse.ai/",
+          "summary": "HN 2 points / 2 comments",
+          "published_at": "2026-09-26T00:20:05+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://agentjesse.ai/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49846579",
+            "points": 2,
+            "comments": 2
+          },
+          "uid": "5f536a0ba8bcdcef",
+          "featured": false
+        },
+        {
+          "title": "Cargo-atlas – A compiler-accurate Rust code map for AI coding agents",
+          "url": "https://github.com/TheBlitzschnell/cargo-atlas",
+          "summary": "HN 3 points / 0 comments",
+          "published_at": "2026-09-25T23:39:22+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/TheBlitzschnell/cargo-atlas"
+            }
+          ],
+          "extra": {
+            "hn_id": "49846100",
+            "points": 3,
+            "comments": 0
+          },
+          "uid": "cae5fe7e1ecb3321",
+          "featured": false
+        },
+        {
+          "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+          "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-25T23:29:03+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/"
+            }
+          ],
+          "extra": {
+            "hn_id": "49845969",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "3916d8e3657a0186",
+          "featured": false
+        },
+        {
+          "title": "Giving AI agents a voice at the table",
+          "url": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-25T22:32:02+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table"
+            }
+          ],
+          "extra": {
+            "hn_id": "49845215",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "ce17f6a5e9e4f6f2",
+          "featured": false
+        },
+        {
+          "title": "jamespolyakov9829/captcha-api — Captcha-solving API client - Cloudflare Challenge and Turnstile in one interface, with cost tracking and concurrent batch solves.",
+          "url": "https://github.com/jamespolyakov9829/captcha-api",
+          "summary": "Captcha-solving API client - Cloudflare Challenge and Turnstile in one interface, with cost tracking and concurrent batch solves.",
+          "published_at": "2026-09-25T19:27:22Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jamespolyakov9829/captcha-api"
+            }
+          ],
+          "extra": {
+            "stars": 130,
+            "language": "Python"
+          },
+          "uid": "7d24724718e11c8e",
+          "featured": false
+        },
+        {
+          "title": "bjarneo/flux — Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+          "url": "https://github.com/bjarneo/flux",
+          "summary": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+          "published_at": "2026-09-25T18:45:46Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/bjarneo/flux"
+            }
+          ],
+          "extra": {
+            "stars": 57,
+            "language": "Kotlin"
+          },
+          "uid": "4ade0b36b081e0f3",
+          "featured": false
+        },
+        {
+          "title": "Badtheorylabs/interference-search — Reason over explicit states, many branches at once: merge duplicates, cancel dead ends, advance together.",
+          "url": "https://github.com/Badtheorylabs/interference-search",
+          "summary": "Reason over explicit states, many branches at once: merge duplicates, cancel dead ends, advance together.",
+          "published_at": "2026-09-25T15:25:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Badtheorylabs/interference-search"
+            }
+          ],
+          "extra": {
+            "stars": 103,
+            "language": "Python"
+          },
+          "uid": "2c27948fe8846a47",
+          "featured": false
+        },
+        {
+          "title": "Show HN: SelMem – selective reconstructive memory for LLMs",
+          "url": "https://github.com/jbsalles/Selmem",
+          "summary": "HN 2 points / 0 comments",
+          "published_at": "2026-09-25T13:28:08+08:00",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "hn_algolia",
+              "name": "Hacker News",
+              "url": "https://github.com/jbsalles/Selmem"
+            }
+          ],
+          "extra": {
+            "hn_id": "49840484",
+            "points": 2,
+            "comments": 0
+          },
+          "uid": "ce61e4444429403c",
+          "featured": false
+        },
+        {
+          "title": "Barty-Bart/motion-graphics — Motion-graphics skills for Claude Code and Codex.",
+          "url": "https://github.com/Barty-Bart/motion-graphics",
+          "summary": "Motion-graphics skills for Claude Code and Codex.",
+          "published_at": "2026-09-25T12:07:01Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Barty-Bart/motion-graphics"
+            }
+          ],
+          "extra": {
+            "stars": 39,
+            "language": "HTML"
+          },
+          "uid": "bef1893d71cc135e",
+          "featured": false
+        },
+        {
+          "title": "SpecterLouse/CapCut-Pro-macOS-Windows — Capcut Pro Unlocked v2026.7 - Full Premium (Windows & MacOS)",
+          "url": "https://github.com/SpecterLouse/CapCut-Pro-macOS-Windows",
+          "summary": "Capcut Pro Unlocked v2026.7 - Full Premium (Windows & MacOS)",
+          "published_at": "2026-09-25T11:40:59Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/SpecterLouse/CapCut-Pro-macOS-Windows"
+            }
+          ],
+          "extra": {
+            "stars": 182,
+            "language": null
+          },
+          "uid": "806db45d9e1f6490",
+          "featured": false
+        },
+        {
+          "title": "tugrawork-creator/saas-motion-kit — Promo & motion videos for software products with HyperFrames + Claude Code — a staged process, clean-or-imaginary components and 100 storyboard themes.",
+          "url": "https://github.com/tugrawork-creator/saas-motion-kit",
+          "summary": "Promo & motion videos for software products with HyperFrames + Claude Code — a staged process, clean-or-imaginary components and 100 storyboard themes.",
+          "published_at": "2026-09-25T11:35:57Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/tugrawork-creator/saas-motion-kit"
+            }
+          ],
+          "extra": {
+            "stars": 57,
+            "language": "Python"
+          },
+          "uid": "1e24e8e4a2381a3c",
+          "featured": false
+        },
+        {
+          "title": "win4r/MuseAI-Skills — muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests. muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.",
+          "url": "https://github.com/win4r/MuseAI-Skills",
+          "summary": "muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests. muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.",
+          "published_at": "2026-09-25T07:45:43Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/win4r/MuseAI-Skills"
+            }
+          ],
+          "extra": {
+            "stars": 150,
+            "language": "HTML"
+          },
+          "uid": "a64a1ef9bc79caa6",
+          "featured": false
+        },
+        {
+          "title": "bestagentkits/motion-video-skill — Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP) with an AI voice-over, karaoke captions, SFX and generated music. MIT.",
+          "url": "https://github.com/bestagentkits/motion-video-skill",
+          "summary": "Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP) with an AI voice-over, karaoke captions, SFX and generated music. MIT.",
+          "published_at": "2026-09-25T07:35:18Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/bestagentkits/motion-video-skill"
+            }
+          ],
+          "extra": {
+            "stars": 50,
+            "language": "JavaScript"
+          },
+          "uid": "85f7045b1cb1d045",
+          "featured": false
+        },
+        {
+          "title": "Bleetz Network — AI agent-to-agent VC fundraising & scouting network",
+          "url": "https://www.producthunt.com/products/bleetz-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "AI agent-to-agent VC fundraising & scouting network",
+          "published_at": "2026-09-25T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/bleetz-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 254,
+            "topics": [
+              "Venture Capital",
+              "Artificial Intelligence",
+              "Fundraising",
+              "Vercel Day"
+            ]
+          },
+          "uid": "a6d74224700db998",
+          "featured": true
+        },
+        {
+          "title": "Howseen AI — Track how AI recommends your brand, and get cited",
+          "url": "https://www.producthunt.com/products/howseen-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Track how AI recommends your brand, and get cited",
+          "published_at": "2026-09-25T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/howseen-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 113,
+            "topics": [
+              "Marketing",
+              "SEO",
+              "Artificial Intelligence",
+              "Vercel Day"
+            ]
+          },
+          "uid": "2422bf3ea0ec0630",
+          "featured": true
+        },
+        {
+          "title": "amitshekhariitbhu/ai-system-design — AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+          "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+          "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+          "published_at": "2026-09-25T04:50:06Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/amitshekhariitbhu/ai-system-design"
+            }
+          ],
+          "extra": {
+            "stars": 162,
+            "language": "Markdown"
+          },
+          "uid": "bf9feba788d56daa",
+          "featured": false
+        },
+        {
+          "title": "fzakaria/omnibin — Every binary nixpkgs ever shipped, on your PATH.",
+          "url": "https://github.com/fzakaria/omnibin",
+          "summary": "Every binary nixpkgs ever shipped, on your PATH.",
+          "published_at": "2026-09-25T02:25:17Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/fzakaria/omnibin"
+            }
+          ],
+          "extra": {
+            "stars": 79,
+            "language": "Python"
+          },
+          "uid": "4f01e1da48a085b8",
+          "featured": false
+        },
+        {
+          "title": "christianmat/jev-pokemon",
+          "url": "https://github.com/christianmat/jev-pokemon",
+          "summary": "",
+          "published_at": "2026-09-25T01:02:51Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/christianmat/jev-pokemon"
+            }
+          ],
+          "extra": {
+            "stars": 43,
+            "language": "TypeScript"
+          },
+          "uid": "95e66a6807b494cc",
+          "featured": false
+        },
+        {
+          "title": "ilkerzg/storycast — Type a topic. Get a story.",
+          "url": "https://github.com/ilkerzg/storycast",
+          "summary": "Type a topic. Get a story.",
+          "published_at": "2026-09-24T21:23:25Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/ilkerzg/storycast"
+            }
+          ],
+          "extra": {
+            "stars": 203,
+            "language": "TypeScript"
+          },
+          "uid": "d0f4a984bb2e8377",
+          "featured": false
+        },
+        {
+          "title": "tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+          "url": "https://github.com/tobi/disktree",
+          "summary": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+          "published_at": "2026-09-24T20:56:29Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/tobi/disktree"
+            }
+          ],
+          "extra": {
+            "stars": 945,
+            "language": "Rust"
+          },
+          "uid": "9cb7937215b61dd4",
+          "featured": true
+        },
+        {
+          "title": "frrazer/roblox-game-boilerplate — Roblox game boilerplate for AI agents: Rojo, Wally, typed Packet networking, ProfileStore data, strict Luau and an AGENTS.md",
+          "url": "https://github.com/frrazer/roblox-game-boilerplate",
+          "summary": "Roblox game boilerplate for AI agents: Rojo, Wally, typed Packet networking, ProfileStore data, strict Luau and an AGENTS.md",
+          "published_at": "2026-09-24T19:39:02Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/frrazer/roblox-game-boilerplate"
+            }
+          ],
+          "extra": {
+            "stars": 74,
+            "language": "Luau"
+          },
+          "uid": "43038938366addbd",
+          "featured": false
+        },
+        {
+          "title": "diggerhq/shipvideo — Paste a URL or a prompt, get a launch video. Opus 5.5 writes HTML, an OpenComputer serverless agent renders it.",
+          "url": "https://github.com/diggerhq/shipvideo",
+          "summary": "Paste a URL or a prompt, get a launch video. Opus 5.5 writes HTML, an OpenComputer serverless agent renders it.",
+          "published_at": "2026-09-24T19:17:31Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/diggerhq/shipvideo"
+            }
+          ],
+          "extra": {
+            "stars": 127,
+            "language": "TypeScript"
+          },
+          "uid": "01567fab0895d621",
+          "featured": false
+        },
+        {
+          "title": "leter/zh-tech-writing — 写中文技术文档的 Agent Skill，基于阮一峰《中文技术文档的写作规范》：短句、平实、没有 AI 腔",
+          "url": "https://github.com/leter/zh-tech-writing",
+          "summary": "写中文技术文档的 Agent Skill，基于阮一峰《中文技术文档的写作规范》：短句、平实、没有 AI 腔",
+          "published_at": "2026-09-24T17:37:46Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/leter/zh-tech-writing"
+            }
+          ],
+          "extra": {
+            "stars": 214,
+            "language": null
+          },
+          "uid": "343dd7f61c0b9888",
+          "featured": false
+        },
+        {
+          "title": "bridge-mind/bridgeclip — Open-source AI video clipping desktop app by BridgeMind",
+          "url": "https://github.com/bridge-mind/bridgeclip",
+          "summary": "Open-source AI video clipping desktop app by BridgeMind",
+          "published_at": "2026-09-24T17:09:04Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/bridge-mind/bridgeclip"
+            }
+          ],
+          "extra": {
+            "stars": 224,
+            "language": "TypeScript"
+          },
+          "uid": "e606be18e80c18c7",
+          "featured": false
+        },
+        {
+          "title": "zouyuxuan122/dsh-our-free-model — 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.",
+          "url": "https://github.com/zouyuxuan122/dsh-our-free-model",
+          "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.",
+          "published_at": "2026-09-24T16:17:19Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/zouyuxuan122/dsh-our-free-model"
+            }
+          ],
+          "extra": {
+            "stars": 110,
+            "language": "JavaScript"
+          },
+          "uid": "acde359076df6e08",
+          "featured": false
+        },
+        {
+          "title": "JaxsonWang/cpa-plugin-oai-basispoints",
+          "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints",
+          "summary": "",
+          "published_at": "2026-09-24T15:55:38Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/JaxsonWang/cpa-plugin-oai-basispoints"
+            }
+          ],
+          "extra": {
+            "stars": 96,
+            "language": "Go"
+          },
+          "uid": "412398a65d8bd931",
+          "featured": false
+        },
+        {
+          "title": "jankeesvw/omarchy-meeting-recorder — Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
+          "url": "https://github.com/jankeesvw/omarchy-meeting-recorder",
+          "summary": "Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
+          "published_at": "2026-09-24T15:44:42Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/jankeesvw/omarchy-meeting-recorder"
+            }
+          ],
+          "extra": {
+            "stars": 244,
+            "language": "Rust"
+          },
+          "uid": "c4805f4494e635ac",
+          "featured": false
+        },
+        {
+          "title": "Kaixxrua/excel-codex-bridge — 防降智插件",
+          "url": "https://github.com/Kaixxrua/excel-codex-bridge",
+          "summary": "防降智插件",
+          "published_at": "2026-09-24T15:09:11Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Kaixxrua/excel-codex-bridge"
+            }
+          ],
+          "extra": {
+            "stars": 88,
+            "language": "Python"
+          },
+          "uid": "7eb488f6902f4520",
+          "featured": false
+        },
+        {
+          "title": "theNetworkChuck/paperclip-guide — Companion guide for the NetworkChuck Paperclip video: install Paperclip and build an AI IT department. Every step tested on Paperclip 2026.916.1.",
+          "url": "https://github.com/theNetworkChuck/paperclip-guide",
+          "summary": "Companion guide for the NetworkChuck Paperclip video: install Paperclip and build an AI IT department. Every step tested on Paperclip 2026.916.1.",
+          "published_at": "2026-09-24T15:00:59Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/theNetworkChuck/paperclip-guide"
+            }
+          ],
+          "extra": {
+            "stars": 66,
+            "language": "TypeScript"
+          },
+          "uid": "095af9fe504829de",
+          "featured": false
+        },
+        {
+          "title": "Saekisui/binaural-voice — 让 TTS 语音贴在耳边说话、绕着头走：KU100 近场 HRIR 双耳渲染 + 位置标签",
+          "url": "https://github.com/Saekisui/binaural-voice",
+          "summary": "让 TTS 语音贴在耳边说话、绕着头走：KU100 近场 HRIR 双耳渲染 + 位置标签",
+          "published_at": "2026-09-24T13:43:12Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/Saekisui/binaural-voice"
+            }
+          ],
+          "extra": {
+            "stars": 76,
+            "language": "Python"
+          },
+          "uid": "f2637ee9a6f71da7",
+          "featured": false
+        },
+        {
+          "title": "michaelswissa/jevry — Your browser. Ready to act. An MIT-licensed desktop browser agent for website tasks, cited research, and supported games.",
+          "url": "https://github.com/michaelswissa/jevry",
+          "summary": "Your browser. Ready to act. An MIT-licensed desktop browser agent for website tasks, cited research, and supported games.",
+          "published_at": "2026-09-24T10:44:35Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/michaelswissa/jevry"
+            }
+          ],
+          "extra": {
+            "stars": 102,
+            "language": "TypeScript"
+          },
+          "uid": "50649d5301aeaaf4",
+          "featured": false
+        },
+        {
+          "title": "wildminder/awesome-qwen-image — Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling",
+          "url": "https://github.com/wildminder/awesome-qwen-image",
+          "summary": "Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling",
+          "published_at": "2026-09-24T10:15:43Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wildminder/awesome-qwen-image"
+            }
+          ],
+          "extra": {
+            "stars": 68,
+            "language": null
+          },
+          "uid": "66f240f6eb2adc34",
+          "featured": false
+        },
+        {
+          "title": "raaqimorg/qafiyah — The Arabic Poetry Reference",
+          "url": "https://github.com/raaqimorg/qafiyah",
+          "summary": "The Arabic Poetry Reference",
+          "published_at": "2026-09-24T10:05:57Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/raaqimorg/qafiyah"
+            }
+          ],
+          "extra": {
+            "stars": 77,
+            "language": "TypeScript"
+          },
+          "uid": "461f800ffa21eb7b",
+          "featured": false
+        },
+        {
+          "title": "Floot MCP — Build and ship web and mobile apps inside Claude or ChatGPT",
+          "url": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Build and ship web and mobile apps inside Claude or ChatGPT",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/floot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 376,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence",
+              "No-Code"
+            ]
+          },
+          "uid": "9c277d521ee5129e",
+          "featured": true
+        },
+        {
+          "title": "NOAN — The fact layer for your AI agents",
+          "url": "https://www.producthunt.com/products/noan-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "The fact layer for your AI agents",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/noan-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 315,
+            "topics": [
+              "API",
+              "Developer Tools",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "65d1954ed019a52a",
+          "featured": true
+        },
+        {
+          "title": "minimi 2.0 — AI cat that closes your open loops",
+          "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "AI cat that closes your open loops",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 313,
+            "topics": [
+              "Productivity",
+              "User Experience",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "54f2fc6f914171b2",
+          "featured": true
+        },
+        {
+          "title": "CtrlOps 1.0 — Your server. Audited, managed, and deployed with AI.",
+          "url": "https://www.producthunt.com/products/ctrlops?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Your server. Audited, managed, and deployed with AI.",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/ctrlops?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 286,
+            "topics": [
+              "Linux",
+              "Developer Tools",
+              "Security"
+            ]
+          },
+          "uid": "be4602a44dc7731d",
+          "featured": true
+        },
+        {
+          "title": "Bitrise Build Hub — GitHub Actions runners that build 2x faster for your agents",
+          "url": "https://www.producthunt.com/products/bitrise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "GitHub Actions runners that build 2x faster for your agents",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/bitrise?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 176,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence",
+              "GitHub"
+            ]
+          },
+          "uid": "f1e8b3eb31b33e0b",
+          "featured": true
+        },
+        {
+          "title": "Maximem Synap — The fastest, most accurate memory layer for AI agents",
+          "url": "https://www.producthunt.com/products/maximem-synap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "The fastest, most accurate memory layer for AI agents",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/maximem-synap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 150,
+            "topics": [
+              "Developer Tools",
+              "Artificial Intelligence",
+              "GitHub",
+              "SDK"
+            ]
+          },
+          "uid": "4644a19c92242b9f",
+          "featured": true
+        },
+        {
+          "title": "Opaline — PostHog for team Claude Code and Codex sessions.",
+          "url": "https://www.producthunt.com/products/rudel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "PostHog for team Claude Code and Codex sessions.",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/rudel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 147,
+            "topics": [
+              "Analytics",
+              "Developer Tools",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "970b529a65c54bbb",
+          "featured": true
+        },
+        {
+          "title": "Opencontroller by lyzr — Govern All your agents with a unified control plane",
+          "url": "https://www.producthunt.com/products/opencontroller-by-lyzr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29",
+          "summary": "Govern All your agents with a unified control plane",
+          "published_at": "2026-09-24T07:01:00Z",
+          "categories": [
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "product_hunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com/products/opencontroller-by-lyzr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+coll+%28ID%3A+294706%29"
+            }
+          ],
+          "extra": {
+            "votes": 111,
+            "topics": [
+              "Software Engineering",
+              "Artificial Intelligence"
+            ]
+          },
+          "uid": "8746ad50a26e2035",
+          "featured": true
+        },
+        {
+          "title": "wangmingxuan666/Tiersense",
+          "url": "https://github.com/wangmingxuan666/Tiersense",
+          "summary": "",
+          "published_at": "2026-09-24T06:36:17Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/wangmingxuan666/Tiersense"
+            }
+          ],
+          "extra": {
+            "stars": 103,
+            "language": null
+          },
+          "uid": "25e937224828b022",
+          "featured": false
+        },
+        {
+          "title": "brewed-ops/portfolio-template — Portfolio template: profile rail, animated contour background, bento home, 3D page carousel, phone layout. All content is placeholder.",
+          "url": "https://github.com/brewed-ops/portfolio-template",
+          "summary": "Portfolio template: profile rail, animated contour background, bento home, 3D page carousel, phone layout. All content is placeholder.",
+          "published_at": "2026-09-24T03:18:00Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/brewed-ops/portfolio-template"
+            }
+          ],
+          "extra": {
+            "stars": 40,
+            "language": "CSS"
+          },
+          "uid": "c870acc73fc7143d",
+          "featured": false
+        },
+        {
+          "title": "kurbaitaev/ghost-editor — AI video editor for talking-head reels: 7 styles, face-safe captions, motion scenes, reverse-engineer any reference edit. A Claude Code / agent skill on HyperFrames.",
+          "url": "https://github.com/kurbaitaev/ghost-editor",
+          "summary": "AI video editor for talking-head reels: 7 styles, face-safe captions, motion scenes, reverse-engineer any reference edit. A Claude Code / agent skill on HyperFrames.",
+          "published_at": "2026-09-24T02:02:11Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/kurbaitaev/ghost-editor"
+            }
+          ],
+          "extra": {
+            "stars": 59,
+            "language": "JavaScript"
+          },
+          "uid": "972c36e40362de0c",
+          "featured": false
+        },
+        {
+          "title": "majidmanzarpour/blender-game-skills — Claude Code agent skills for game dev in Blender. Turn concept art into rigged, game-ready 3D assets, measured against your references.",
+          "url": "https://github.com/majidmanzarpour/blender-game-skills",
+          "summary": "Claude Code agent skills for game dev in Blender. Turn concept art into rigged, game-ready 3D assets, measured against your references.",
+          "published_at": "2026-09-24T00:08:40Z",
+          "categories": [
+            "startup_project",
+            "new_product"
+          ],
+          "sources": [
+            {
+              "id": "github_search",
+              "name": "GitHub",
+              "url": "https://github.com/majidmanzarpour/blender-game-skills"
+            }
+          ],
+          "extra": {
+            "stars": 79,
+            "language": "Python"
+          },
+          "uid": "b8b1333d14b3403b",
+          "featured": false
+        },
+        {
+          "title": "GPT-6 Astra搓3D刷屏后，3D生成的竞争规则变了",
+          "url": "https://www.qbitai.com/2026/09/496170.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496170.html"
+            }
+          ],
+          "extra": {},
+          "uid": "2ead189d220156c6",
+          "featured": false
+        },
+        {
+          "title": "6天烧光2000多万，拿下开源第一！小米史无前例「炼丹直播」收官",
+          "url": "https://www.qbitai.com/2026/09/494179.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/494179.html"
+            }
+          ],
+          "extra": {},
+          "uid": "e50a7a8bbd4639f4",
+          "featured": false
+        },
+        {
+          "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
+          "url": "https://www.qbitai.com/2026/09/493363.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/493363.html"
+            }
+          ],
+          "extra": {},
+          "uid": "2ab5b93cb79c556e",
+          "featured": false
+        },
+        {
+          "title": "AI离“理解万物”还有多远？先拿癌细胞和行星轨道试试水",
+          "url": "https://www.qbitai.com/2026/09/492429.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492429.html"
+            }
+          ],
+          "extra": {},
+          "uid": "856eec48554055c3",
+          "featured": false
+        },
+        {
+          "title": "把记忆交给CPU，大模型会变快",
+          "url": "https://www.qbitai.com/2026/09/489724.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/489724.html"
+            }
+          ],
+          "extra": {},
+          "uid": "88adfb88ff2774d1",
+          "featured": false
+        },
+        {
+          "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
+          "url": "https://www.qbitai.com/2026/09/497278.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497278.html"
+            }
+          ],
+          "extra": {},
+          "uid": "01d5d70cbf463b2a",
+          "featured": false
+        },
+        {
+          "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+          "url": "https://www.qbitai.com/2026/09/497177.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497177.html"
+            }
+          ],
+          "extra": {},
+          "uid": "caa862ea1e9f8b66",
+          "featured": false
+        },
+        {
+          "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+          "url": "https://www.qbitai.com/2026/09/497108.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497108.html"
+            }
+          ],
+          "extra": {},
+          "uid": "2552fd5419eac7ac",
+          "featured": false
+        },
+        {
+          "title": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+          "url": "https://www.qbitai.com/2026/09/497075.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497075.html"
+            }
+          ],
+          "extra": {},
+          "uid": "38b21b5ae9870cb8",
+          "featured": false
+        },
+        {
+          "title": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+          "url": "https://www.qbitai.com/2026/09/497070.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497070.html"
+            }
+          ],
+          "extra": {},
+          "uid": "c52f67b34d71384f",
+          "featured": false
+        },
+        {
+          "title": "呃…小扎「自研Manus」刚成Meta太子，就塌房了",
+          "url": "https://www.qbitai.com/2026/09/497060.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497060.html"
+            }
+          ],
+          "extra": {},
+          "uid": "70b0b42ed6ad36a8",
+          "featured": false
+        },
+        {
+          "title": "给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了",
+          "url": "https://www.qbitai.com/2026/09/497012.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/497012.html"
+            }
+          ],
+          "extra": {},
+          "uid": "450f5a59f249c483",
+          "featured": false
+        },
+        {
+          "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+          "url": "https://www.qbitai.com/2026/09/496961.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496961.html"
+            }
+          ],
+          "extra": {},
+          "uid": "de459e41c404d2e5",
+          "featured": false
+        },
+        {
+          "title": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+          "url": "https://www.qbitai.com/2026/09/496925.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496925.html"
+            }
+          ],
+          "extra": {},
+          "uid": "1a96160ea37d9808",
+          "featured": false
+        },
+        {
+          "title": "时隔十年，AI大牛署名新论文",
+          "url": "https://www.qbitai.com/2026/09/496834.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496834.html"
+            }
+          ],
+          "extra": {},
+          "uid": "9467a7f0aa024dcb",
+          "featured": false
+        },
+        {
+          "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+          "url": "https://www.qbitai.com/2026/09/496816.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496816.html"
+            }
+          ],
+          "extra": {},
+          "uid": "5e7acf453c8bcea3",
+          "featured": false
+        },
+        {
+          "title": "Stripe Tour 中国首秀：构建 AI 经济基础设施，赋能全球商业增长",
+          "url": "https://www.qbitai.com/2026/09/496779.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496779.html"
+            }
+          ],
+          "extra": {},
+          "uid": "af2bcdebb9a79d53",
+          "featured": false
+        },
+        {
+          "title": "教机器人干活，光“刷课时”可不够！灵初这次较真数据质量",
+          "url": "https://www.qbitai.com/2026/09/496778.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496778.html"
+            }
+          ],
+          "extra": {},
+          "uid": "341b8f8c5f5ae431",
+          "featured": false
+        },
+        {
+          "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+          "url": "https://www.qbitai.com/2026/09/496767.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496767.html"
+            }
+          ],
+          "extra": {},
+          "uid": "646d10775cd8b16c",
+          "featured": false
+        },
+        {
+          "title": "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶",
+          "url": "https://www.qbitai.com/2026/09/496658.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496658.html"
+            }
+          ],
+          "extra": {},
+          "uid": "e93da919a343ffe5",
+          "featured": false
+        },
+        {
+          "title": "Meta靠自研Manus翻身！股价一夜暴涨11%，登顶苹果商店，增速反超ChatGPT",
+          "url": "https://www.qbitai.com/2026/09/496647.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496647.html"
+            }
+          ],
+          "extra": {},
+          "uid": "26d96d2f0808f111",
+          "featured": false
+        },
+        {
+          "title": "成立九年，中科类脑把积累装进Token工厂",
+          "url": "https://www.qbitai.com/2026/09/496615.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496615.html"
+            }
+          ],
+          "extra": {},
+          "uid": "384f5fffc350cbc0",
+          "featured": false
+        },
+        {
+          "title": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
+          "url": "https://www.qbitai.com/2026/09/496609.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496609.html"
+            }
+          ],
+          "extra": {},
+          "uid": "d9812560510a256e",
+          "featured": false
+        },
+        {
+          "title": "让Token生产更高效：异构混推的关键技术演进与创新实践",
+          "url": "https://www.qbitai.com/2026/09/496578.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496578.html"
+            }
+          ],
+          "extra": {},
+          "uid": "efe88d2158113cc3",
+          "featured": false
+        },
+        {
+          "title": "汇智智能发布Hellome：国内首个FDE直连智能体服务平台，把AI交付周期压进“周”",
+          "url": "https://www.qbitai.com/2026/09/496493.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/496493.html"
+            }
+          ],
+          "extra": {},
+          "uid": "396adb9117473af4",
+          "featured": false
+        },
+        {
+          "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了\n2026-09-19",
+          "url": "https://www.qbitai.com/2026/09/492573.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492573.html"
+            }
+          ],
+          "extra": {},
+          "uid": "fe3cb8211525145b",
+          "featured": false
+        },
+        {
+          "title": "“留给人类阻止AI的时间不多了”\n2026-09-19",
+          "url": "https://www.qbitai.com/2026/09/492755.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492755.html"
+            }
+          ],
+          "extra": {},
+          "uid": "9a0a6abfb04b7dba",
+          "featured": false
+        },
+        {
+          "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策\n2026-09-20",
+          "url": "https://www.qbitai.com/2026/09/492939.html",
+          "summary": "",
+          "published_at": "2026-09-01T00:00:00+08:00",
+          "categories": [
+            "new_product",
+            "startup_project"
+          ],
+          "sources": [
+            {
+              "id": "qbitai",
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/09/492939.html"
+            }
+          ],
+          "extra": {},
+          "uid": "7942abbc44e46fbc",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "key": "hackathon_online",
+      "label": "线上AI应用/Agent黑客松",
+      "items": [
+        {
+          "title": "Image 1: Devpost",
+          "url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg"
+            }
+          ],
+          "extra": {},
+          "uid": "671f763ca522c02f",
+          "featured": true
+        },
+        {
+          "title": "Join a hackathon",
+          "url": "https://devpost.com/hackathons?themes[]=Artificial+Intelligence#join-a-hackathon",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/hackathons?themes[]=Artificial+Intelligence#join-a-hackathon"
+            }
+          ],
+          "extra": {},
+          "uid": "f7cb0dcc7fb282b9",
+          "featured": true
+        },
+        {
+          "title": "Host a public hackathon",
+          "url": "https://info.devpost.com/product/public-hackathons",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/product/public-hackathons"
+            }
+          ],
+          "extra": {},
+          "uid": "d40206987013da25",
+          "featured": true
+        },
+        {
+          "title": "Host an internal hackathon",
+          "url": "https://info.devpost.com/product/devpost-for-teams",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/product/devpost-for-teams"
+            }
+          ],
+          "extra": {},
+          "uid": "29a3b32e59cd6a05",
+          "featured": true
+        },
+        {
+          "title": "AI hackathons",
+          "url": "https://info.devpost.com/product/ai-hackathons",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/product/ai-hackathons"
+            }
+          ],
+          "extra": {},
+          "uid": "e48dae853b0627d3",
+          "featured": true
+        },
+        {
+          "title": "Blog Insights into hackathon planning and participation",
+          "url": "https://info.devpost.com/blog",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/blog"
+            }
+          ],
+          "extra": {},
+          "uid": "61f39ea1bb741419",
+          "featured": true
+        },
+        {
+          "title": "Customer stories Inspiration from peers and other industry leaders",
+          "url": "https://info.devpost.com/customer-stories",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/customer-stories"
+            }
+          ],
+          "extra": {},
+          "uid": "d29f24e8ed8fe3ea",
+          "featured": true
+        },
+        {
+          "title": "Webinars & events Upcoming events and on-demand recordings",
+          "url": "https://info.devpost.com/webinar-events",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/webinar-events"
+            }
+          ],
+          "extra": {},
+          "uid": "3c1327e5ea933af5",
+          "featured": true
+        },
+        {
+          "title": "Help desk Common questions and support documentation",
+          "url": "https://help.devpost.com/",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://help.devpost.com/"
+            }
+          ],
+          "extra": {},
+          "uid": "b332611419ca677d",
+          "featured": true
+        },
+        {
+          "title": "Match my eligibility",
+          "url": "https://devpost.com/users/register",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/users/register"
+            }
+          ],
+          "extra": {},
+          "uid": "f1da6a45b8e45e32",
+          "featured": true
+        },
+        {
+          "title": "Image 13",
+          "url": "https://devpost.com/packs/media/src/images/devpost-icon-rgb30px-cf33601e5c3b0e238dfead218b072884.png",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/packs/media/src/images/devpost-icon-rgb30px-cf33601e5c3b0e238dfead218b072884.png"
+            }
+          ],
+          "extra": {},
+          "uid": "953d6aacc951fb7d",
+          "featured": true
+        },
+        {
+          "title": "Featured",
+          "url": "https://revenuecat-shipaton-2026.devpost.com/",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://revenuecat-shipaton-2026.devpost.com/"
+            }
+          ],
+          "extra": {},
+          "uid": "ac65bf69afd30c63",
+          "featured": true
+        },
+        {
+          "title": "Your projects",
+          "url": "https://devpost.com/portfolio/redirect?page=projects",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/portfolio/redirect?page=projects"
+            }
+          ],
+          "extra": {},
+          "uid": "4891303b65ba2363",
+          "featured": true
+        },
+        {
+          "title": "Settings",
+          "url": "https://devpost.com/settings",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://devpost.com/settings"
+            }
+          ],
+          "extra": {},
+          "uid": "1732287bcf7fe967",
+          "featured": true
+        },
+        {
+          "title": "Facebook",
+          "url": "https://www.facebook.com/devposthacks",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://www.facebook.com/devposthacks"
+            }
+          ],
+          "extra": {},
+          "uid": "8d90245bfe5e87e3",
+          "featured": true
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/company/devpost/",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://www.linkedin.com/company/devpost/"
+            }
+          ],
+          "extra": {},
+          "uid": "a7f3da5f98236df2",
+          "featured": true
+        },
+        {
+          "title": "Community guidelines",
+          "url": "https://info.devpost.com/legal/community-guidelines",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/community-guidelines"
+            }
+          ],
+          "extra": {},
+          "uid": "1a52243ebe0324e2",
+          "featured": true
+        },
+        {
+          "title": "Security",
+          "url": "https://info.devpost.com/legal/security",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/security"
+            }
+          ],
+          "extra": {},
+          "uid": "0d0488a9f6fcbaa0",
+          "featured": true
+        },
+        {
+          "title": "CA notice",
+          "url": "https://info.devpost.com/legal/california-consumer-privacy-act",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/california-consumer-privacy-act"
+            }
+          ],
+          "extra": {},
+          "uid": "ee423831a7a9f740",
+          "featured": true
+        },
+        {
+          "title": "Privacy policy",
+          "url": "https://info.devpost.com/legal/privacy-policy",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/privacy-policy"
+            }
+          ],
+          "extra": {},
+          "uid": "d40fdedcf7492345",
+          "featured": true
+        },
+        {
+          "title": "Terms of service",
+          "url": "https://info.devpost.com/legal/terms-of-service",
+          "summary": "",
+          "published_at": "2026-09-26T10:42:24+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "devpost",
+              "name": "Devpost",
+              "url": "https://info.devpost.com/legal/terms-of-service"
+            }
+          ],
+          "extra": {},
+          "uid": "7803abd78f97f5db",
+          "featured": true
+        },
+        {
+          "title": "支付宝·智能体涌现奖首轮报名开启1000万奖池，年度大奖100万！",
+          "url": "https://www.waytoagi.com/events/588",
+          "summary": "2026-09-10 ~ 2026-11-10支付宝·智能体涌现奖首轮报名开启1000万奖池，年度大奖100万！查看活动详情",
+          "published_at": "2026-09-10T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/588"
+            }
+          ],
+          "extra": {
+            "start": "2026-09-10",
+            "end": "2026-11-10",
+            "format_hint": "unknown"
+          },
+          "uid": "bd83184d5df8badf",
+          "featured": true
+        },
+        {
+          "title": "Anker 首届黑客松挑战赛让创造发生 · 让世界看见",
+          "url": "https://www.waytoagi.com/events/586",
+          "summary": "2026-09-07 ~ 2026-10-17Anker 首届黑客松挑战赛让创造发生 · 让世界看见查看活动详情",
+          "published_at": "2026-09-07T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/586"
+            }
+          ],
+          "extra": {
+            "start": "2026-09-07",
+            "end": "2026-10-17",
+            "format_hint": "unknown"
+          },
+          "uid": "0fcd36de9dba313b",
+          "featured": true
+        },
+        {
+          "title": "「爆款开场计划」AI短片大赛报名开启20万奖金池！",
+          "url": "https://www.waytoagi.com/events/580",
+          "summary": "2026-08-27 ~ 2026-10-10「爆款开场计划」AI短片大赛报名开启20万奖金池！查看活动详情",
+          "published_at": "2026-08-27T00:00:00+08:00",
+          "categories": [
+            "hackathon_online"
+          ],
+          "sources": [
+            {
+              "id": "waytoagi_events",
+              "name": "WayToAGI",
+              "url": "https://www.waytoagi.com/events/580"
+            }
+          ],
+          "extra": {
+            "start": "2026-08-27",
+            "end": "2026-10-10",
+            "format_hint": "unknown"
+          },
+          "uid": "fb67b4656c2c80e7",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "key": "hackathon_offline_cn",
+      "label": "线下（中国大陆）AI应用/Agent黑客松",
+      "items": []
+    }
+  ],
+  "analysis": {
+    "daily_brief": null,
+    "product_insights": null,
+    "hackathon_trends": null
+  }
+}
